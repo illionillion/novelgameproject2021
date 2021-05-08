@@ -1,0 +1,44 @@
+*{
+  outline: 1px solid black;
+}
+
+#screen_frame{
+  width: 500px;
+  height: 350px;
+  margin: auto;
+  /* width: auto; */
+}
+
+#character_frame{
+  display: flex;
+  width: auto;
+  height: 225px;
+}
+
+#character_frame div{
+  margin: auto;
+  width: 100px;
+  height: 200px;
+}
+
+#user_frame{
+  display: flex;
+  /* height: 100%; */
+}
+
+#user_frame div{
+  margin: auto;
+}
+
+#user_frame #text_frame{
+  width: 300px;
+  height: 125px;
+}
+
+#user_frame #controller_frame{
+  width: 150px;
+}
+
+.btn input{
+  width: 100%;
+}
