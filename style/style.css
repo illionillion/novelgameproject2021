@@ -53,6 +53,7 @@
   height: 125px;
   z-index: 2;
   color: white;
+  overflow-y: auto;
 }
 
 #user_frame #controller_frame{
