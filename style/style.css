@@ -9,6 +9,12 @@
   /* width: auto; */
 }
 
+#background_frame{
+  background-image: url(../img/test_background_image.png);
+  position: relative;
+  height: 100%;
+}
+
 #character_frame{
   display: flex;
   width: auto;
@@ -17,13 +23,25 @@
 
 #character_frame div{
   margin: auto;
-  width: 100px;
-  height: 200px;
+  margin-top: 30px;
+  width: 150px;
+  height: 300px;
+  z-index: 0;
+}
+
+#character_frame div img{
+  z-index: 0;
+  width: 100%;
 }
 
 #user_frame{
   display: flex;
   /* height: 100%; */
+  background: rgba(0, 0, 0, 0.692);
+  z-index: 1;
+  position: absolute;
+  top: 220px;
+  left: 25px;
 }
 
 #user_frame div{
@@ -31,20 +49,28 @@
 }
 
 #user_frame #text_frame{
-  width: 300px;
+  width: 350px;
   height: 125px;
+  z-index: 2;
+  color: white;
 }
 
 #user_frame #controller_frame{
-  width: 150px;
+  width: 100px;
+  z-index: 2;
 }
 
 .btn input{
   width: 100%;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:762px){
   #screen_frame{
     width: auto;
+  }
+
+#user_frame{
+  width: 350px;
+  left: 10px;
   }
 }
