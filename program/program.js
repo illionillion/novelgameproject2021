@@ -80,7 +80,7 @@ function name_event(){
   if(user_name){
     hero_name=user_name;
   }else{
-    hero_name=user_name;
+    hero_name="アーロン";
   }
   console.log(hero_name);
   now_page="A2";
