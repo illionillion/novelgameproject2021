@@ -58,19 +58,24 @@
 #user_frame #controller_frame{
   width: 100px;
   z-index: 2;
-}
+  /* line-height:100%; */
+  margin: 5px auto;
 
+}
+/* .btn{
+  margin: 5px;
+} */
 .btn input{
   width: 100%;
 }
 
 @media screen and (max-width:762px){
-  #screen_frame{
+  /* #screen_frame{
     width: auto;
-  }
+  } */
 
-#user_frame{
-  width: 350px;
-  left: 10px;
-  }
+/* #user_frame{
+  width: auto;
+  left: auto;
+  } */
 }
