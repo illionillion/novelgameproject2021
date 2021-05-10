@@ -66,8 +66,7 @@ var now_page="A1";
 
 var hero_name="";
 
-var allnum=text_data[now_page]['text_data'].length;
-// console.log(allnum);
+var all_num=text_data[now_page]['text_data'].length;
 var num=0;
 var backnum=0;
 
@@ -78,7 +77,7 @@ const text_frame=document.getElementById('text_frame');
 //次へボタン
 function next(){
   var phrase=text_data[now_page]['text_data'];
-  allnum=phrase.length;
+  all_num=phrase.length;
   var output_text=phrase[num];
   event_check(output_text);
   // text_frame.innerHTML=output_text;
@@ -87,6 +86,7 @@ function next(){
 }
 
 function back(){
+  
   if(backnum>0){
     num--;
     backnum--;
@@ -95,7 +95,7 @@ function back(){
     console.log(phrase);
     var output_text=phrase[backnum];
     console.log(output_text);
-    replacename(output_text);
+    replace_name(output_text);
     console.log(backnum);
     // text_frame.innerHTML=output_text;    
   }
@@ -103,7 +103,7 @@ function back(){
 }
 
 function skip(){
-  num=allnum-2;
+  num=all_num-2;
   backnum=num-1;
   next();
 }
@@ -116,24 +116,7 @@ function event_check(event){
     alert('終了です');
   }else{
 
-    // if(hero_name!=rand_name){
-    //   var result = event.replace(rand_name, hero_name);
-
-    //   //「str」と「result」が同じ文字列になるまで繰り返す
-    //   while(result !== event) {
-
-    //     event = event.replace(rand_name, hero_name);
-    //     result = result.replace(rand_name, hero_name);
-
-    //   }
-
-    //   console.log( result );
-
-    //   text_frame.innerHTML=result;
-    // }else{
-    //   text_frame.innerHTML=event;
-    // }
-    replacename(event);
+    replace_name(event);
 
     backnum=num;
     num++;
@@ -143,7 +126,7 @@ function event_check(event){
 
 }
 
-function replacename(name){
+function replace_name(name){
   if(hero_name!=rand_name){
     var result = name.replace(rand_name, hero_name);
 
