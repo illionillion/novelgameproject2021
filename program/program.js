@@ -51,7 +51,7 @@ function event_check(event){
   if(event=="name_event"){
     name_event();
   }else if(event==""){
-
+    alert('終了です');
   }else{
 
     // var str = 'user_1, user_2, user_3';
