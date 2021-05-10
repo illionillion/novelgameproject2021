@@ -1,3 +1,43 @@
+//乱数文字列デコードエンコード
+
+var password=[];
+var abc=[];
+
+var first="a",last="z";
+
+for(let i=first.charCodeAt(0);i<=last.charCodeAt(0);i++){
+  abc.push(String.fromCharCode(i));
+
+  // console.log("i="+String.fromCharCode(i));
+  // console.log("abc=["+abc+"]");
+}
+
+// console.log("アルファベット\n abc=["+abc+"]");
+
+for(let i=0;i<10;i++){
+  var key=Math.floor(Math.random()* abc.length);
+
+  password.push(abc[key]);
+
+  // console.log(abc[key]);
+  // console.log(password);
+}
+
+password=password.join(',');
+// console.log(password);
+
+password=password.replace(/,/g,"");
+
+let passPhrase ="0123456789ABCDEF0123456789ABCDEF";
+// 暗号化したい元のデータ
+let data =password;
+let utf8_plain = CryptoJS.enc.Utf8.parse(data);
+// 暗号化
+let encrypted = CryptoJS.AES.encrypt( utf8_plain, passPhrase );
+
+var rand_name=encrypted;
+// console.log(rand_name);
+
 var text_data={
   "A1":{
     "text_data":[
@@ -12,7 +52,7 @@ var text_data={
   },
   "A2":{
     "text_data":[
-      "そうだ。<br>自分の名前はアーロンだった。<br>しっくりくる。",
+      "そうだ。<br>自分の名前は"+rand_name+"だった。<br>しっくりくる。",
       "その他皮袋の中を見てみたが、自分の身元であったりなどがわかる物はなかった。<br>入っているのは価値のわからない貨幣と着替えがワンセット、水筒、本、ペン、そしてナイフ。",
       "皮袋の紐口を縛って、自分は腕を組んで考える。",
       "…問題は一つ。<br>物凄くシンプルで大きな問題だ。",
@@ -54,22 +94,25 @@ function event_check(event){
     alert('終了です');
   }else{
 
-    // var str = 'user_1, user_2, user_3';
-    // var result = event.replace('アーロン', hero_name);
+    if(hero_name!=rand_name){
+      var result = event.replace(rand_name, hero_name);
 
-    // //「str」と「result」が同じ文字列になるまで繰り返す
-    // while(result !== event) {
+      //「str」と「result」が同じ文字列になるまで繰り返す
+      while(result !== event) {
 
-    //     event = event.replace('アーロン', hero_name);
-    //     result = result.replace('アーロン', hero_name);
+        event = event.replace(rand_name, hero_name);
+        result = result.replace(rand_name, hero_name);
 
-    // }
+      }
 
-    // console.log( result );
+      console.log( result );
 
-    replaced = event.replace('アーロン', hero_name);
+      text_frame.innerHTML=result;
+    }else{
+      text_frame.innerHTML=event;
+    }
 
-    text_frame.innerHTML=replaced;
+    
     num++;
   }
 
