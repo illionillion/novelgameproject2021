@@ -86,7 +86,7 @@ function next(){
 }
 
 function back(){
-  
+
   if(backnum>0){
     num--;
     backnum--;
