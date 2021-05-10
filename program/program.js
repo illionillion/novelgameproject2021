@@ -66,7 +66,10 @@ var now_page="A1";
 
 var hero_name="";
 
+var allnum=text_data[now_page]['text_data'].length;
+// console.log(allnum);
 var num=0;
+var backnum=0;
 
 //getElement
 const text_frame=document.getElementById('text_frame');
@@ -75,6 +78,7 @@ const text_frame=document.getElementById('text_frame');
 //次へボタン
 function next(){
   var phrase=text_data[now_page]['text_data'];
+  allnum=phrase.length;
   var output_text=phrase[num];
   event_check(output_text);
   // text_frame.innerHTML=output_text;
@@ -83,17 +87,25 @@ function next(){
 }
 
 function back(){
-  if(num>0){
+  if(backnum>0){
     num--;
+    backnum--;
     console.log(num);
     var phrase=text_data[now_page]['text_data'];
     console.log(phrase);
-    var output_text=phrase[num];
+    var output_text=phrase[backnum];
     console.log(output_text);
     replacename(output_text);
+    console.log(backnum);
     // text_frame.innerHTML=output_text;    
   }
 
+}
+
+function skip(){
+  num=allnum-2;
+  backnum=num-1;
+  next();
 }
 
 //イベントないかチェック
@@ -123,9 +135,10 @@ function event_check(event){
     // }
     replacename(event);
 
-    
+    backnum=num;
     num++;
     console.log(num);
+    console.log(backnum);
   }
 
 }
