@@ -74,14 +74,15 @@
   width: 100%;
   margin: 3px auto;
   border-radius: 25px;
-  background: rgba(0, 0, 0, 0.692);
+  /* background: rgba(0, 0, 0, 0.692); */
+  background: none;
   color: #fff;
   border: 1px solid #fff;
   transition: 0.1s;
 }
 
 .btn input:active{
-  background: rgba(0, 0, 0, 0);
+  background: rgb(0, 0, 0);
   outline: none;
 }
 
