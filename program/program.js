@@ -74,6 +74,7 @@ var backnum=0;
 
 //getElement
 const text_frame=document.getElementById('text_frame');
+const option_area=document.querySelector('#option_area');
 //
 
 //次へボタン
@@ -116,6 +117,10 @@ function event_check(event){
     name_event();
   }else if(event==""){
     alert('終了です');
+  }else if(event=="chose_event"){
+    option_area.classList.remove('none');
+    alert('終了です');
+
   }else{
 
     replace_name(event);
