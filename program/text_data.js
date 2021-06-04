@@ -1,3 +1,4 @@
+'use strict';
 // console.log("text_data");
 
 var password=[];
