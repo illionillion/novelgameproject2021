@@ -5,6 +5,8 @@ var hero_name="";
 var all_num=text_data[now_page]['text_data'].length;
 var num=0;
 var backnum=0;
+var audio_file_path=text_data[now_page]['audio']['file_path'];
+var music_file=null;
 
 //getElement
 const text_frame=document.getElementById('text_frame');
@@ -16,6 +18,8 @@ function next(){
   var phrase=text_data[now_page]['text_data'];
   all_num=phrase.length;
   var output_text=phrase[num];
+
+  audio_start();
   event_check(output_text);
   // text_frame.innerHTML=output_text;
   // num++;
@@ -44,6 +48,9 @@ function back(){
 }
 
 function skip(){
+
+  audio_start();
+
   num=all_num-2;
   backnum=num-1;
   next();
@@ -60,7 +67,7 @@ function event_check(event){
     alert('終了です');
 
   }else{
-
+    //文章描画
     replace_name(event);
 
     backnum=num;
@@ -97,10 +104,27 @@ function name_event(){
     console.log(hero_name);
     now_page="A2";
     num=0;
+    
+    if(audio_file_path){
+      music_file.pause();
+    }
+
+    audio_file_path=text_data[now_page]['audio']['file_path'];
+
     next();    
   }else{
     // hero_name="アーロン";
     // num--;
   }
 
+}
+
+function audio_start(){
+  if(num==0){
+    if(audio_file_path){
+      console.log(audio_file_path);
+      music_file=new Audio(audio_file_path);
+      music_file.play();
+    }
+  }
 }

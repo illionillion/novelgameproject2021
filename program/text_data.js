@@ -50,7 +50,8 @@ var text_data={
       "自分の名前は…。",
       "name_event"],
     "name_event":true,
-    "next_page_option":{"A2":"name_event"}
+    "next_page_option":{"A2":"name_event"},
+    "audio":{"file_path":""}
   },
   "A2":{
     "text_data":[
@@ -63,6 +64,7 @@ var text_data={
       "どうやら今のところわかるのは自分の名前と物の名前、そして入国許可証の文字は分かるみたいだ。",
       "とりあえず、自分に頼るよりも誰かに聞く方が早いかもしれない。<br>周りには人がいないので、トンネルを抜けて探すのがよさそうだ。<br>自分は皮袋の紐を肩にかける。",
       "さて、どちらのトンネルを抜けようか？",
-      "chose_event"]
+      "chose_event"],
+      "audio":{"file_path":"audio/bgm_town.mp3"}
   }
 };
