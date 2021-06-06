@@ -20,6 +20,10 @@ function next(){
   // text_frame.innerHTML=output_text;
   // num++;
   // console.log(num);
+
+  //Audio-Test
+  // var music_file=new Audio('audio/bgm_town.mp3');
+  // music_file.play();
 }
 
 function back(){
