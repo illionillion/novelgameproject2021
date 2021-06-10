@@ -69,24 +69,32 @@
   background: rgba(0, 0, 0, 0.692);
   z-index: 1;
   position: absolute;
-  top: 220px;
+  top: 215px;
   left: 20px;
   border-radius: 25px;
   border: 1px solid #fff;
-  height: 150px;
+  height: 160px;
   padding: 0 5px;
 }
 
-#user_frame div{
-  margin: auto;
-}
+/* #user_frame div{
+  margin: 0 auto;
+} */
 
 #user_frame #text_frame{
   width: 350px;
   height: 125px;
   z-index: 2;
   color: white;
+  margin: 0 auto;
+  /* overflow-y: auto; */
+}
+#character_name{
+  margin: 3px 0;
+}
+#text_area{
   overflow-y: auto;
+  height: 100%;
 }
 
 #user_frame #controller_frame{
