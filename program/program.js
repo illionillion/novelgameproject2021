@@ -93,7 +93,7 @@ function replace_name(char2,name){
     //「str」と「result」が同じ文字列になるまで繰り返す
     while(result !== name) {
 
-      // result_name =char2.replace(rand_name, hero_name);
+      name =name.replace(rand_name, hero_name);
       result = result.replace(rand_name, hero_name);
 
     }
@@ -135,5 +135,12 @@ function audio_start(){
       music_file=new Audio(audio_file_path);
       music_file.play();
     }
+  }
+  //音楽リピート再生用
+  if(audio_file_path){
+    music_file.addEventListener("ended", function () {
+      music_file.currentTime = 0;
+      music_file.play();
+    }, false);
   }
 }
