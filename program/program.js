@@ -81,12 +81,15 @@ function event_check(event){
 function replace_name(name){
   if(hero_name!=rand_name){
     var result = name.replace(rand_name, hero_name);
+    // console.log(result);
 
     //「str」と「result」が同じ文字列になるまで繰り返す
     while(result !== name) {
 
       name = name.replace(rand_name, hero_name);
       result = result.replace(rand_name, hero_name);
+      // console.log(name);
+      // console.log(result);
 
     }
 
@@ -127,4 +130,11 @@ function audio_start(){
       music_file.play();
     }
   }
+  if(audio_file_path){
+    music_file.addEventListener("ended", function () {
+      music_file.currentTime = 0;
+      music_file.play();
+    }, false);
+  }
+
 }
