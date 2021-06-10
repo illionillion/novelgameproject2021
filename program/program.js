@@ -84,8 +84,8 @@ function event_check(char,event){
 
 function replace_name(char2,name){
   if(hero_name!=rand_name){
-    console.log(char2);
-    console.log(name);
+    // console.log(char2);
+    // console.log(name);
     var result_name=char2.replace(rand_name, hero_name);
     // var result_name=null
     var result = name.replace(rand_name, hero_name);
