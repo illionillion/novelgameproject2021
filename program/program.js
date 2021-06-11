@@ -138,19 +138,11 @@ function audio_start(){
       music_file.play();
     }
   }
-<<<<<<< HEAD
-=======
   //音楽リピート再生用
->>>>>>> name_test
   if(audio_file_path){
     music_file.addEventListener("ended", function () {
       music_file.currentTime = 0;
       music_file.play();
     }, false);
   }
-<<<<<<< HEAD
-
 }
-=======
-}
->>>>>>> name_test
