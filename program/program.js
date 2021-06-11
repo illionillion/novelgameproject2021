@@ -21,7 +21,10 @@ function next(){
   var output_charname=phrase[num]['name'];
   var output_text=phrase[num]['text'];
   console.log(text_data);
-
+  backnum=num;
+  num++;
+  console.log(num);
+  console.log(backnum);
   audio_start();
   event_check(output_charname,output_text);
   // text_frame.innerHTML=output_text;
@@ -74,10 +77,6 @@ function event_check(char,event){
     //文章描画
     replace_name(char,event);
 
-    backnum=num;
-    num++;
-    console.log(num);
-    console.log(backnum);
   }
 
 }
