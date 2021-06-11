@@ -21,12 +21,13 @@ function next(){
   var output_charname=phrase[num]['name'];
   var output_text=phrase[num]['text'];
   console.log(text_data);
+
+  audio_start();
+  event_check(output_charname,output_text);
   backnum=num;
   num++;
   console.log(num);
   console.log(backnum);
-  audio_start();
-  event_check(output_charname,output_text);
   // text_frame.innerHTML=output_text;
   // num++;
   // console.log(num);
@@ -38,17 +39,21 @@ function next(){
 
 function back(){
 
-  if(backnum>0){
+  if(num>1){
+
     num--;
     backnum--;
     console.log(num);
+    console.log(backnum);
     var phrase=text_data[now_page]['text_data'];
     console.log(phrase);
-    var output_charname=phrase[num]['name'];
-    var output_text=phrase[num]['text'];
+    var output_charname=phrase[backnum]['name'];
+    var output_text=phrase[backnum]['text'];
+    // console.log(num);
+
     console.log(output_text);
     replace_name(output_charname,output_text);
-    console.log(backnum);
+ 
     // text_frame.innerHTML=output_text;    
   }
 
@@ -115,6 +120,7 @@ function name_event(){
     console.log(hero_name);
     now_page="A2";
     num=0;
+    // backnum=0;
     
     if(audio_file_path){
       music_file.pause();
@@ -122,7 +128,11 @@ function name_event(){
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
 
-    next();    
+    next();
+    setTimeout(() => {
+      back();
+    }, "100");
+    
   }else{
     // hero_name="アーロン";
     // num--;
