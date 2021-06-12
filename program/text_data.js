@@ -14,8 +14,8 @@ for(let i=first.charCodeAt(0);i<=last.charCodeAt(0);i++){
 }
 
 // console.log("アルファベット\n abc=["+abc+"]");
-
-for(let i=0;i<10;i++){
+//ランダムな文字列、長さもランダム
+for(let i=0;i<Math.random()* abc.length;i++){
   var key=Math.floor(Math.random()* abc.length);
 
   password.push(abc[key]);
