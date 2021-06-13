@@ -64,8 +64,8 @@
   top: 0px;
   left:0px;
   z-index: 2;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
 }
 
 #option_area .option{
@@ -74,10 +74,12 @@
   border-radius: 25px;
   margin: 5px auto;
   width: 90%;
-  flex: 1;
+  /* height: 258px; */
+  height: 23%;
+  /* flex: 1; */
 }
 
-#option_area .option #option_text{
+#option_area .option .option_text{
   margin: 5px;
 }
 

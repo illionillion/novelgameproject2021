@@ -50,8 +50,6 @@ var text_data={
       {"name":"????","text":"自分の名前は…。"},
       {"name":"????","text":"name_event"}
       ],
-    "name_event":true,
-    "next_page_option":{"A2":"name_event"},
     "audio":{"file_path":""}
   },
   "A2":{
@@ -67,6 +65,41 @@ var text_data={
       {"name":""+rand_name+"","text":"さて、どちらのトンネルを抜けようか？"},
       {"name":""+rand_name+"","text":"chose_event"}
       ],
-      "audio":{"file_path":"audio/bgm_town.mp3"}
+      "audio":{"file_path":"audio/bgm_town.mp3"},
+      "naext_page_option":[        
+          {"text":"前のトンネルを抜ける","value":"B1"},
+          {"text":"後ろのトンネルを抜ける","value":"A3"}
+          
+      ]
+      
+
+  },
+  "B1":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+
+    ],
+    "audio":{"file_path":"audio/bgm_town.mp3"},
+    "naext_page_option":[        
+        {"text":"","value":""},
+        {"text":"","value":""}
+        
+    ]
+  },
+  "A3":{
+    "text_data":[
+      {"name":""+rand_name+"","text":"先が遠いと思っていたトンネルはあっさり抜けてしまい、広い道に出る。"},
+      {"name":""+rand_name+"","text":"太陽は相変わらず真上にあって、さっきの場所とも違って随分と明るい。"},
+      {"name":""+rand_name+"","text":"……とりあえず、誰かに話しかけるべきか？<br>けれども何処かに身分証を見せたら手っ取り早く自分について何か分かるのだろうか。"},
+      {"name":""+rand_name+"","text":"さて、どうしようか？"},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":"audio/bgm_town.mp3"},
+    "naext_page_option":[        
+        {"text":"","value":""},
+        {"text":"","value":""}
+        
+    ]
   }
 };
