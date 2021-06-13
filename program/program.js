@@ -7,12 +7,23 @@ var num=0;
 var backnum=0;
 var audio_file_path=text_data[now_page]['audio']['file_path'];
 var music_file=null;
+var result;
 
 //getElement
 const character_name=document.getElementById('character_name');
 const text_frame=document.getElementById('text_area');
 const option_area=document.querySelector('#option_area');
+const title_frame=document.querySelector('#title_frame');
 //
+
+//タイトル画面からの切り替え
+function start(){
+    setTimeout(() => {
+    title_frame.classList.add('none');
+      // next();
+    }, 1000);
+    
+}
 
 //次へボタン
 function next(){
@@ -92,7 +103,7 @@ function replace_name(char2,name){
     // console.log(name);
     var result_name=char2.replace(rand_name, hero_name);
     // var result_name=null
-    var result = name.replace(rand_name, hero_name);
+    result = name.replace(rand_name, hero_name);
     // console.log(result);
 
     //「str」と「result」が同じ文字列になるまで繰り返す
@@ -109,8 +120,36 @@ function replace_name(char2,name){
 
     character_name.innerHTML=result_name;
     text_frame.innerHTML=result;
+    // word(result);
   }
 }
+
+//どうしても一文字ずつのアニメーションにならない
+// var n;//文字を増やす処理の回数を数える変数nの宣言
+// n=1;//nの初期値を1とする
+// var intervalId;
+// //↓関数の宣言↓
+// function word(result){
+//   var s = result;//HTMLの入力欄に入力された文字を取得する変数sの宣言
+//   var len = s.length;//入力された文字の変数sの文字数をカウントする変数lenの宣言
+//   text_frame.innerHTML=s.slice(0,n);//HTMLのoutput_spaceというidの要素に、変数sの０文字目からn文字までのテキストを表示する
+//   console.log(s.slice(0,n));
+  
+//   if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
+//     n++;
+//     startTimer();
+//   } else{//文字を増やす処理の回数が入力された文字数を超えた時の処理
+//     clearInterval(intervalId);//タイマーをリセットする
+//     s=null;//変数sを空にする
+//     }
+
+// }
+//   //↓関数の宣言↓
+//   function startTimer(){
+//     intervalId=setInterval(word(result),100);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
+
+
+// }
 
 //名前入力のイベント
 function name_event(){
@@ -135,7 +174,8 @@ function name_event(){
     
   }else{
     // hero_name="アーロン";
-    // num--;
+    num--;
+    backnum--;
   }
 
 }
