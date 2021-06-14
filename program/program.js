@@ -64,8 +64,8 @@ function back(){
 
     console.log(output_text);
     replace_name(output_charname,output_text);
- 
-    // text_frame.innerHTML=output_text;    
+
+    // text_frame.innerHTML=output_text;
   }
 
 }

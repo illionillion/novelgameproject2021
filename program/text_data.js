@@ -190,7 +190,7 @@ var text_data={
     "audio":{"file_path":""},
     "naext_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}        
+        {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
   },
   "A9":{
