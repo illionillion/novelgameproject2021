@@ -176,11 +176,22 @@ function replace_name(char2,name){
 function name_event(){
   var user_name = window.prompt("自分の名前を入力してください", "アーロン");
   if(user_name){
-    hero_name=user_name;
-    console.log(hero_name);
-    now_page="A2";
-    num=0;
-    // backnum=0;
+
+    if(user_name=="ホシゾラヨゾラ"){
+      hero_name=user_name;
+      console.log(hero_name);
+      now_page="A4";
+      num=0;
+      // backnum=0;
+    }else{
+      hero_name=user_name;
+      console.log(hero_name);
+      now_page="A2";
+      num=0;
+      // backnum=0;
+    }
+
+
     
     if(audio_file_path){
       music_file.pause();
