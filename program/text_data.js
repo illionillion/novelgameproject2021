@@ -69,22 +69,19 @@ var text_data={
       "naext_page_option":[        
           {"text":"前のトンネルを抜ける","value":"B1"},
           {"text":"後ろのトンネルを抜ける","value":"A3"}
-          
       ]
-      
+
 
   },
   "B1":{
     "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
-
     ],
     "audio":{"file_path":"audio/bgm_town.mp3"},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
-        
     ]
   },
   "A3":{
@@ -96,10 +93,10 @@ var text_data={
       {"name":""+rand_name+"","text":""}
     ],
     "audio":{"file_path":"audio/bgm_town.mp3"},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
-        
+
     ]
   },
   "A4":{
@@ -111,9 +108,9 @@ var text_data={
     {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"はい","value":"A5"},
-        {"text":"いいえ","value":"A6"}        
+        {"text":"いいえ","value":"A6"}
     ]
   },
   "A5":{
@@ -131,9 +128,9 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"もがく","value":"A7"},
-        {"text":"もがかない","value":"A8"}        
+        {"text":"もがかない","value":"A8"}
     ]
   },
   "A6":{
@@ -150,9 +147,9 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"もがく","value":"A7"},
-        {"text":"もがかない","value":"A8"}        
+        {"text":"もがかない","value":"A8"}
     ]
   },
   "A7":{
@@ -170,9 +167,9 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}        
+        {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
   },
   "A8":{
@@ -191,7 +188,7 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
         {"text":"「いえ、大丈夫です。」","value":"A10"}        
     ]
@@ -202,9 +199,9 @@ var text_data={
       {"name":""+rand_name+"","text":""}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}        
+        {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
   },
   "A10":{
@@ -213,9 +210,9 @@ var text_data={
       {"name":""+rand_name+"","text":""}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[        
+    "naext_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}        
+        {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
   }
 };
