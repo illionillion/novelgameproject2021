@@ -88,7 +88,7 @@ function event_check(char,event){
     num--;
     backnum--;
     option_area.classList.add('none');
-    
+
   }else if(event=="chose_event"){
     option_area.classList.remove('none');
     //分岐の数
@@ -140,37 +140,43 @@ function replace_name(char2,name){
     console.log( result );
 
     character_name.innerHTML=result_name;
-    text_frame.innerHTML=result;
-    // word(result);
+    // text_frame.innerHTML=result;
+    word(result);
+    // word2();
   }
 }
 
 //どうしても一文字ずつのアニメーションにならない
-// var n;//文字を増やす処理の回数を数える変数nの宣言
-// n=1;//nの初期値を1とする
-// var intervalId;
-// //↓関数の宣言↓
-// function word(result){
-//   var s = result;//HTMLの入力欄に入力された文字を取得する変数sの宣言
-//   var len = s.length;//入力された文字の変数sの文字数をカウントする変数lenの宣言
-//   text_frame.innerHTML=s.slice(0,n);//HTMLのoutput_spaceというidの要素に、変数sの０文字目からn文字までのテキストを表示する
-//   console.log(s.slice(0,n));
+var n;//文字を増やす処理の回数を数える変数nの宣言
+n=1;//nの初期値を1とする
+var intervalId;
+//↓関数の宣言↓
+function word(result){
+  var s = result;//HTMLの入力欄に入力された文字を取得する変数sの宣言
+  var len = s.length;//入力された文字の変数sの文字数をカウントする変数lenの宣言
+  text_frame.innerHTML=s.slice(0,n);//HTMLのoutput_spaceというidの要素に、変数sの０文字目からn文字までのテキストを表示する
+  console.log(s.slice(0,n));
+  console.log(len);
+  console.log(n);
   
-//   if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
-//     n++;
-//     startTimer();
-//   } else{//文字を増やす処理の回数が入力された文字数を超えた時の処理
-//     clearInterval(intervalId);//タイマーをリセットする
-//     s=null;//変数sを空にする
-//     }
+  if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
+    n++;
+    console.log("settimer");
+    startTimer();
+  } else{//文字を増やす処理の回数が入力された文字数を超えた時の処理
+    clearInterval(intervalId);//タイマーをリセットする
+    len=null;
+    s=null;//変数sを空にする
+    n=1;
+    }
 
-// }
-//   //↓関数の宣言↓
-//   function startTimer(){
-//     intervalId=setInterval(word(result),100);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
+}
 
-
-// }
+  //↓関数の宣言↓
+  function startTimer(){
+    intervalId=setTimeout(word,10,result);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
+    console.log(intervalId);
+}
 
 //名前入力のイベント
 function name_event(){

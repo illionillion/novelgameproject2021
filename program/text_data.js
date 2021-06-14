@@ -66,12 +66,10 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
       ],
       "audio":{"file_path":"audio/bgm_town.mp3"},
-      "naext_page_option":[        
+      "naext_page_option":[
           {"text":"前のトンネルを抜ける","value":"B1"},
           {"text":"後ろのトンネルを抜ける","value":"A3"}
       ]
-
-
   },
   "B1":{
     "text_data":[
@@ -96,7 +94,6 @@ var text_data={
     "naext_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
-
     ]
   },
   "A4":{
@@ -184,7 +181,6 @@ var text_data={
       {"name":""+rand_name+"","text":"黒と白のヒラヒラとした服、脚を覆う白のガーターベルト。<br>そして長い髪をツインテールにしていた。"},
       {"name":""+rand_name+"","text":"そう、彼女はメイドの姿をしているのだ。<br>彼女は俺に一枚の紙を渡してくる。<br>恐らく、店の宣伝のチラシだろう。"},
       {"name":""+rand_name+"","text":"なんて言おうか？"},
-
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
