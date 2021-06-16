@@ -142,11 +142,9 @@ function replace_name(char2,name){
     character_name.innerHTML=result_name;
     // text_frame.innerHTML=result;
     word(result);
-    // word2();
   }
 }
 
-//どうしても一文字ずつのアニメーションにならない
 var n;//文字を増やす処理の回数を数える変数nの宣言
 n=1;//nの初期値を1とする
 var intervalId;
@@ -158,7 +156,7 @@ function word(result){
   console.log(s.slice(0,n));
   console.log(len);
   console.log(n);
-  
+
   if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
     n++;
     console.log("settimer");
@@ -169,7 +167,6 @@ function word(result){
     s=null;//変数sを空にする
     n=1;
     }
-
 }
 
   //↓関数の宣言↓
