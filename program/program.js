@@ -242,9 +242,9 @@ function name_event(){
     
     if(audio_file_path){
       music_file.pause();
-      audio_file_path=null;
-      audio_file=null;
-      console.log("pause");
+      // audio_file_path=null;
+      // audio_file=null;
+      // console.log("pause");
     }
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
