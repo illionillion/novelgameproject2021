@@ -50,7 +50,7 @@ var text_data={
       {"name":"????","text":"自分の名前は…。"},
       {"name":"????","text":"name_event"}
       ],
-    "audio":{"file_path":""}
+    "audio":{"file_path":"audio/bgm_temple.mp3"}
   },
   "A2":{
     "text_data":[
@@ -76,7 +76,7 @@ var text_data={
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
     ],
-    "audio":{"file_path":"audio/bgm_town.mp3"},
+    "audio":{"file_path":""},
     "naext_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
