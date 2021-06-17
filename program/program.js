@@ -171,7 +171,7 @@ function word(result){
 
   //↓関数の宣言↓
   function startTimer(){
-    intervalId=setTimeout(word,10,result);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
+    intervalId=setTimeout(word,50,result);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
     console.log(intervalId);
 }
 
