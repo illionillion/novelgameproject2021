@@ -27,31 +27,57 @@ function start(){
 
 //次へボタン
 function next(){
-  var phrase=text_data[now_page]['text_data'];
-  all_num=phrase.length;
-  var output_charname=phrase[num]['name'];
-  var output_text=phrase[num]['text'];
-  console.log(text_data);
 
-  audio_start();
-  event_check(output_charname,output_text);
-  backnum=num;
-  num++;
-  console.log(num);
-  console.log(backnum);
-  // text_frame.innerHTML=output_text;
-  // num++;
-  // console.log(num);
+  if(text_animation){
+    var phrase=text_data[now_page]['text_data'];
+    all_num=phrase.length;
+    var output_charname=phrase[num-1]['name'];
+    var output_text=phrase[num-1]['text'];
+    console.log(text_data);
 
-  //Audio-Test
-  // var music_file=new Audio('audio/bgm_town.mp3');
-  // music_file.play();
+    audio_start();
+    event_check(output_charname,output_text);
+    // backnum=num;
+    // num++;
+    console.log(num);
+    console.log(backnum);
+  }else{
+    var phrase=text_data[now_page]['text_data'];
+    all_num=phrase.length;
+    var output_charname=phrase[num]['name'];
+    var output_text=phrase[num]['text'];
+    console.log(text_data);
+
+    audio_start();
+    event_check(output_charname,output_text);
+    backnum=num;
+    num++;
+    console.log(num);
+    console.log(backnum);
+  }
+
+
 }
 
 function back(){
 
   if(num>1){
 
+  // if(text_animation){
+  //   // num--;
+  //   // backnum--;
+  //   console.log(num);
+  //   console.log(backnum);
+  //   var phrase=text_data[now_page]['text_data'];
+  //   console.log(phrase);
+  //   var output_charname=phrase[backnum]['name'];
+  //   var output_text=phrase[backnum]['text'];
+  //   // console.log(num);
+
+  //   console.log(output_text);
+  //   replace_name(output_charname,output_text);
+  // }else{
+    text_animation=true;
     num--;
     backnum--;
     console.log(num);
@@ -64,6 +90,9 @@ function back(){
 
     console.log(output_text);
     replace_name(output_charname,output_text);
+  // }
+
+
 
     // text_frame.innerHTML=output_text;
   }
@@ -140,22 +169,36 @@ function replace_name(char2,name){
     console.log( result );
 
     character_name.innerHTML=result_name;
-    // text_frame.innerHTML=result;
-    word(result);
+    if(text_animation){
+      text_frame.innerHTML=result;
+      clearInterval(intervalId);//タイマーをリセットする
+      // intervalId=null;
+      len=null;
+      s=null;//変数sを空にする
+      text_animation=null;
+      n=1;
+    }else{
+      word(result);
+    }
+    
+    
   }
 }
 
 var n;//文字を増やす処理の回数を数える変数nの宣言
 n=1;//nの初期値を1とする
 var intervalId;
+var text_animation=null;
 //↓関数の宣言↓
 function word(result){
+  text_animation=true;
   var s = result;//HTMLの入力欄に入力された文字を取得する変数sの宣言
   var len = s.length;//入力された文字の変数sの文字数をカウントする変数lenの宣言
   text_frame.innerHTML=s.slice(0,n);//HTMLのoutput_spaceというidの要素に、変数sの０文字目からn文字までのテキストを表示する
   console.log(s.slice(0,n));
   console.log(len);
   console.log(n);
+  console.log(text_animation);
 
   if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
     n++;
@@ -163,8 +206,10 @@ function word(result){
     startTimer();
   } else{//文字を増やす処理の回数が入力された文字数を超えた時の処理
     clearInterval(intervalId);//タイマーをリセットする
+    // intervalId=null;
     len=null;
     s=null;//変数sを空にする
+    text_animation=null;
     n=1;
     }
 }
