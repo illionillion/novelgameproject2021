@@ -66,21 +66,10 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
       ],
       "audio":{"file_path":"audio/bgm_town.mp3"},
-      "naext_page_option":[
+      "next_page_option":[
           {"text":"前のトンネルを抜ける","value":"B1"},
           {"text":"後ろのトンネルを抜ける","value":"A3"}
       ]
-  },
-  "B1":{
-    "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
-    ],
-    "audio":{"file_path":""},
-    "naext_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
-    ]
   },
   "A3":{
     "text_data":[
@@ -88,12 +77,12 @@ var text_data={
       {"name":""+rand_name+"","text":"太陽は相変わらず真上にあって、さっきの場所とも違って随分と明るい。"},
       {"name":""+rand_name+"","text":"……とりあえず、誰かに話しかけるべきか？<br>けれども何処かに身分証を見せたら手っ取り早く自分について何か分かるのだろうか。"},
       {"name":""+rand_name+"","text":"さて、どうしようか？"},
-      {"name":""+rand_name+"","text":""}
+      {"name":""+rand_name+"","text":"chose_event"}
     ],
-    "audio":{"file_path":"audio/bgm_town.mp3"},
-    "naext_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市の中へ入る","value":"C1"},
+        // {"text":"","value":""}
     ]
   },
   "A4":{
@@ -105,7 +94,7 @@ var text_data={
     {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
+    "next_page_option":[
         {"text":"はい","value":"A5"},
         {"text":"いいえ","value":"A6"}
     ]
@@ -125,7 +114,7 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
+    "next_page_option":[
         {"text":"もがく","value":"A7"},
         {"text":"もがかない","value":"A8"}
     ]
@@ -144,7 +133,7 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
+    "next_page_option":[
         {"text":"もがく","value":"A7"},
         {"text":"もがかない","value":"A8"}
     ]
@@ -155,7 +144,7 @@ var text_data={
       {"name":""+rand_name+"","text":"けれども俺のそんな抵抗も虚しく、体はどんどん沈んでいき、顔もその泥に覆われてしまう。<br><br>そして、息が出来なくなる。"},
       {"name":""+rand_name+"","text":"もがいても、もがいても苦しくなって助かるはずがなくて、そして意識が遠のいていく。"},
       {"name":""+rand_name+"","text":"意識がなくなる直前、俺は走馬灯のようなものを見た。"},
-      {"name":""+rand_name+"","text":"「あの……。……よろしければいかがですか？」"},
+      {"name":"メイド","text":"「あの……。……よろしければいかがですか？」"},
       {"name":""+rand_name+"","text":"ぼんやりとした意識がゆっくりと覚醒すると、夜の街で俺に声をかけてくる女の人がいた。"},
       {"name":""+rand_name+"","text":"黒と白のヒラヒラとした服、脚を覆う白のガーターベルト。<br>そして長い髪をツインテールにしていた。"},
       {"name":""+rand_name+"","text":"そう、彼女はメイドの姿をしているのだ。<br>彼女は俺に一枚の紙を渡してくる。<br>恐らく、店の宣伝のチラシだろう。"},
@@ -164,7 +153,7 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
+    "next_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
         {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
@@ -176,7 +165,7 @@ var text_data={
       {"name":""+rand_name+"","text":"今更ながら抵抗しようとしてみても全く体は動かなくて、どうしようもなくなった。<br><br> そして、息が出来なくなる。"},
       {"name":""+rand_name+"","text":"薄らと、そしてゆっくりと意識が遠のいていく。"},
       {"name":""+rand_name+"","text":"意識がなくなる直前、俺は走馬灯のようなものを見た。"},
-      {"name":""+rand_name+"","text":"「あの……。……よろしければいかがですか？」"},
+      {"name":"メイド","text":"「あの……。……よろしければいかがですか？」"},
       {"name":""+rand_name+"","text":"ぼんやりとした意識がゆっくりと覚醒すると、夜の街で俺に声をかけてくる女の人がいた。"},
       {"name":""+rand_name+"","text":"黒と白のヒラヒラとした服、脚を覆う白のガーターベルト。<br>そして長い髪をツインテールにしていた。"},
       {"name":""+rand_name+"","text":"そう、彼女はメイドの姿をしているのだ。<br>彼女は俺に一枚の紙を渡してくる。<br>恐らく、店の宣伝のチラシだろう。"},
@@ -184,31 +173,132 @@ var text_data={
       {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
+    "next_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
         {"text":"「いえ、大丈夫です。」","value":"A10"}
     ]
   },
   "A9":{
     "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
+      {"name":""+rand_name+"","text":"俺がチラシを受け取ると、女子高生の姿をした女の子はすぐさま俺の側を離れていった。"},
+      {"name":""+rand_name+"","text":"俺はそのチラシを見るとそこには「街の案内人やります！」とメイド服や女子高生の服の女性がおり、高額な金額が表示されていた。<br>……一体誰がこんなものに手を出すのだろうか。"},
+      {"name":""+rand_name+"","text":"そんな事を考えていると、俺の側に忍び寄ってくるのは二人の影。<br>その姿を俺は知っている。"},
+      {"name":""+rand_name+"","text":"そう、警察官だ。"},
+      {"name":""+rand_name+"","text":"……なぜ警察官が俺に近づいてくる？<br>それは簡単な答えだった。"},
+      {"name":""+rand_name+"","text":"自分の身なりを見てみる。<br>現代の日本人が着るにはあまりにもボロボロで皮袋なんかを持っている。<br>不審者と言っても間違いないだろう。"},
+      {"name":""+rand_name+"","text":"「……いや、まずいまずい」"},
+      {"name":""+rand_name+"","text":"確か皮袋の中にはナイフも入っている。"},
+      {"name":""+rand_name+"","text":"万が一、いや、ほぼ確実に手荷物検査されるだろう。<br>そうなれば凶器所持罪で捕まってしまう。"},
+      {"name":"警察官","text":"「すいません。ちょっとお話いいですか？」"},
+      {"name":""+rand_name+"","text":"ど、どうしようか⁈"},
+      {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
-        {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}
+    "next_page_option":[
+      {"text":"逃げる","value":"A11"},
+      {"text":"大人しく話をする","value":"A12"}
     ]
   },
   "A10":{
+    "text_data":[
+      {"name":"メイド","text":"「……」"},
+      {"name":""+rand_name+"","text":"すると彼女は無言で去って行く。"},
+      {"name":""+rand_name+"","text":"一体彼女が何者かは知ってもよかった気がするが今はそんな事に気が回らない。<br>俺はもっと重要な事を考えなければいけない。"},
+      {"name":""+rand_name+"","text":"そんな事を考えていると、俺の側に忍び寄ってくるのは二人の影。<br>その姿を俺は知っている。"},
+      {"name":""+rand_name+"","text":"そう、警察官だ。"},
+      {"name":""+rand_name+"","text":"……なぜ警察官が俺に近づいてくる？<br>それは簡単な答えだった。"},
+      {"name":""+rand_name+"","text":"自分の身なりを見てみる。<br>現代の日本人が着るにはあまりにもボロボロで皮袋なんかを持っている。<br>不審者と言っても間違いないだろう。"},
+      {"name":""+rand_name+"","text":"「……いや、まずいまずい」"},
+      {"name":""+rand_name+"","text":"確か皮袋の中にはナイフも入っている。"},
+      {"name":""+rand_name+"","text":"万が一、いや、ほぼ確実に手荷物検査されるだろう。<br>そうなれば凶器所持罪で捕まってしまう。"},
+      {"name":"警察官","text":"「すいません。ちょっとお話いいですか？」"},
+      {"name":""+rand_name+"","text":"ど、どうしようか⁈"},
+      {"name":""+rand_name+"","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"逃げる","value":"A11"},
+      {"text":"大人しく話をする","value":"A12"}
+    ]
+  },
+  "A11":{
     "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
     ],
     "audio":{"file_path":""},
-    "naext_page_option":[
-        {"text":"「あ、貰っておきます。」","value":"A9"},
-        {"text":"「いえ、大丈夫です。」","value":"A10"}
+    "next_page_option":[
+      {"text":"逃げる","value":"A11"},
+      {"text":"大人しく話をする","value":"A12"}
+    ]
+  },
+  "A12":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"逃げる","value":"A11"},
+      {"text":"大人しく話をする","value":"A12"}
+    ]
+  },
+  "B1":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ]
+  },
+  "C1":{
+    "text_data":[
+      {"name":""+rand_name+"","text":"都市へ入ると、俺と同じ形をした人間が行きかい、端では背中から翼が飛び出た鳥人間、額から角を生やした異形の者などが、大きな道を往来していた。"},
+      {"name":""+rand_name+"","text":"それを見た俺は立ち止まり、大勢が動く姿を眺めることにした。"},
+      {"name":""+rand_name+"","text":"俺は記憶のこと、なぜ自分がここに居るのかを考えるのだが、答えなど見つかるはずもなく。<br>ただ、時間だけを潰していた。"},
+      {"name":""+rand_name+"","text":"ぞろぞろと人が流れていく中で、俺も歩き出すことにした。"},
+      {"name":""+rand_name+"","text":"「どうしようか？」"},
+      {"name":""+rand_name+"","text":"chose_event"}
+    ],
+    "audio":{"file_path":"audio/bgm_town.mp3"},
+    "next_page_option":[
+        {"text":"人の流れに付いて行く","value":"C1A"},
+        {"text":"人の流れに付いて行かず、都市を散策する","value":"C1B"}
+    ]
+  },
+  "C1B":{
+    "text_data":[
+      {"name":""+rand_name+"","text":"俺は行く当てもなく、ぶらぶらと都市を見回っていた。"},
+      {"name":""+rand_name+"","text":"怪しげな粉を売っている浮浪人のような男、毒々しい紫色の肉を売ろうとする旅商人、見たこともない生物の頭蓋骨を置いてある店。"},
+      {"name":""+rand_name+"","text":"いろいろな露店がある中で、俺は路地裏で水晶を抱えている占い師が気になった。にこにこと不気味な笑みを浮かべて、じっとこちらを見てくる占い師を。"},
+      {"name":""+rand_name+"","text":"怖くなって占い師から離れようとすると、急に手招きをしてきた。逃げようとも考えたが、記憶の手がかりでも調べてもらおうと納得し、占い師のもとまで行くことにした。"},
+      {"name":"占いババア","text":"「ヒヒッ、この占いババに何か用ですかな？"},
+      {"name":""+rand_name+"","text":"「実は……記憶を失っていて、自分が誰かも分からない状況なんだ。」"},
+      {"name":"占いババア","text":"「それは、ヒヒッ、災難なことで。では、お手を見せてもらっても？」"},
+      {"name":""+rand_name+"","text":"俺は占い師に手を差し出した。"},
+      {"name":"占いババア","text":"「……あぁ、これは外世界からの大いなる影響と、時空間に並ぶ異次元的作用によって成されるような、摩訶不思議な手相ではありますね。ヒヒッ、稀有な運命によって選ばれた、お人のようで。」"},
+      {"name":""+rand_name+"","text":"「俺は、これからどうすれば良い？」"},
+      {"name":"占いババア","text":"「ならば、あの人の流れに付いて行かれると良いでしょう。そこにあなた様の求めている、何かがあります。」"},
+      {"name":""+rand_name+"","text":"chose_event"}
+    ],
+    "audio":{"file_path":"audio/bgm_town.mp3"},
+    "next_page_option":[
+        {"text":"人の流れに付いて行く","value":"C1A"},
+        // {"text":"人の流れに付いて行かず、都市を散策する","value":"C1B"}
+    ]
+  },
+  "C1A":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
     ]
   }
 };
