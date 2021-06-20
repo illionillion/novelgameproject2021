@@ -189,7 +189,7 @@ var text_data={
       {"name":""+rand_name+"","text":"「……いや、まずいまずい」"},
       {"name":""+rand_name+"","text":"確か皮袋の中にはナイフも入っている。"},
       {"name":""+rand_name+"","text":"万が一、いや、ほぼ確実に手荷物検査されるだろう。<br>そうなれば凶器所持罪で捕まってしまう。"},
-      {"name":"警察官","text":"「すいません。ちょっとお話いいですか？」"},
+      {"name":"警官A","text":"「すいません。ちょっとお話いいですか？」"},
       {"name":""+rand_name+"","text":"ど、どうしようか⁈"},
       {"name":""+rand_name+"","text":"chose_event"}
     ],
@@ -211,7 +211,7 @@ var text_data={
       {"name":""+rand_name+"","text":"「……いや、まずいまずい」"},
       {"name":""+rand_name+"","text":"確か皮袋の中にはナイフも入っている。"},
       {"name":""+rand_name+"","text":"万が一、いや、ほぼ確実に手荷物検査されるだろう。<br>そうなれば凶器所持罪で捕まってしまう。"},
-      {"name":"警察官","text":"「すいません。ちょっとお話いいですか？」"},
+      {"name":"警官A","text":"「すいません。ちょっとお話いいですか？」"},
       {"name":""+rand_name+"","text":"ど、どうしようか⁈"},
       {"name":""+rand_name+"","text":"chose_event"}
     ],
