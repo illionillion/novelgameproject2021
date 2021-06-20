@@ -110,39 +110,95 @@ function skip(){
 
 //イベントないかチェック
 function event_check(char,event){
-  if(event=="name_event"){
-    name_event();
-  }else if(event==""){
-    alert('終了です');
-    num--;
-    backnum--;
-    option_area.classList.add('none');
 
-  }else if(event=="chose_event"){
-    option_area.classList.remove('none');
-    //分岐の数
-    var phrase=text_data[now_page]["next_page_option"];
-    var option_total=phrase.length;
-    option_area.setAttribute("branch_sum",option_total);
+  switch (event) {
+    case "name_event":
+      name_event();
+      
+    break;
 
-    //分岐の数リストを表示
-    for(let i=0;i<option_total;i++){
-      document.getElementsByClassName('option')[i].classList.remove('none');
-      document.getElementsByClassName('option_text')[i].innerHTML=phrase[i]["text"];
-      document.getElementsByClassName('option')[i].setAttribute("branch_value",phrase[i]["value"]);
-      // let a=branch(phrase[i]["value"]);
+    case "":
+      
+      alert('終了です');
+      num--;
+      backnum--;
+      option_area.classList.add('none');
 
-      //任意の要素にクリックイベントがつけられない
-      // document.getElementsByClassName('option')[i].addEventListener('click', branch2 , false);
-    }
+    break;
+    case "chose_event":
+      
+      option_area.classList.remove('none');
+      //分岐の数
+      var phrase=text_data[now_page]["next_page_option"];
+      var option_total=phrase.length;
+      option_area.setAttribute("branch_sum",option_total);
+  
+      //分岐の数リストを表示
+      for(let i=0;i<option_total;i++){
+        document.getElementsByClassName('option')[i].classList.remove('none');
+        document.getElementsByClassName('option_text')[i].innerHTML=phrase[i]["text"];
+        document.getElementsByClassName('option')[i].setAttribute("branch_value",phrase[i]["value"]);
 
-    // alert('終了です');
+      }
+  
 
-  }else{
-    //文章描画
-    replace_name(char,event);
+    break;
 
+    case "go_to_next":
+
+      now_page=text_data[now_page]["go_to_next"];
+      console.log(now_page);
+      num=0;
+      backnum=0;
+      if(audio_file_path){
+        music_file.pause();
+        // audio_file_path=null;
+      }
+      audio_file_path=text_data[now_page]['audio']['file_path'];
+
+      next();
+
+    break;
+  
+    default:
+      //文章描画
+      replace_name(char,event);
+    break;
   }
+
+  // if(event=="name_event"){
+  //   name_event();
+  // }else if(event==""){
+  //   alert('終了です');
+  //   num--;
+  //   backnum--;
+  //   option_area.classList.add('none');
+
+  // }else if(event=="chose_event"){
+  //   option_area.classList.remove('none');
+  //   //分岐の数
+  //   var phrase=text_data[now_page]["next_page_option"];
+  //   var option_total=phrase.length;
+  //   option_area.setAttribute("branch_sum",option_total);
+
+  //   //分岐の数リストを表示
+  //   for(let i=0;i<option_total;i++){
+  //     document.getElementsByClassName('option')[i].classList.remove('none');
+  //     document.getElementsByClassName('option_text')[i].innerHTML=phrase[i]["text"];
+  //     document.getElementsByClassName('option')[i].setAttribute("branch_value",phrase[i]["value"]);
+  //     // let a=branch(phrase[i]["value"]);
+
+  //     //任意の要素にクリックイベントがつけられない
+  //     // document.getElementsByClassName('option')[i].addEventListener('click', branch2 , false);
+  //   }
+
+  //   // alert('終了です');
+
+  // }else{
+  //   //文章描画
+  //   replace_name(char,event);
+
+  // }
 
 }
 
@@ -295,6 +351,9 @@ function audio_start(){
   if(num==0){
     if(audio_file_path){
       console.log(audio_file_path);
+      if(music_file){
+        music_file.pause();
+      }
       music_file=new Audio(audio_file_path);
       music_file.play();
     }
