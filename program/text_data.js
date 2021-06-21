@@ -172,6 +172,19 @@ var text_data={
       {"name":""+rand_name+"","text":"なんて言おうか？"},
       {"name":""+rand_name+"","text":"chose_event"}
     ],
+    // "effect":[
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":true},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false},
+    //   {"stop":false}
+    // ],
     "audio":{"file_path":""},
     "next_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
@@ -421,3 +434,47 @@ var text_data={
     ]
   }
 };
+
+//後で追加する各テキストの演出データ
+var add_prop={
+  "text_data":{
+    "stop":false,
+    "se":""
+  }
+  // "effect_prop":{
+  //   "A7":{"stop":4},
+  //   "A8":{"stop":5}
+  // }
+};
+
+var add_prop_changed={
+  "A7":{
+    
+  }
+}
+
+// console.log(text_data);
+//text_dataの総数
+var text_data_all_num=Object.keys(text_data).length;
+
+// console.log(text_data_all_num);
+
+for(let i=0;i<text_data_all_num;i++){
+  // console.log(text_data[Object.keys(text_data)[i]]["text_data"]);
+  //各ページ配列が持つ総数
+  let t_array_length=text_data[Object.keys(text_data)[i]]["text_data"].length;
+  // console.log(Object.keys(text_data)[i]);
+  // console.log(t_array_length);
+
+  //key名text_dataに追加する
+  for(let j=0;j<t_array_length;j++){
+    // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
+
+    text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["text_data"];
+    // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]["stop"]=false;
+
+  }
+
+}
+
+console.log(text_data);

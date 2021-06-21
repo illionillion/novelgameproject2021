@@ -63,20 +63,6 @@ function back(){
 
   if(num>1){
 
-  // if(text_animation){
-  //   // num--;
-  //   // backnum--;
-  //   console.log(num);
-  //   console.log(backnum);
-  //   var phrase=text_data[now_page]['text_data'];
-  //   console.log(phrase);
-  //   var output_charname=phrase[backnum]['name'];
-  //   var output_text=phrase[backnum]['text'];
-  //   // console.log(num);
-
-  //   console.log(output_text);
-  //   replace_name(output_charname,output_text);
-  // }else{
     text_animation=true;
     num--;
     backnum--;
@@ -165,41 +151,6 @@ function event_check(char,event){
       replace_name(char,event);
     break;
   }
-
-  // if(event=="name_event"){
-  //   name_event();
-  // }else if(event==""){
-  //   alert('終了です');
-  //   num--;
-  //   backnum--;
-  //   option_area.classList.add('none');
-
-  // }else if(event=="chose_event"){
-  //   option_area.classList.remove('none');
-  //   //分岐の数
-  //   var phrase=text_data[now_page]["next_page_option"];
-  //   var option_total=phrase.length;
-  //   option_area.setAttribute("branch_sum",option_total);
-
-  //   //分岐の数リストを表示
-  //   for(let i=0;i<option_total;i++){
-  //     document.getElementsByClassName('option')[i].classList.remove('none');
-  //     document.getElementsByClassName('option_text')[i].innerHTML=phrase[i]["text"];
-  //     document.getElementsByClassName('option')[i].setAttribute("branch_value",phrase[i]["value"]);
-  //     // let a=branch(phrase[i]["value"]);
-
-  //     //任意の要素にクリックイベントがつけられない
-  //     // document.getElementsByClassName('option')[i].addEventListener('click', branch2 , false);
-  //   }
-
-  //   // alert('終了です');
-
-  // }else{
-  //   //文章描画
-  //   replace_name(char,event);
-
-  // }
-
 }
 
 function replace_name(char2,name){
