@@ -256,8 +256,8 @@ var text_data={
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「復讐できる！」","value":"A11A"},
-      {"text":"「ちゃんと幸せになれる！」","value":"A11B"}
+      {"text":"「復讐できる！」","value":"A20"},
+      {"text":"「ちゃんと幸せになれる！」","value":"A20"}
     ]
   },
   "A12":{
@@ -394,11 +394,11 @@ var text_data={
     "text_data":[
       {"name":"父さん","text":"「……早く乗れ」"},
       {"name":""+rand_name+"","text":"そう言って父は運転席へすぐに座る。<br>俺には何も聞かないまま。"},
-      {"name":""+rand_name+"","text":"元々仲が良かったわけでもない。<br>働かないで実家の農作業も手伝わずに部屋引きこもっていたのだから仕方ないと思うし、それで数ヶ月も行方をくらましていたのだ。"},
+      {"name":""+rand_name+"","text":"元々仲が良かったわけでもない。<br>働かないで実家の農作業も手伝わずに部屋に引きこもっていたのだから仕方ないと思うし、それで数ヶ月も行方をくらましていたのだ。"},
       {"name":""+rand_name+"","text":"黙って消えて、おまけに世間に異世界に行っていたなんて言われて、世間から注目を浴びすぎてしまっているから父が怒っていても仕方がない。"},
-      {"name":""+rand_name+"","text":"自分は黙っての座る軽トラに乗り込む。<br>土や砂のこびりついた軽トラは最後に見た日から何も変わってはいなかった。"},
-      {"name":""+rand_name+"","text":"エンジンが動き出し、軽トラは前に進み出す。<br>警察署の駐車場を出て、その入り口マスコミが大量にいる場所へ向かう。"},
-      {"name":""+rand_name+"","text":"幸い、警官達が対応してくれていて、多くの質問の声は投げかけられたがスムーズに道路に出ることができた。"},
+      {"name":""+rand_name+"","text":"自分は黙って軽トラに乗り込む。<br>砂のこびりついた軽トラは最後に見た日から何も変わってはいなかった。"},
+      {"name":""+rand_name+"","text":"エンジンが動き出し、軽トラは前に進み出す。<br>警察署の駐車場を出て、その入り口のマスコミが大量にいる場所へ向かう。"},
+      {"name":""+rand_name+"","text":"幸いにも警官達が対応してくれていて、多くの質問の声は投げかけられたがスムーズに道路へ出ることができた。"},
       {"name":""+rand_name+"","text":"思えば車に乗るのも久しぶりだ。<br>向こうには電気機械がなかったから当たり前の事だなと今更ながら考える。"},
       {"name":""+rand_name+"","text":"「……」"},
       {"name":"父さん","text":"「……」"},
@@ -434,15 +434,26 @@ var text_data={
       {"text":"「……」","value":"A17"}
     ]
   },
-  "A11A":{
+  "A20":{
     "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
+      {"name":""+rand_name+"","text":"数週間後。<br>俺はウィズサンに戻る為に手段を探し続けていた。"},
+      {"name":""+rand_name+"","text":"けれども探して見つかるものでもなく、手段と呼べる手段は見つからなかった。"},
+      {"name":""+rand_name+"","text":"眠れぬ夜を過ごし、考えは完全にまとまる。"},
+      {"name":""+rand_name+"","text":"……あの世界に繋がる場所なんて、ここしかないということに。"},
+      {"name":""+rand_name+"","text":"「……」"},
+      {"name":""+rand_name+"","text":"自分が記憶を全て取り戻し、この世界に戻ってきたこの場所。"},
+      {"name":""+rand_name+"","text":"何度も何度もこの場所には辿り着いていた。<br>ここがあの世界と繋がっていると考える他に道はないだろう。"},
+      {"name":""+rand_name+"","text":"今日は満月。<br>夜は更け、すっかり人通りも減っていた。"},
+      {"name":""+rand_name+"","text":"そんな中、歩道橋の上に一人の男が立っており、ビルの上の俺に手を振ってきた。"},
+      {"name":""+rand_name+"","text":"「……⁈」"},
+      {"name":""+rand_name+"","text":"俺はすぐさま飛び降り、常人では目で追えないようなスピードで彼に近づく。"},
+      {"name":""+rand_name+"","text":"近づけば、彼が誰なのかわかった。"},
+      {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
+      {"text":"「……お前」","value":"A11B"},
+      {"text":"「……クト」","value":"A11B"}
     ]
   },
   "A11B":{
@@ -516,21 +527,24 @@ var text_data={
   }
 };
 
-//後で追加する各テキストの演出データ
+//後で追加する各テキストの演出データ初期値
 var add_prop={
   "text_data":{
     "stop":false,
     "se":""
   }
-  // "effect_prop":{
-  //   "A7":{"stop":4},
-  //   "A8":{"stop":5}
-  // }
 };
 
 var add_prop_changed={
   "A7":{
-    
+    "index":4,
+    "effect":"stop",
+    "value":true
+  },
+  "A8":{
+    "index":5,
+    "effect":"stop",
+    "value":true
   }
 }
 
@@ -552,10 +566,32 @@ for(let i=0;i<text_data_all_num;i++){
     // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
 
     text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["text_data"];
+    // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]={};
     // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]["stop"]=false;
+    // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]["se"]="";
 
   }
 
 }
 
 console.log(text_data);
+
+var add_prop_changed_all_num=Object.keys(add_prop_changed).length;
+
+// for(let i=0;i<add_prop_changed_all_num;i++){
+//   let prop_key=Object.keys(add_prop_changed)[i];
+//   let index=add_prop_changed[prop_key]["index"];
+//   let value=add_prop_changed[prop_key]["value"];
+//   let effect=add_prop_changed[prop_key]["effect"];
+//   console.log(prop_key);
+//   console.log(index);
+//   console.log(value);
+//   console.log(effect);
+//   console.log(text_data[prop_key]["text_data"][index]);
+//   console.log(text_data[prop_key]["text_data"][index]["effect"][effect]);
+//   text_data[prop_key]["text_data"][index]["effect"][effect]=value;
+//   // text_data[prop_key]["text_data"][add_prop_changed[prop_key]["index"]]["effect"]["stop"]=add_prop_changed[prop_key]["value"];
+//   console.log(text_data);
+
+// }
+// console.log(text_data);
