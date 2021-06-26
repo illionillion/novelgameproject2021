@@ -273,6 +273,9 @@ function name_event(){
 function branch(branch_text){
   console.log(branch_text);
   console.log(branch_text.getAttribute("branch_value"));
+
+  //ここに選択データ保存書く
+
   option_area.classList.add('none');
   now_page=branch_text.getAttribute("branch_value");
   
