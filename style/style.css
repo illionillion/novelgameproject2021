@@ -10,7 +10,7 @@
 }
 
 #background_frame{
-  background-image: url(../img/test_background_image.png);
+  /* background-image: url(../img/test_background_image.png); */
   position: relative;
   height: 100%;
 }

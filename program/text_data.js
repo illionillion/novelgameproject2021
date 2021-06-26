@@ -414,24 +414,35 @@ var text_data={
   },
   "A18":{
     "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
+      {"name":""+rand_name+"","text":"何かを話せばいいのか、あるいは何も話さない方がいいのか俺は困ってしまう。"},
+      {"name":""+rand_name+"","text":"父はずっと前を見て、何も聞かず運転し続けている。"},
+      {"name":""+rand_name+"","text":"何も、言わない。"},
+      {"name":""+rand_name+"","text":"自分が警察に説明したことなどは耳には届いているだろうし、聞く必要はないのかも知れないけれど、それでも何か聞いて欲しいと言う気持ちが俺の中に渦巻いていた。"},
+      {"name":"父さん","text":"「……ヨゾラ」"},
+      {"name":""+rand_name+"","text":"ボソリ、と父は口を開く。<br>前を向いたまま、ただ一つの質問を自分に問いかけてくる。"},
+      {"name":"父さん","text":"「……お前はいつになったら大人になるんだ」"},
+      {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
+      {"text":"「……」","value":"A21"}
     ]
   },
   "A19":{
     "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
+      {"name":"父さん","text":"「……」"},
+      {"name":""+rand_name+"","text":"父は何も言葉を発さなかった。"},
+      {"name":""+rand_name+"","text":"自分が警察に説明したことなどは耳には届いているだろうし、聞く必要はないのかも知れないけれど、それでも何か聞いて欲しいと言う気持ちが俺の中に渦巻いていた。"},
+      {"name":""+rand_name+"","text":"何かを話せばいいのか、あるいは何も話さない方がいいのか俺は困ってしまう。"},
+      {"name":""+rand_name+"","text":"父はずっと前を見て、何も聞かず運転し続けている。"},
+      {"name":"父さん","text":"「……ヨゾラ」"},
+      {"name":""+rand_name+"","text":"不意に父はボソリ、と口を開いた。<br>前を向いたまま、ただ一つの質問を自分に問いかけてくる。"},
+      {"name":"父さん","text":"「……お前はいつになったら大人になるんだ」"},
+      {"name":""+rand_name+"","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
+      {"text":"「……」","value":"A21"}
     ]
   },
   "A20":{
@@ -454,6 +465,17 @@ var text_data={
     "next_page_option":[
       {"text":"「……お前」","value":"A11B"},
       {"text":"「……クト」","value":"A11B"}
+    ]
+  },
+  "A21":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
     ]
   },
   "A11B":{
