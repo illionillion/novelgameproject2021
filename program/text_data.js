@@ -469,6 +469,35 @@ var text_data={
   },
   "A21":{
     "text_data":[
+      {"name":""+rand_name+"","text":"数十分後。"},
+      {"name":""+rand_name+"","text":"高速道路を経由して、都会の街からとは一変し田舎の町にやってきた……いや、帰ってきた。"},
+      {"name":""+rand_name+"","text":"俺が産まれ、ずっと住んできたこの町に。<br>所々風景が変わっても、それでも変わる場所を感じさせない街並みと匂いが帰ってきたのだと感じる。"},
+      {"name":""+rand_name+"","text":"空は紅くなっていて、太陽が沈むのを久しぶりに見る。<br>夜空は何度か見たが、夕焼けを見るのはウィズサンへ行く前も中々見れていなかったはずだ。"},
+      {"name":""+rand_name+"","text":"軽トラはガレージに入っていって、エンジンが止まる。<br>俺は無言で軽トラの扉を開いて降りる。"},
+      {"name":""+rand_name+"","text":"久しぶりの我が家。<br>何も変わらない、木造の家だった。"},
+      {"name":""+rand_name+"","text":"玄関に向かって歩いて行くと、ガチャリ、と扉が開く。"},
+      {"name":""+rand_name+"","text":"そこから出てきたのは…。"},
+      {"name":""+rand_name+"","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「母さん…」","value":"A22"},
+      {"text":"「秋菜…」","value":"A23"}
+    ]
+  },
+  "A22":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A23":{
+    "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
     ],
