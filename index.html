@@ -42,6 +42,94 @@
           <div class="option none" onclick="branch(this)"><div class="option_text">3</div></div>
           <div class="option none" onclick="branch(this)"><div class="option_text">4</div></div>
         </div>
+        <div id="save_screen" class="none">
+          <header>
+            <p>セーブするデータを選択してください。</p>
+            <div class="btn"><input type="button" onclick="change_save_screen()" value="閉じる"></div>
+          </header>
+          <div id="save_option">
+            <div class="option" onclick="">
+              <div class="option_text">
+                <div class="save_icon">
+                  <img src="img/none3.jpg" alt="">
+                </div>
+                <div class="save_prop">
+                  <div class="data_title">
+                    データ1
+                  </div>
+                  <div class="data_prop">
+                    <div class="data_page">
+                      なし
+                    </div>
+                    <div class="percent">
+                      0%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="option" onclick="">
+              <div class="option_text">
+                <div class="save_icon">
+                  <img src="img/none3.jpg" alt="">
+                </div>
+                <div class="save_prop">
+                  <div class="data_title">
+                    データ2
+                  </div>
+                  <div class="data_prop">
+                    <div class="data_page">
+                      なし
+                    </div>
+                    <div class="percent">
+                      0%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="option" onclick="">
+              <div class="option_text">
+                <div class="save_icon">
+                  <img src="img/none3.jpg" alt="">
+                </div>
+                <div class="save_prop">
+                  <div class="data_title">
+                    データ3
+                  </div>
+                  <div class="data_prop">
+                    <div class="data_page">
+                      なし
+                    </div>
+                    <div class="percent">
+                      0%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="option" onclick="">
+              <div class="option_text">
+                <div class="save_icon">
+                  <img src="img/none3.jpg" alt="">
+                </div>
+                <div class="save_prop">
+                  <div class="data_title">
+                    データ4
+                  </div>
+                  <div class="data_prop">
+                    <div class="data_page">
+                      なし
+                    </div>
+                    <div class="percent">
+                      0%
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div id="user_frame">
           <div id="text_frame">
             <div id="character_name">
@@ -56,6 +144,7 @@
             <div class="btn"><input type="button" onclick="skip()" value="スキップ"></div>
             <div class="btn"><input type="button" onclick="next()" value="次へ"></div>
             <div class="btn"><input type="button" onclick="back()" value="戻る"></div>
+            <div class="btn"><input type="button" onclick="change_save_screen()" value="セーブ"></div>
           </div>
         </div>
       </div>
@@ -65,5 +154,6 @@
   <script src="program/text_data.js"></script>
   <script src="program/add_prop.js"></script>
   <script src="program/program.js"></script>
+  <script src="program/save.js"></script>
 </body>
 </html>
