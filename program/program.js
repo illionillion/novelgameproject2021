@@ -9,6 +9,8 @@ var audio_file_path=text_data[now_page]['audio']['file_path'];
 var music_file=null;
 var result;
 
+var save_data={};
+
 //getElement
 const character_name=document.getElementById('character_name');
 const text_frame=document.getElementById('text_area');
@@ -48,6 +50,9 @@ function next(){
     var output_text=phrase[num]['text'];
     console.log(text_data);
 
+    save_data['now_page']=now_page;
+    save_data['num']=num;
+
     audio_start();
     event_check(output_charname,output_text);
     backnum=num;
@@ -73,7 +78,8 @@ function back(){
     var output_charname=phrase[backnum]['name'];
     var output_text=phrase[backnum]['text'];
     // console.log(num);
-
+    save_data['now_page']=now_page;
+    save_data['num']=backnum;
     console.log(output_text);
     replace_name(output_charname,output_text);
   // }
