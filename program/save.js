@@ -11,12 +11,12 @@ function save(index){
   var index_data=index.getAttribute("index");
   console.log(index_data);
   var save_data2=new Object;
-
+  //同じオブジェクトを代入できない
   for(let i=0;i<Object.keys(save_data).length;i++){
     save_data2[Object.keys(save_data)[i]]=save_data[Object.keys(save_data)[i]];
   }
 
   save_file[index_data]=save_data2;
-  
+
   console.log(save_file);
 }
