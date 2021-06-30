@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>test</title>
+</head>
+<body>
+  <div index="data1" onclick="save(this)">1</div>
+  <div index="data2" onclick="save(this)">2</div>
+  <div index="data3" onclick="save(this)">3</div>
+  <div index="data4" onclick="save(this)">4</div>
+  <script>
+    var save_file={"data1":{},"data2":{},"data3":{},"data4":{}};
+    var save_data={"hp":100,"name":"aaaa","num":""};
+    var num=0;
+    save_file["data1"]={"a":"a","b":"b"};
+    save_file["data2"]={"c":"c","d":"d"};
+    save_file["data1"]={"e":"e","f":"f"};
+    console.log(save_file);
+    function save(index){
+      console.log(save_data);
+      save_data["num"]=num;
+      var index_data=index.getAttribute("index");
+      console.log(index_data);
+
+      var save_data2=new Object;
+
+      for(let i=0;i<Object.keys(save_data).length;i++){
+        save_data2[Object.keys(save_data)[i]]=save_data[Object.keys(save_data)[i]];
+      }
+
+      save_file[index_data]=save_data2;
+
+      console.log(save_file);
+      num++;
+    }
+  </script>
+</body>
+</html>
