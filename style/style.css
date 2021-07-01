@@ -46,12 +46,31 @@
   flex-direction: column;
 }
 
-#title_frame p{
+#title_text{
+  height: 60%;
+  position: relative;
+}
+
+#title_text p{
   text-align: center;
+  /* margin: ; */
+  position: absolute;
+  top: 40%;
+  left: 40%;
   
 }
 
-#title_frame input{
+#title_btn{
+  height: 40%;
+  text-align: center;
+}
+
+#title_btn .btn{
+  display: inline;
+  margin: auto;
+}
+
+#title_btn .btn input{
   width: 100px;
   margin: auto;
 }
