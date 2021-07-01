@@ -5,9 +5,13 @@ console.log(save_file);
 function change_save_screen(){
   document.querySelector("#save_screen").classList.toggle("none");
   // document.querySelector("#save_screen").addEventListener();
-  // for(let i=0;i<3;i++){
-  //   document.getElementsByClassName("option_count")[i].addEventListener("click",function(){save(this)},false);
-  // }
+  document.getElementById("saveorload").innerHTML="セーブするデータを選択してください。";
+  for(let i=0;i<4;i++){
+    // document.getElementsByClassName("option_count")[i].onclick=save(this);
+    document.getElementsByClassName("option_count")[i].setAttribute('onclick', 'save(this)');
+    console.log(document.getElementsByClassName("option_count")[i]);
+    // document.getElementsByClassName("option_count")[i].addEventListener("click",function(){save(this)},false);
+  }
 }
 
 function save(index){
