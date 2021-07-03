@@ -65,7 +65,7 @@ function save(index){
 
     save_file[index_data]=save_data2;
 
-    // console.log(save_file);
+    console.log(save_file);
     
     show_save_prop();
     alert("セーブしました");

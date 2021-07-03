@@ -261,9 +261,10 @@ function name_event(){
     audio_file_path=text_data[now_page]['audio']['file_path'];
 
     next();
-    setTimeout(() => {
-      back();
-    }, "100");
+    num=0;
+    // setTimeout(() => {
+    //   back();
+    // }, "100");
     
   }else{
     // hero_name="アーロン";
