@@ -39,7 +39,7 @@
               <input type="button" value="start" onclick="start()">
             </div>
             <div class="btn">
-              <input type="button" value="load" onclick="">
+              <input type="button" value="load" onclick="change_load_screen()">
             </div>
           </div>
         </div>
@@ -52,7 +52,8 @@
         <div id="save_screen" class="none">
           <header>
             <p id="saveorload"></p>
-            <div class="btn"><input type="button" onclick="change_save_screen()" value="閉じる"></div>
+            <div class="btn"><input type="button" onclick="toziru()" value="閉じる"><input type="button" id="switching_btn" onclick="" value=""></div>
+            <!-- <div class="btn"></div> -->
           </header>
           <div id="save_option">
             <div class="option option_count"  index="data1" text="データ1">

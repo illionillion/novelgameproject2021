@@ -50,8 +50,7 @@ function next(){
     var output_text=phrase[num]['text'];
     console.log(text_data);
 
-    save_data['now_page']=now_page;
-    save_data['num']=num;
+    take_save();
 
     audio_start();
     event_check(output_charname,output_text);
@@ -78,8 +77,7 @@ function back(){
     var output_charname=phrase[backnum]['name'];
     var output_text=phrase[backnum]['text'];
     // console.log(num);
-    save_data['now_page']=now_page;
-    save_data['num']=backnum;
+    take_save();
     console.log(output_text);
     replace_name(output_charname,output_text);
   // }
@@ -316,13 +314,44 @@ function audio_start(){
       }
       music_file=new Audio(audio_file_path);
       music_file.play();
-    }
-  }
-  //音楽リピート再生用
-  if(audio_file_path){
-    music_file.addEventListener("ended", function () {
+      music_file.addEventListener("ended", function () {
       music_file.currentTime = 0;
       music_file.play();
     }, false);
+    }
   }
+  //音楽リピート再生用
+  // if(audio_file_path){
+
+  // }
+}
+function audio_restart(){
+  if(num!=0){
+    if(audio_file_path){
+      console.log(audio_file_path);
+      if(music_file){
+        music_file.pause();
+      }
+      music_file=new Audio(audio_file_path);
+      music_file.play();
+      music_file.addEventListener("ended", function () {
+        music_file.currentTime = 0;
+        music_file.play();
+      }, false);
+    }
+  }
+  //音楽リピート再生用
+  // if(audio_file_path){
+  //   music_file.addEventListener("ended", function () {
+  //     music_file.currentTime = 0;
+  //     music_file.play();
+  //   }, false);
+  // }
+}
+
+function take_save(){
+  save_data['now_page']=now_page;
+  save_data['num']=num;
+  save_data['hero_name']=hero_name;
+  save_data['audio_file_path']=audio_file_path;
 }
