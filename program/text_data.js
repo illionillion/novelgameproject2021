@@ -499,26 +499,16 @@ var text_data={
       {"name":""+rand_name+"","text":"制服を着ていて、今日も学校があったのだとわかる。"},
       {"name":""+rand_name+"","text":"軽トラを降りた父は、何も言わずに畑の方へ歩いて行ってしまった。"},
       {"name":""+rand_name+"","text":"俺は今からごく普通の日常に戻るのだと、実感した。"},
-      {"name":""+rand_name+"","text":""}
+      {"name":""+rand_name+"","text":"go_to_next"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
       {"text":"「……久しぶり」","value":"A16"},
       {"text":"「……」","value":"A17"}
-    ]
+    ],
+    "go_to_next":"A24"
   },
   "A23":{
-    "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
-    ],
-    "audio":{"file_path":""},
-    "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
-    ]
-  },
-  "A11B":{
     "text_data":[
       {"name":"明菜","text":"「……兄貴」"},
       {"name":""+rand_name+"","text":"俺の妹、星空明菜(ほしぞらあきな)だった。"},
@@ -531,6 +521,48 @@ var text_data={
       {"name":""+rand_name+"","text":"その様子を見てしまって、自分は申し訳ない気持ちにならざるを得なかった。<br>口には出ない、「ごめん」の言葉が何度も胸の中を這い回った。"},
       {"name":""+rand_name+"","text":"軽トラを降りた父は、何も言わずに畑の方へ歩いて行ってしまった。"},
       {"name":""+rand_name+"","text":"俺はこれから、あの日々に戻るのだと、実感した。"},
+      {"name":""+rand_name+"","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ],
+    "go_to_next":"A24"
+  },
+  "A24":{
+    "text_data":[
+      {"name":"母さん","text":"「すぐに夕飯にしましょう。ヨゾラ、何か食べたいものはある？」"},
+      {"name":""+rand_name+"","text":"久しぶりに家の中に入り、眼を赤くした母に言われて考える。<br>久しぶりの母の料理だ、思い入れのあるものと言えば…。"},
+      {"name":""+rand_name+"","text":"「……カレーかな」"},
+      {"name":"母さん","text":"「ならすぐに作れるわね。今すぐ準備するわ」"},
+      {"name":""+rand_name+"","text":"そう言って母は冷蔵庫を開けた。"},
+      {"name":""+rand_name+"","text":"我が家のカレーは一味違う。<br>父が収穫する質の良い野菜を使っているので家庭的なカレーの中ではトップレベルの美味さになっているのではないかと思う。"},
+      {"name":""+rand_name+"","text":"ウィズサンではカレーなんてなかったし、月一回以上食べていたはずなので本当に久しぶりだ。"},
+      {"name":""+rand_name+"","text":"そして、母の料理姿も。"},
+      {"name":"明菜","text":"「ねぇ、兄貴」"},
+      {"name":""+rand_name+"","text":"「……ん？」"},
+      {"name":"明菜","text":"「兄貴は本当に……その、異世界的な所に行ってたの？」"},
+      {"name":""+rand_name+"","text":"「え、うん、えっと……」"},
+      {"name":""+rand_name+"","text":"きっとちゃんと説明するべきなのだろう。"},
+      {"name":""+rand_name+"","text":"けれども、ちゃんと詳細を説明しても信じてもらえるかどうかもわからない……何なら信じてもらえない可能性の方が高いように思う。<br>家族が存在したかどうかも怪しい所でずっと居たなんて自分なら信じられない。"},
+      {"name":"母さん","text":"「明菜。それは父さんが戻って来てから食事をしながらでも聞きましょう。父さんを呼んできて頂戴」"},
+      {"name":"明菜","text":"「……はーい」"},
+      {"name":""+rand_name+"","text":"そう言って、明菜は俺を一瞥するとリビングから出ていく。<br>母は野菜の下準備が終わり鍋で炒め始めていた。"},
+      {"name":""+rand_name+"","text":"もし、本当のことを話して信じてもらえなかったらどうなるだろうか。"},
+      {"name":""+rand_name+"","text":"ハッキリ言って悪い状態になる気しかしない。<br>家族が納得できるように言うべきなのだろうか……？"},
+      {"name":""+rand_name+"","text":"……俺はどうする？"},
+      {"name":""+rand_name+"","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"正直に話す。　","value":"A25"},
+      {"text":"「納得できるように嘘を話す。……」","value":"A26"}
+    ]
+  },
+  "A11B":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
     ],
     "audio":{"file_path":""},
@@ -540,6 +572,28 @@ var text_data={
     ]
   },
   "A11B":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A25":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A26":{
     "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
