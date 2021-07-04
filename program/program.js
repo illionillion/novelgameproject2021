@@ -50,7 +50,7 @@ function next(){
     var output_text=phrase[num]['text'];
     console.log(text_data);
 
-    take_save();
+    take_save(num);
 
     audio_start();
     event_check(output_charname,output_text);
@@ -77,7 +77,7 @@ function back(){
     var output_charname=phrase[backnum]['name'];
     var output_text=phrase[backnum]['text'];
     // console.log(num);
-    take_save();
+    take_save(backnum);
     console.log(output_text);
     replace_name(output_charname,output_text);
   // }
@@ -350,7 +350,7 @@ function audio_restart(){
   // }
 }
 
-function take_save(){
+function take_save(num){
   save_data['now_page']=now_page;
   save_data['num']=num;
   save_data['hero_name']=hero_name;

@@ -81,6 +81,12 @@ function load(index){
   // console.log(index_data);
 
   var flag=window.confirm(index_text_data+"をロードしますか？");
+  if(audio_file_path){
+    music_file.pause();
+    // audio_file_path=null;
+    // audio_file=null;
+    // console.log("pause");
+  }
   if(flag){
     if(save_file[index_data]["now_page"]){
     now_page=save_file[index_data]["now_page"];
@@ -90,8 +96,12 @@ function load(index){
     toziru();
     // music_file.pause();
     setTimeout(() => {
-      next();
-      audio_restart();
+      if(num==0){
+        next();
+      }else{
+        audio_restart();
+      }      
+ 
     }, 100);
     
     }else{
