@@ -48,7 +48,9 @@ function next(){
     all_num=phrase.length;
     var output_charname=phrase[num]['name'];
     var output_text=phrase[num]['text'];
+    var effect_check=phrase[num]['effect'];
     console.log(text_data);
+    console.log(effect_check);
 
     take_save(num);
 
