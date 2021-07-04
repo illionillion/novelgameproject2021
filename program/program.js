@@ -50,12 +50,15 @@ function next(){
     var output_text=phrase[num]['text'];
     var effect_check=phrase[num]['effect'];
     console.log(text_data);
-    console.log(effect_check);
-
+    // console.log(effect_check);
+    if(effect_check["stop"]==false){
+      event_check(output_charname,output_text);
+    }
+    effect_play(effect_check,output_charname,output_text);
     take_save(num);
 
     audio_start();
-    event_check(output_charname,output_text);
+    
     backnum=num;
     num++;
     console.log(num);
