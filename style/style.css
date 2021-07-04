@@ -1,6 +1,14 @@
-/* *{
-  outline: 1px solid black;
-} */
+*{
+  font-family: 'Courier New', Courier, monospace;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  /* font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif; */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  /* font-family: 'Times New Roman', Times, serif; */
+  /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+ 
+  /* outline: 1px solid black; */
+}
 
 #screen_frame{
   width: 500px;
@@ -216,10 +224,13 @@
 }
 #character_name{
   margin: 3px 0;
+  /* font-family: 'Courier New', Courier, monospace; */
+
 }
 #text_area{
   overflow-y: auto;
   height: 100%;
+  /* font-family: 'Courier New', Courier, monospace; */
 }
 
 #user_frame #controller_frame{

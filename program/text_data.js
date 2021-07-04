@@ -482,7 +482,7 @@ var text_data={
     "audio":{"file_path":""},
     "next_page_option":[
       {"text":"「母さん…」","value":"A22"},
-      {"text":"「秋菜…」","value":"A23"}
+      {"text":"「明菜…」","value":"A23"}
     ]
   },
   "A22":{
