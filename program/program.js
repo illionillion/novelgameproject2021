@@ -289,7 +289,7 @@ function name_event(){
     // setTimeout(() => {
     //   back();
     // }, "100");
-    
+
   }else{
     // hero_name="アーロン";
     num--;
