@@ -37,7 +37,11 @@ function next(){
     var output_text=phrase[num-1]['text'];
     console.log(text_data);
 
-    audio_start();
+    // setTimeout(() => {
+        
+      audio_start();
+    // }, "10");
+    // audio_start();
     // if (num==0) {
     //   audio_start();
     // }else{
@@ -63,7 +67,10 @@ function next(){
     take_save(num);
 
     // if (num==0) {
-      audio_start();
+      // setTimeout(() => {
+      //   console.log("aa");
+        audio_start();
+      // }, "100");
     // }else{
     //   audio_restart();
     // }
@@ -274,7 +281,8 @@ function name_event(){
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
     setTimeout(() => {
-      next();      
+      next();
+      back();
     }, "100");
 
     num=0;
@@ -337,10 +345,7 @@ function audio_start(){
     }, false);
     }
   }
-  //音楽リピート再生用
-  // if(audio_file_path){
 
-  // }
 }
 function audio_restart(){
   if(num!=0){
@@ -357,13 +362,7 @@ function audio_restart(){
       }, false);
     }
   }
-  //音楽リピート再生用
-  // if(audio_file_path){
-  //   music_file.addEventListener("ended", function () {
-  //     music_file.currentTime = 0;
-  //     music_file.play();
-  //   }, false);
-  // }
+
 }
 
 function take_save(num){

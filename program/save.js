@@ -107,7 +107,7 @@ function load(index){
           audio_restart();
         }
 
-      }, 100);
+      }, "100");
     
     }else{
       alert('ロードできませんでした。');
