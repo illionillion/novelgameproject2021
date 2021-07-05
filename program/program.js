@@ -38,6 +38,11 @@ function next(){
     console.log(text_data);
 
     audio_start();
+    // if (num==0) {
+    //   audio_start();
+    // }else{
+    //   audio_restart();
+    // }
     event_check(output_charname,output_text);
     // backnum=num;
     // num++;
@@ -57,7 +62,11 @@ function next(){
     effect_play(effect_check,output_charname,output_text);
     take_save(num);
 
-    audio_start();
+    // if (num==0) {
+      audio_start();
+    // }else{
+    //   audio_restart();
+    // }
     
     backnum=num;
     num++;
@@ -264,8 +273,10 @@ function name_event(){
     }
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
+    setTimeout(() => {
+      next();      
+    }, "100");
 
-    next();
     num=0;
     // setTimeout(() => {
     //   back();

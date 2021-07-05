@@ -94,6 +94,7 @@ function load(index){
         }
       now_page=save_file[index_data]["now_page"];
       num=save_file[index_data]["num"];
+      // backnum=num-1;
       hero_name=save_file[index_data]["hero_name"];
       audio_file_path=save_file[index_data]["audio_file_path"];
       toziru();
@@ -102,9 +103,10 @@ function load(index){
         if(num==0){
           next();
         }else{
+          next();
           audio_restart();
-        }      
-  
+        }
+
       }, 100);
     
     }else{
