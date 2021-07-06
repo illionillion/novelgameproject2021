@@ -23,6 +23,9 @@ function chapter_start(data){
   now_page=chapter_data;
   num=0;
   hero_name="アーロン";
+  if(music_file){
+    music_file.pause();
+  }
   audio_file_path=text_data[now_page]['audio']['file_path'];
   start();
   toziru();
