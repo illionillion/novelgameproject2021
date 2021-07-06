@@ -4,6 +4,7 @@ var save_file={"data1":{},"data2":{},"data3":{},"data4":{}};
 
 function toziru(){
   document.querySelector("#save_screen").classList.add("none");
+  document.querySelector("#chapter_frame").classList.add("none");
 
 }
 

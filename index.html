@@ -42,7 +42,7 @@
               <input type="button" value="load" onclick="change_load_screen()">
             </div>
             <div class="btn">
-              <input type="button" onclick="" value="chapter">
+              <input type="button" onclick="change_chapter()" value="chapter">
             </div>
           </div>
         </div>
@@ -52,10 +52,13 @@
           <div class="option none" onclick="branch(this)"><div class="option_text">3</div></div>
           <div class="option none" onclick="branch(this)"><div class="option_text">4</div></div>
         </div>
-        <div id="save_screen" class="none">
+        <div id="save_screen" class="none float_frame">
           <header>
             <p id="saveorload"></p>
-            <div class="btn"><input type="button" onclick="toziru()" value="閉じる"><input type="button" id="switching_btn" onclick="" value=""></div>
+            <div class="btn">
+              <input type="button" onclick="toziru()" value="閉じる">
+              <input type="button" id="switching_btn" onclick="" value="">
+            </div>
             <!-- <div class="btn"></div> -->
           </header>
           <div id="save_option">
@@ -141,8 +144,24 @@
             </div>
           </div>
         </div>
-        <div id="chapter_frame" class="none">
-          
+        <div id="chapter_frame" class="none float_frame">
+          <header>
+            <p>チャプター</p>
+            <div class="btn">
+              <input type="button" onclick="toziru()" value="閉じる">
+              <!-- <input type="button" id="switching_btn" onclick="" value=""> -->
+            </div>
+          </header>
+          <div id="chapter_option">
+            <!-- <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+            <div>8</div> -->
+          </div>
         </div>
         <div id="user_frame">
           <div id="text_frame">
@@ -159,7 +178,7 @@
             <div class="btn"><input type="button" onclick="next()" value="次へ"></div>
             <div class="btn"><input type="button" onclick="back()" value="戻る"></div>
             <div class="btn"><input type="button" onclick="change_save_screen()" value="セーブ"></div>
-            <div class="btn"><input type="button" onclick="" value="チャプター"></div>
+            <div class="btn"><input type="button" onclick="change_chapter()" value="チャプター"></div>
           </div>
         </div>
       </div>
@@ -171,5 +190,6 @@
   <script src="program/program.js"></script>
   <script src="program/save.js"></script>
   <script src="program/effect_check.js"></script>
+  <script src="program/chapter.js"></script>
 </body>
 </html>
