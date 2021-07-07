@@ -26,6 +26,7 @@ function chapter_start(data){
   if(music_file){
     music_file.pause();
   }
+  text_animation=null;
   audio_file_path=text_data[now_page]['audio']['file_path'];
   start();
   toziru();

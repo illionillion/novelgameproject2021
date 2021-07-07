@@ -58,12 +58,14 @@ function next(){
     var output_charname=phrase[num]['name'];
     var output_text=phrase[num]['text'];
     var effect_check=phrase[num]['effect'];
+    var character_array=phrase[num]['character_position'];
     console.log(text_data);
     // console.log(effect_check);
     if(effect_check["stop"]==false){
       event_check(output_charname,output_text);
     }
     effect_play(effect_check,output_charname,output_text);
+    position_select(character_array);
     take_save(num);
 
     // if (num==0) {
@@ -97,6 +99,8 @@ function back(){
     console.log(phrase);
     var output_charname=phrase[backnum]['name'];
     var output_text=phrase[backnum]['text'];
+    var character_array=phrase[backnum]['character_position'];
+    position_select(character_array);
     // console.log(num);
     take_save(backnum);
     console.log(output_text);
@@ -340,9 +344,9 @@ function audio_start(){
       music_file=new Audio(audio_file_path);
       music_file.play();
       music_file.addEventListener("ended", function () {
-      music_file.currentTime = 0;
-      music_file.play();
-    }, false);
+        music_file.currentTime = 0;
+        music_file.play();
+      }, false);
     }
   }
 

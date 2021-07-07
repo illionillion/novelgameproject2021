@@ -1,31 +1,94 @@
 
 //後で追加する各テキストの演出データ初期値
 var add_prop={
-  "text_data":{
+  "effect":{
     "stop":false,
     "se":""
+  },
+  "character_position":{
+    "character_first":"img/test_character_01.png",
+    "character_center":"img/transparent_background.png",
+    "character_second":"img/test_character_02.png"
   }
 };
 
 var add_prop_changed={
-  "A7":{
+  "A1":[
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/transparent_background.png",
+        "character_center":"img/transparent_background.png",
+        "character_second":"img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/test_character_01.png",
+        "character_center":"img/transparent_background.png",
+        "character_second":"img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/test_character_02.png",
+        "character_center":"img/transparent_background.png",
+        "character_second":"img/transparent_background.png"
+      }
+    },
+    {
+      "index":3,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/transparent_background.png",
+        "character_center":"img/test_character_02.png",
+        "character_second":"img/transparent_background.png"
+      }
+    },
+    {
+      "index":4,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/transparent_background.png",
+        "character_center":"img/test_character_02.png",
+        "character_second":"img/test_character_02.png"
+      }
+    },
+    {
+      "index":5,
+      "type":"character_position",
+      "value":{
+        "character_first":"img/transparent_background.png",
+        "character_center":"img/transparent_background.png",
+        "character_second":"img/test_character_02.png"
+      }
+    },
+  ],
+  "A7":[{
     "index":4,
     // "effect":"stop",
     // "value":true
+    "type":"effect",
     "value":{
       "stop":true,
       "se":""
     }
-  },
-  "A8":{
+  }],
+  "A8":[{
     "index":5,
     // "effect":"stop",
     // "value":true
+    "type":"effect",
     "value":{
       "stop":true,
       "se":""
     }
-  }
+  }]
 }
 
 // console.log(text_data);
@@ -49,7 +112,8 @@ for(let i=0;i<text_data_all_num;i++){
   for(let j=0;j<t_array_length;j++){
     // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
 
-    text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["text_data"];
+    text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["effect"];
+    text_data[Object.keys(text_data)[i]]["text_data"][j]["character_position"]=add_prop["character_position"];
     // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop2_textdata;
     // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]={};
     // text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]["stop"]=false;
@@ -72,20 +136,31 @@ for(let i=0;i<add_prop_changed_all_num;i++){
   for(let s=0;s<Object.keys(add_prop_changed).length;s++){
     add_prop_changed2[Object.keys(add_prop_changed)[s]]=add_prop_changed[Object.keys(add_prop_changed)[s]];
   }
+  // console.log(add_prop_changed2);
   let prop_key=Object.keys(add_prop_changed2)[i];
-  let index=add_prop_changed2[prop_key]["index"];
-  let value=add_prop_changed2[prop_key]["value"];
-  // let effect=add_prop_changed2[prop_key]["effect"];
-  console.log(prop_key);
-  console.log(index);
-  console.log(value);
-  // console.log(effect);
-  console.log(text_data[prop_key]["text_data"][index]);
-  console.log(text_data[prop_key]["text_data"][index]["effect"]);
-  // text_data[prop_key]["text_data"][index]["effect"][effect]=value;
-  text_data[prop_key]["text_data"][index]["effect"]=value;
-  // text_data[prop_key]["text_data"][add_prop_changed[prop_key]["index"]]["effect"]["stop"]=add_prop_changed[prop_key]["value"];
-  // console.log(text_data);
+  let prop_num=add_prop_changed2[prop_key].length;
+  // console.log(prop_key);
+  // console.log(prop_num);
+  for(let m=0;m<prop_num;m++){
+
+    let index=add_prop_changed2[prop_key][m]["index"];
+    let value=add_prop_changed2[prop_key][m]["value"];
+    let type=add_prop_changed2[prop_key][m]["type"];
+    // let effect=add_prop_changed2[prop_key]["effect"];
+    console.log(prop_key);
+    console.log(index);
+    console.log(value);
+    console.log(type);
+    // console.log(effect);
+    console.log(text_data[prop_key]["text_data"][index]);
+    console.log(text_data[prop_key]["text_data"][index][type]);
+    // text_data[prop_key]["text_data"][index]["effect"][effect]=value;
+    text_data[prop_key]["text_data"][index][type]=value;
+    // text_data[prop_key]["text_data"][add_prop_changed[prop_key]["index"]]["effect"]["stop"]=add_prop_changed[prop_key]["value"];
+    // console.log(text_data);    
+  }
+
+
 
 }
 console.log(text_data);
