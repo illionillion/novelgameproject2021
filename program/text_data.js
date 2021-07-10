@@ -81,8 +81,7 @@ var text_data={
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"都市の中へ入る","value":"C1"},
-        // {"text":"","value":""}
+        {"text":"都市の中へ入る","value":"C1"}
     ]
   },
   "A4":{
@@ -172,19 +171,6 @@ var text_data={
       {"name":""+rand_name+"","text":"なんて言おうか？"},
       {"name":""+rand_name+"","text":"chose_event"}
     ],
-    // "effect":[
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":true},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false},
-    //   {"stop":false}
-    // ],
     "audio":{"file_path":""},
     "next_page_option":[
         {"text":"「あ、貰っておきます。」","value":"A9"},
@@ -560,30 +546,66 @@ var text_data={
       {"text":"「納得できるように嘘を話す。……」","value":"A26"}
     ]
   },
-  "A11B":{
-    "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
-    ],
-    "audio":{"file_path":""},
-    "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
-    ]
-  },
-  "A11B":{
-    "text_data":[
-      {"name":""+rand_name+"","text":""},
-      {"name":""+rand_name+"","text":""}
-    ],
-    "audio":{"file_path":""},
-    "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
-    ]
-  },
   "A25":{
     "text_data":[
+      {"name":""+rand_name+"","text":"俺は自分の部屋に戻り、ベッドに倒れ込んだ。<br>正直に伝えても、信じようともしない父親に少し疲れたのだ。"},
+      {"name":""+rand_name+"","text":"我が家の香りのする布団のおかげで、妙に自分は落ち着いていた。<br>久しぶりの部屋も案外懐かしさは感じず、ただ帰ってきたのだという実感だけがあった。"},
+      {"name":""+rand_name+"","text":"むくりと起き上がり、俺は机の方を見た。<br>そこには変わり映えのない、紙が積み重ねられていた。"},
+      {"name":""+rand_name+"","text":"俺は立ち上がって、机にそっと近づく。<br>机に手を置くと、一枚がパラリと落ちたので俺はそれを拾う。"},
+      {"name":""+rand_name+"","text":"漫画の原稿、新人賞に応募して受かる為に描いていた内の一作品だ。<br>今見てみても何も面白くない。"},
+      {"name":""+rand_name+"","text":"「だよな…。面白くなんか、ないよな…」"},
+      {"name":""+rand_name+"","text":"これを描いていた時は、自分の中で最高に面白い最高傑作ができると信じて疑っていなかった。<br>絶対に行けると思っていた。"},
+      {"name":""+rand_name+"","text":"けれども、所詮自分はその程度なのだ。<br>こんな辛い思いをするなら、俺はあの世界にずっといればよかった。"},
+      {"name":""+rand_name+"","text":"ウィズサン。"},
+      {"name":""+rand_name+"","text":"あそこは確かに、俺が生み出した世界設定よ世界だった。"},
+      {"name":""+rand_name+"","text":"太陽が真上にあって、様々なキャラクターが出てきて、学園や騎士団、ギルド、図書館に入ったり、精霊と契約したり革命を起こしてみたり。<br>他にも色んなことをした。"},
+      {"name":""+rand_name+"","text":"まさしくあそこは、俺が生み出した漫画の世界設定そのままの世界だった。"},
+      {"name":""+rand_name+"","text":"その世界で俺は自由に立ち回って、充分に楽しんだ。"},
+      {"name":""+rand_name+"","text":"だから……！"},
+      {"name":""+rand_name+"","text":"「やってやるぞ……俺」"},
+      {"name":""+rand_name+"","text":"あの世界で、自分自身が数多くの可能性を体験してきた。<br>それらを踏まえて、体験したことよりも面白く、面白くない初稿よりももっと面白いものが描けるはずだ。"},
+      {"name":""+rand_name+"","text":"あの世界は俺に、この設定での可能性を示してくれた。<br>けれども俺はどれも選ばない。<br>それよりも、もっと面白いものを俺は求める。"},
+      {"name":""+rand_name+"","text":"疲れていたはずの身体はその怠さを忘れて、素早く動く。"},
+      {"name":""+rand_name+"","text":"俺はその日から、終わりなき新たな夢を見始めた。"},
+      {"name":""+rand_name+"","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ],
+    "go_to_next":"A27"
+  },
+  "A26":{
+    "text_data":[
+      {"name":""+rand_name+"","text":"俺は自分の部屋に戻り、ベッドに倒れ込んだ。<br>両親を納得させるのにとてもつかれていたのだ。"},
+      {"name":""+rand_name+"","text":"我が家の香りのする布団のおかげで、妙に自分は落ち着いていた。<br>久しぶりの部屋も案外懐かしさは感じず、ただ帰ってきたのだという実感だけがあった。"},
+      {"name":""+rand_name+"","text":"むくりと起き上がり、俺は机の方を見た。<br>そこには変わり映えのない、紙が積み重ねられていた。"},
+      {"name":""+rand_name+"","text":"俺は立ち上がって、机にそっと近づく。<br>机に手を置くと、一枚がパラリと落ちたので俺はそれを拾う。"},
+      {"name":""+rand_name+"","text":"漫画の原稿、新人賞に応募して受かる為に描いていた内の一作品だ。<br>今見てみても何も面白くない。"},
+      {"name":""+rand_name+"","text":"「だよな…。面白くなんか、ないよな…」"},
+      {"name":""+rand_name+"","text":"これを描いていた時は、自分の中で最高に面白い最高傑作ができると信じて疑っていなかった。<br>絶対に行けると思っていた。"},
+      {"name":""+rand_name+"","text":"けれども、所詮自分はその程度なのだ。<br>こんな辛い思いをするなら、俺はあの世界にずっといればよかった。"},
+      {"name":""+rand_name+"","text":"ウィズサン。"},
+      {"name":""+rand_name+"","text":"あそこは確かに、俺が生み出した世界設定よ世界だった。"},
+      {"name":""+rand_name+"","text":"太陽が真上にあって、様々なキャラクターが出てきて、学園や騎士団、ギルド、図書館に入ったり、精霊と契約したり革命を起こしてみたり。<br>他にも色んなことをした。"},
+      {"name":""+rand_name+"","text":"まさしくあそこは、俺が生み出した漫画の世界設定そのままの世界だった。"},
+      {"name":""+rand_name+"","text":"その世界で俺は自由に立ち回って、充分に楽しんだ。"},
+      {"name":""+rand_name+"","text":"だから……！"},
+      {"name":""+rand_name+"","text":"「だから、もういいだろ……俺」"},
+      {"name":""+rand_name+"","text":"俺は机の上のモノをくしゃくしゃに丸めて、ゴミ箱に捨てた。<br>何枚も何枚も丸めては捨て丸めては捨てを繰り返す。<br>次第には入りきらなくなって、床に思い出となる紙屑は散らばった。"},
+      {"name":""+rand_name+"","text":"俺はその日から、夢を見るのをやめた。"},
+      {"name":""+rand_name+"","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ],
+    "go_to_next":"A28"
+  },
+  "A27":{
+    "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
     ],
@@ -593,7 +615,29 @@ var text_data={
       {"text":"「……」","value":"A17"}
     ]
   },
-  "A26":{
+  "A28":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A11B":{
+    "text_data":[
+      {"name":""+rand_name+"","text":""},
+      {"name":""+rand_name+"","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A11BB":{
     "text_data":[
       {"name":""+rand_name+"","text":""},
       {"name":""+rand_name+"","text":""}
@@ -647,8 +691,7 @@ var text_data={
     ],
     "audio":{"file_path":"audio/bgm_town.mp3"},
     "next_page_option":[
-        {"text":"人の流れに付いて行く","value":"C1A"},
-        // {"text":"人の流れに付いて行かず、都市を散策する","value":"C1B"}
+        {"text":"人の流れに付いて行く","value":"C1A"}
     ]
   },
   "C1A":{
@@ -663,3 +706,27 @@ var text_data={
     ]
   }
 };
+
+// let xhr = new XMLHttpRequest();
+// xhr.open('GET', "json/text_data.json");
+
+// xhr.onload = () => {
+//   let responseJson = JSON.parse(xhr.response);
+//   console.log(responseJson.name);
+// }
+
+// xhr.send();
+
+//jsonファイルから読み取る
+$(function() {
+  $.getJSON("json/text_data.json" , function(data) {
+    var len = data.length;
+      // ulObj = $("#demo"),
+      
+    console.log(data);
+    for(var i = 0; i < len; i++) {
+      // console.log({"id":data[i].id});
+      // ulObj.append($("<li>").attr({"id":data[i].id}).text(data[i].name));
+    }
+  });
+});
