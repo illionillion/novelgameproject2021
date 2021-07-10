@@ -95,6 +95,7 @@ function load(index){
       // backnum=num-1;
       hero_name=save_file[index_data]["hero_name"];
       audio_file_path=save_file[index_data]["audio_file_path"];
+      text_animation=null;
       toziru();
       // music_file.pause();
       setTimeout(() => {

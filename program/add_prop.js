@@ -71,8 +71,6 @@ var add_prop_changed={
   ],
   "A7":[{
     "index":4,
-    // "effect":"stop",
-    // "value":true
     "type":"effect",
     "value":{
       "stop":true,
@@ -81,8 +79,6 @@ var add_prop_changed={
   }],
   "A8":[{
     "index":5,
-    // "effect":"stop",
-    // "value":true
     "type":"effect",
     "value":{
       "stop":true,
@@ -91,6 +87,7 @@ var add_prop_changed={
   }]
 }
 
+function add_propaty(text_data){
 // console.log(text_data);
 //text_dataの総数
 var text_data_all_num=Object.keys(text_data).length;
@@ -125,42 +122,43 @@ for(let i=0;i<text_data_all_num;i++){
 
 console.log(text_data);
 
-var add_prop_changed_all_num=Object.keys(add_prop_changed).length;
-// var add_prop_changed2=new Object;
-// for(let i=0;i<Object.keys(add_prop_changed).length;i++){
-//   add_prop_changed2[Object.keys(add_prop_changed)[i]]=add_prop_changed[Object.keys(add_prop_changed)[i]];
-// }
-for(let i=0;i<add_prop_changed_all_num;i++){
+  var add_prop_changed_all_num=Object.keys(add_prop_changed).length;
+  // var add_prop_changed2=new Object;
+  // for(let i=0;i<Object.keys(add_prop_changed).length;i++){
+  //   add_prop_changed2[Object.keys(add_prop_changed)[i]]=add_prop_changed[Object.keys(add_prop_changed)[i]];
+  // }
+  for(let i=0;i<add_prop_changed_all_num;i++){
 
-  var add_prop_changed2=new Object;
-  for(let s=0;s<Object.keys(add_prop_changed).length;s++){
-    add_prop_changed2[Object.keys(add_prop_changed)[s]]=add_prop_changed[Object.keys(add_prop_changed)[s]];
+    var add_prop_changed2=new Object;
+    for(let s=0;s<Object.keys(add_prop_changed).length;s++){
+      add_prop_changed2[Object.keys(add_prop_changed)[s]]=add_prop_changed[Object.keys(add_prop_changed)[s]];
+    }
+    // console.log(add_prop_changed2);
+    let prop_key=Object.keys(add_prop_changed2)[i];
+    let prop_num=add_prop_changed2[prop_key].length;
+    // console.log(prop_key);
+    // console.log(prop_num);
+    for(let m=0;m<prop_num;m++){
+
+      let index=add_prop_changed2[prop_key][m]["index"];
+      let value=add_prop_changed2[prop_key][m]["value"];
+      let type=add_prop_changed2[prop_key][m]["type"];
+      // let effect=add_prop_changed2[prop_key]["effect"];
+      console.log(prop_key);
+      console.log(index);
+      console.log(value);
+      console.log(type);
+      // console.log(effect);
+      console.log(text_data[prop_key]["text_data"][index]);
+      console.log(text_data[prop_key]["text_data"][index][type]);
+      // text_data[prop_key]["text_data"][index]["effect"][effect]=value;
+      text_data[prop_key]["text_data"][index][type]=value;
+      // text_data[prop_key]["text_data"][add_prop_changed[prop_key]["index"]]["effect"]["stop"]=add_prop_changed[prop_key]["value"];
+      // console.log(text_data);    
+    }
+
+
+
   }
-  // console.log(add_prop_changed2);
-  let prop_key=Object.keys(add_prop_changed2)[i];
-  let prop_num=add_prop_changed2[prop_key].length;
-  // console.log(prop_key);
-  // console.log(prop_num);
-  for(let m=0;m<prop_num;m++){
-
-    let index=add_prop_changed2[prop_key][m]["index"];
-    let value=add_prop_changed2[prop_key][m]["value"];
-    let type=add_prop_changed2[prop_key][m]["type"];
-    // let effect=add_prop_changed2[prop_key]["effect"];
-    console.log(prop_key);
-    console.log(index);
-    console.log(value);
-    console.log(type);
-    // console.log(effect);
-    console.log(text_data[prop_key]["text_data"][index]);
-    console.log(text_data[prop_key]["text_data"][index][type]);
-    // text_data[prop_key]["text_data"][index]["effect"][effect]=value;
-    text_data[prop_key]["text_data"][index][type]=value;
-    // text_data[prop_key]["text_data"][add_prop_changed[prop_key]["index"]]["effect"]["stop"]=add_prop_changed[prop_key]["value"];
-    // console.log(text_data);    
-  }
-
-
-
+  console.log(text_data);
 }
-console.log(text_data);
