@@ -30,6 +30,7 @@ password=password.join(',');
 password=password.replace(/,/g,"");
 
 let passPhrase ="0123456789ABCDEF0123456789ABCDEF";
+// let passPhrase =password;
 // 暗号化したい元のデータ
 let data =password;
 let utf8_plain = CryptoJS.enc.Utf8.parse(data);
