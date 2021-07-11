@@ -599,7 +599,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"あの記憶が鮮明に残り続けたら、これからの人生、何も楽しく感じれなさそうだから。"},
       {"name":"rand_name","text":"だから、もう、これでいい。"},
       {"name":"rand_name","text":"(終)"},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"endroll"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[

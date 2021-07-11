@@ -160,6 +160,10 @@ function event_check(char,event){
       next();
 
     break;
+
+    case "endroll":
+      endroll();
+    break;
   
     default:
       //文章描画

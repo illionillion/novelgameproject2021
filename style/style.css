@@ -216,6 +216,27 @@
   display: none !important;
 }
 
+#endroll_frame{
+  /* width: 100vw;
+  height: 100vh; */
+  overflow: hidden;
+}
+
+.endroll {
+  /* transform: translateY(100vh); */
+  transform: translateY(380px);
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  color: #fff;
+  transition: 60s;
+
+}
+
+.endroll_start{
+  transform: translateY(-380px);
+
+}
+
 #user_frame{
   display: flex;
   /* height: 100%; */
