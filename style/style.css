@@ -229,12 +229,40 @@
   animation-iteration-count: infinite;
   color: #fff;
   transition: 60s;
-
+  text-align: center;
 }
 
 .endroll_start{
-  transform: translateY(-380px);
+  transform: translateY(-260vh);
 
+}
+
+.endroll_section{
+  margin:20px auto ;
+}
+
+.endroll_text p{
+  margin: 0;
+}
+
+.endroll_image{
+  width: 50%;
+}
+
+.endroll_image img{
+  width: 100%;
+}
+
+.speed_btn{
+  z-index: 3;
+  width: 25%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+.speed_up{
+  transition: 40s;
 }
 
 #user_frame{

@@ -5,3 +5,7 @@ function endroll(){
     
   }, "10");
 }
+
+function speed_up(){
+  $("#endroll").toggleClass("speed_up");
+}
