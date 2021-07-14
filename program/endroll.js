@@ -64,11 +64,13 @@ function back_title_btn(){
   //初期化
   now_page="A1";
   hero_name="";
-  all_num=null;
+  // all_num=null;
+  all_num=text_data[now_page]['text_data'].length;
   num=0;
   backnum=0;
-  audio_file_path=null;
+  audio_file_path=text_data[now_page]['audio']['file_path'];
   music_file=null;
   result=null;
+  text_animation=null;
   save_data={};
 }

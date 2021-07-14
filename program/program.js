@@ -26,7 +26,7 @@ function start(){
     title_frame.classList.add('none');
       // next();
     }, 1000);
-    
+
 }
 
 //次へボタン
@@ -105,7 +105,7 @@ function back(){
 function skip(){
 
   audio_start();
-
+  console.log("skip");
   num=all_num-2;
   backnum=num-1;
   next();
