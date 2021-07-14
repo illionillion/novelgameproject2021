@@ -72,6 +72,7 @@ function next(){
 
 }
 
+//戻るボタン
 function back(){
 
   if(num>1){
@@ -100,6 +101,7 @@ function back(){
 
 }
 
+//スキップボタン
 function skip(){
 
   audio_start();
@@ -162,7 +164,7 @@ function event_check(char,event){
     break;
 
     case "endroll":
-      endroll();
+      endroll_go();
     break;
   
     default:
@@ -172,6 +174,7 @@ function event_check(char,event){
   }
 }
 
+//主人公の名前置き換え
 function replace_name(char2,name){
   if(hero_name!=rand_name){
     // console.log(char2);
@@ -210,6 +213,7 @@ function replace_name(char2,name){
   }
 }
 
+//一文字ずつ表示させるアニメーション
 var n;//文字を増やす処理の回数を数える変数nの宣言
 n=1;//nの初期値を1とする
 var intervalId;
@@ -243,7 +247,7 @@ function word(result){
   function startTimer(){
     intervalId=setTimeout(word,50,result);//2000ミリ秒(2.0秒)ごとにword()関数の処理を実行する
     // console.log(intervalId);
-}
+  }
 
 //名前入力のイベント
 function name_event(){
@@ -324,6 +328,7 @@ function branch(branch_text){
   next();
 }
 
+//音声再生
 function audio_start(){
   if(num==0){
     if(audio_file_path){

@@ -65,7 +65,6 @@
               <input type="button" onclick="toziru()" value="閉じる">
               <input type="button" id="switching_btn" onclick="" value="">
             </div>
-            <!-- <div class="btn"></div> -->
           </header>
           <div id="save_option">
             <div class="option option_count"  index="data1" text="データ1">
@@ -162,9 +161,14 @@
           </div>
         </div>
         <div id="endroll_frame" class="none float_frame">
-          <div class="speed_btn btn">
-            <input type="button" value="切り替え" onclick="speed_up()">
-            <!-- <p onclick="speed_up()">切り替え</p> -->
+          <!-- エンドロール -->
+          <div class="speed_btn">
+            <div class="btn">
+              <input type="button" value="切り替え" onclick="endroll_speed()">
+            </div>
+            <div class="btn none" id="back_title_btn">
+              <input type="button" value="タイトルへ">
+            </div>
           </div>
           <div class="endroll" id="endroll">
 
@@ -259,7 +263,7 @@
 
             <div class="endroll_section">
               <div class="endroll_title">
-                プログラマー・ディレクター
+                エンジニア・プログラマー・ディレクター
               </div>
               <div class="endroll_text">
                 セイ
@@ -323,7 +327,7 @@
             </div>
             <div class="endroll_section endroll_image">
               <img src="img/icon.jpg" alt="icon" srcset="">
-            </div>            
+            </div>
           </div>
         </div>
         <div id="user_frame">
@@ -332,9 +336,7 @@
               <!-- character -->
             </div>
             <div id="text_area">
-              <!-- &lt;Start&gt; -->
             </div>
-            <!-- &lt;Start&gt; -->
           </div>
           <div id="controller_frame">
             <div class="btn"><input type="button" onclick="skip()" value="スキップ"></div>
