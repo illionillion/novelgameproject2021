@@ -87,7 +87,7 @@ function load(index){
 
     if(save_file[index_data]["now_page"]){
         
-      if(audio_file_path){
+      if(music_file){
         music_file.pause();
       }
       now_page=save_file[index_data]["now_page"];
@@ -95,6 +95,8 @@ function load(index){
       // backnum=num-1;
       hero_name=save_file[index_data]["hero_name"];
       audio_file_path=save_file[index_data]["audio_file_path"];
+      console.log(text_animation);
+      clearInterval(intervalId);//タイマーをリセットする
       text_animation=null;
       toziru();
       // music_file.pause();

@@ -105,6 +105,7 @@ function back(){
 function skip(){
 
   audio_start();
+  text_animation=null;
   console.log("skip");
   num=all_num-2;
   backnum=num-1;
@@ -153,7 +154,7 @@ function event_check(char,event){
       console.log(now_page);
       num=0;
       backnum=0;
-      if(audio_file_path){
+      if(music_file){
         music_file.pause();
         // audio_file_path=null;
       }
@@ -270,7 +271,7 @@ function name_event(){
 
 
     
-    if(audio_file_path){
+    if(music_file){
       music_file.pause();
       // audio_file_path=null;
       // audio_file=null;
@@ -309,7 +310,7 @@ function branch(branch_text){
 
   num=0;
   backnum=0;
-  if(audio_file_path){
+  if(music_file){
     music_file.pause();
     // audio_file_path=null;
   }

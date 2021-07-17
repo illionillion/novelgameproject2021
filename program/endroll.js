@@ -22,7 +22,9 @@ function endroll_speed(){
 function endroll_go(){
 
   if(endroll_num==100){
+    $("#back_title_btn").addClass("none");
     document.querySelector('#endroll_frame').classList.remove("none");
+    $("#endroll").css({"top":"100%"});
     css_top=$("#endroll").css("top");
     css_top= Number(css_top.replace( "px" , "" )) ;
     css_height=$("#endroll").css("height");
@@ -73,4 +75,6 @@ function back_title_btn(){
   result=null;
   text_animation=null;
   save_data={};
+  endroll_num=100;
+  endroll_flag="normal";
 }
