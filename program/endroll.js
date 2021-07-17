@@ -1,18 +1,19 @@
 var endroll_num=100;
 var endroll_intervalId;
 var endroll_flag="normal";
-var animation_speed="25";
+var animation_speed=25;
 var css_top;
 var css_height;
+var css_margin_top;
 
 //エンドロールの速さ切り替え
 function endroll_speed(){
 
   if(endroll_flag=="normal"){
-    animation_speed="10";
+    animation_speed=10;
     endroll_flag="high";
   }else{
-    animation_speed="25";
+    animation_speed=25;
     endroll_flag="normal";
   }
 
@@ -26,9 +27,12 @@ function endroll_go(){
     document.querySelector('#endroll_frame').classList.remove("none");
     $("#endroll").css({"top":"100%"});
     css_top=$("#endroll").css("top");
-    css_top= Number(css_top.replace( "px" , "" )) ;
+    css_top= Number(css_top.replace( "px" , "" ));
+    css_margin_top=$(".endroll_section").css("margin-top");
+    css_margin_top= Number(css_margin_top.replace( "px" , "" ));
     css_height=$("#endroll").css("height");
-    css_height= Number(css_height.replace( "px" , "" ))+30 ;
+    css_height= Number(css_height.replace( "px" , "" ))+css_margin_top;
+    console.log(css_margin_top);
 
     endroll_num=css_top;
     // css_top+=css_height;
@@ -77,4 +81,5 @@ function back_title_btn(){
   save_data={};
   endroll_num=100;
   endroll_flag="normal";
+  animation_speed=25;
 }
