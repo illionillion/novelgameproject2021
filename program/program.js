@@ -1,6 +1,6 @@
 var now_page="A1";
 
-var hero_name="";
+var hero_name="????";
 
 // var all_num=text_data[now_page]['text_data'].length;
 var all_num;

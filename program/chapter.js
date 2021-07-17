@@ -28,7 +28,20 @@ function chapter_start(data){
   var chapter_data=data.getAttribute("chapter_data");
   now_page=chapter_data;
   num=0;
-  hero_name="アーロン";
+  switch (now_page) {
+    case "A1":
+      hero_name="????";      
+    break;
+
+    case "":
+      hero_name="ホシゾラヨゾラ";      
+    break;
+
+    default:
+      hero_name="アーロン";
+
+    break;
+  }
   if(music_file){
     music_file.pause();
   }

@@ -69,7 +69,7 @@ function back_title_btn(){
 
   //初期化
   now_page="A1";
-  hero_name="";
+  hero_name="????";
   // all_num=null;
   all_num=text_data[now_page]['text_data'].length;
   num=0;
@@ -82,4 +82,6 @@ function back_title_btn(){
   endroll_num=100;
   endroll_flag="normal";
   animation_speed=25;
+  character_name.innerHTML="";
+  text_frame.innerHTML="";
 }
