@@ -28,10 +28,10 @@ function endroll_go(){
     css_top=$("#endroll").css("top");
     css_top= Number(css_top.replace( "px" , "" )) ;
     css_height=$("#endroll").css("height");
-    css_height= Number(css_height.replace( "px" , "" )) ;
+    css_height= Number(css_height.replace( "px" , "" ))+30 ;
 
     endroll_num=css_top;
-    css_top+=css_height;
+    // css_top+=css_height;
     console.log(css_top);
     endroll();
 
@@ -42,7 +42,7 @@ function endroll_go(){
 //エンドロールを流すプログラム
 function endroll(){
 
-  if (endroll_num>-css_top) {
+  if (endroll_num>-css_height) {
     endroll_num--;
     $("#endroll").css({"top":endroll_num+"px"});
     endroll_startTimer();
