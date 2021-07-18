@@ -4,7 +4,9 @@ function change_chapter(){
 }
 
 function create_chapter(){
+  
   document.querySelector("#chapter_option").innerHTML="";
+
   for(let i=0;i<Object.keys(text_data).length;i++){
     let option_element=document.createElement("div");
     // option_element.innerHTML=Object.keys(text_data)[i];

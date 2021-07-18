@@ -2,6 +2,71 @@ var save_file={"data1":{},"data2":{},"data3":{},"data4":{}};
 
 // console.log(save_file);
 
+var save_options_array=[
+
+];
+
+// function create_save_frame(){
+  var frame=document.getElementById("save_option");
+
+  for(let i=1;i<=4;i++){
+    
+    // 選択肢の要素作る
+    let save_option_element=document.createElement("div");
+    save_option_element.className="option option_count";
+    save_option_element.setAttribute("index","data"+i);
+    save_option_element.setAttribute("text","データ"+i);
+    // save_option_element.setAttribute("onclick","load(this)");
+    frame.appendChild(save_option_element);
+    // console.log(i);
+
+    // テキスト書くところ
+    let save_option_element2=document.createElement("div");
+    save_option_element2.className="option_text";
+    save_option_element.appendChild(save_option_element2);
+
+    // 画像貼るところ
+    let save_option_element3=document.createElement("div");
+    save_option_element3.className="save_icon";
+    save_option_element2.appendChild(save_option_element3);
+
+    // 画像
+    let save_option_element4=document.createElement("img");
+    save_option_element4.src="img/none3.jpg";
+    save_option_element4.alt="save_icon_image"+i;
+    save_option_element3.appendChild(save_option_element4);
+
+    // プロパティ
+    let save_option_element5=document.createElement("div");
+    save_option_element5.className="save_prop";
+    save_option_element2.appendChild(save_option_element5);
+
+    // セーブデータ名
+    let save_option_element6=document.createElement("div");
+    save_option_element6.className="data_title";
+    save_option_element6.innerHTML="データ"+i;
+    save_option_element5.appendChild(save_option_element6);
+
+    // データ情報
+    let save_option_element7=document.createElement("div");
+    save_option_element7.className="data_prop";
+    save_option_element5.appendChild(save_option_element7);
+
+    // ページ
+    let save_option_element9=document.createElement("div");
+    save_option_element9.className="data_page";
+    save_option_element9.innerHTML="なし";
+    save_option_element7.appendChild(save_option_element9);
+
+    // パーセント
+    let save_option_element8=document.createElement("div");
+    save_option_element8.className="percent";
+    save_option_element8.innerHTML="0%";
+    save_option_element7.appendChild(save_option_element8);
+
+  }
+// }
+
 function toziru(){
   document.querySelector("#save_screen").classList.add("none");
   document.querySelector("#chapter_frame").classList.add("none");
