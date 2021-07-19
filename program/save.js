@@ -6,7 +6,7 @@ var save_options_array=[
 
 ];
 
-// function create_save_frame(){
+window.onload=function create_save_frame(){
   var frame=document.getElementById("save_option");
 
   for(let i=1;i<=4;i++){
@@ -65,7 +65,7 @@ var save_options_array=[
     save_option_element7.appendChild(save_option_element8);
 
   }
-// }
+}
 
 function toziru(){
   document.querySelector("#save_screen").classList.add("none");
