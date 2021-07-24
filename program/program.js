@@ -2,12 +2,10 @@ var now_page="A1";
 
 var hero_name="????";
 
-// var all_num=text_data[now_page]['text_data'].length;
 var all_num;
 var num=0;
 var backnum=0;
 var audio_file_path;
-// var audio_file_path=text_data[now_page]['audio']['file_path'];
 var music_file=null;
 var result;
 
@@ -77,7 +75,13 @@ function back(){
 
   if(num>1){
 
-    text_animation=true;
+    //名前イベント後にテキストアニメーションを発生させるためのif文
+    if(!text_animation){
+      text_animation=true;
+    }else{
+      text_animation=null;
+    }
+
     num--;
     backnum--;
     console.log(num);
@@ -268,8 +272,6 @@ function name_event(){
       num=0;
       // backnum=0;
     }
-
-
     
     if(music_file){
       music_file.pause();
@@ -281,18 +283,17 @@ function name_event(){
     audio_file_path=text_data[now_page]['audio']['file_path'];
     setTimeout(() => {
       next();
+      text_animation=true;
       back();
     }, "100");
 
     num=0;
-    // setTimeout(() => {
-    //   back();
-    // }, "100");
 
   }else{
-    // hero_name="アーロン";
+
     num--;
     backnum--;
+  
   }
 
 }
@@ -311,8 +312,9 @@ function branch(branch_text){
   num=0;
   backnum=0;
   if(music_file){
+    
     music_file.pause();
-    // audio_file_path=null;
+
   }
   audio_file_path=text_data[now_page]['audio']['file_path'];
   var sum=option_area.getAttribute("branch_sum");
