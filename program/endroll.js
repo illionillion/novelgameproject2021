@@ -24,6 +24,7 @@ function endroll_go(){
 
   if(endroll_num==100){
     $("#back_title_btn").addClass("none");
+    $("#change_endroll_speed").removeClass("none");
     document.querySelector('#endroll_frame').classList.remove("none");
     $("#endroll").css({"top":"100%"});
     css_top=$("#endroll").css("top");
@@ -52,8 +53,9 @@ function endroll(){
     endroll_startTimer();
   }else{
     clearInterval(endroll_intervalId);//タイマーをリセットする
+    $("#change_endroll_speed").addClass("none");
     $("#back_title_btn").removeClass("none");
-    $("#back_title_btn").attr("onclick","back_title_btn()");
+    $("#back_title_btn input").attr("onclick","back_title_btn()");
   }
 
 }
