@@ -114,11 +114,10 @@ for(let i=0;i<text_data_all_num;i++){
   //key名text_dataに追加する
   for(let j=0;j<t_array_length;j++){
     // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
-
-    //ここどうにか1行にする
-    text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["effect"];
-    text_data[Object.keys(text_data)[i]]["text_data"][j]["character_position"]=add_prop["character_position"];
-    text_data[Object.keys(text_data)[i]]["text_data"][j]["background_image"]=add_prop["background_image"];
+    // text_data=forpush(text_data,add_prop,i,j);
+    for(let s=0;s<Object.keys(add_prop).length;s++){
+      text_data[Object.keys(text_data)[i]]["text_data"][j][Object.keys(add_prop)[s]]=add_prop[Object.keys(add_prop)[s]];
+    }
 
   }
 
