@@ -8,6 +8,9 @@ var add_prop={
     "character_first":"img/test_character_01.png",
     "character_center":"img/transparent_background.png",
     "character_second":"img/test_character_02.png"
+  },
+  "background_image":{
+    "image":".sougen"
   }
 };
 
@@ -17,9 +20,9 @@ var add_prop_changed={
       "index":0,
       "type":"character_position",
       "value":{
-        "character_first":"img/transparent_background.png",
+        "character_first":"img/guildtyo_w.jpg",
         "character_center":"img/transparent_background.png",
-        "character_second":"img/transparent_background.png"
+        "character_second":"img/gorotsuki_w.jpg"
       }
     },
     {
@@ -75,7 +78,17 @@ var add_prop_changed={
       "stop":true,
       "se":""
     }
-  }],
+  },
+  {
+    "index":4,
+    "type":"character_position",
+    "value":{
+      "character_first":"img/guildtyo_w.jpg",
+      "character_center":"img/transparent_background.png",
+      "character_second":"img/gorotsuki_w.jpg"
+    }    
+  }
+  ],
   "A8":[{
     "index":5,
     "type":"effect",
@@ -102,8 +115,10 @@ for(let i=0;i<text_data_all_num;i++){
   for(let j=0;j<t_array_length;j++){
     // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
 
+    //ここどうにか1行にする
     text_data[Object.keys(text_data)[i]]["text_data"][j]["effect"]=add_prop["effect"];
     text_data[Object.keys(text_data)[i]]["text_data"][j]["character_position"]=add_prop["character_position"];
+    text_data[Object.keys(text_data)[i]]["text_data"][j]["background_image"]=add_prop["background_image"];
 
   }
 
