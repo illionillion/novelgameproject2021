@@ -4,5 +4,41 @@
 }
 
 .sougen{
-  background-image: url(../img/sougen_nohara.jpg);
+  background-image: url(../background_img/sougen_nohara.jpg);
+}
+
+.himawari{
+  background-image: url(../background_img/himawari.jpg);
+}
+
+.kaidan{
+  background-image: url(../background_img/kaidan.jpg);
+}
+
+.kuruma{
+  background-image: url(../background_img/kuruma.jpg);
+}
+
+.kuwa{
+  background-image: url(../background_img/kuwa.jpg);
+}
+
+.nasubi{
+  background-image: url(../background_img/nasubi.jpg);
+}
+
+.sora{
+  background-image: url(../background_img/sora.jpg);
+}
+
+.tanbo{
+  background-image: url(../background_img/tanbo.jpg);
+}
+
+.yamamodori{
+  background-image: url(../background_img/yamamidori.jpg);
+}
+
+.yane{
+  background-image: url(../background_img/yane.jpg);
 }
