@@ -54,7 +54,7 @@ var substitute_text_data={
     {"name":"rand_name","text":"自分の名前は本当にホシゾラヨゾラだっただろうか？"},
     {"name":"rand_name","text":"chose_event"}
     ],
-    "audio":{"file_path":""},
+    "audio":{"file_path":"audio/bgm_royal.mp3"},
     "next_page_option":[
         {"text":"はい","value":"A5"},
         {"text":"いいえ","value":"A6"}
@@ -74,7 +74,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"俺に残された手は…。"},
       {"name":"rand_name","text":"chose_event"}
     ],
-    "audio":{"file_path":""},
+    "audio":{"file_path":"audio/flow_water.m4a"},
     "next_page_option":[
         {"text":"もがく","value":"A7"},
         {"text":"もがかない","value":"A8"}
