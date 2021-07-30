@@ -76,7 +76,7 @@ var add_prop_changed={
     "type":"effect",
     "value":{
       "stop":true,
-      "se":""
+      "se":"audio/door.m4a"
     }
   },
   {
@@ -113,8 +113,6 @@ for(let i=0;i<text_data_all_num;i++){
 
   //key名text_dataに追加する
   for(let j=0;j<t_array_length;j++){
-    // console.log(text_data[Object.keys(text_data)[i]]["text_data"][j]);
-    // text_data=forpush(text_data,add_prop,i,j);
     for(let s=0;s<Object.keys(add_prop).length;s++){
       text_data[Object.keys(text_data)[i]]["text_data"][j][Object.keys(add_prop)[s]]=add_prop[Object.keys(add_prop)[s]];
     }

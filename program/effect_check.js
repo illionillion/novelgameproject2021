@@ -1,3 +1,6 @@
+var se_file_path;
+var se_file=null;
+
 function effect_play(value,output_charname,output_text){
   console.log(value);
  if(value["stop"]==true){
@@ -8,6 +11,12 @@ function effect_play(value,output_charname,output_text){
       event_check(output_charname,output_text);    
     }, 1000); 
 
+  }
+  //効果音再生
+  if(value["se"]){
+    se_file_path=value["se"];
+    se_file=new Audio(se_file_path);
+    se_file.play();
   }
 }
 
