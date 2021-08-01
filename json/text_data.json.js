@@ -629,6 +629,39 @@ var substitute_text_data={
   },
   "A29":{
     "text_data":[
+      {"name":"rand_name","text":"こんなにも朝早くなのに、蝉は元気いっぱいに鳴いていた。<br>寝起きの自分からしてみれば耳障りな雑音でしかない。"},
+      {"name":"rand_name","text":"足を一歩一歩踏み出し、階段を降りていく。"},
+      {"name":"rand_name","text":"カンカンと鳴る、青色に塗られた鉄製の階段だ。<br>階段から覗き込んで見た一階に、父の姿はもうなかった。<br>もう家の外に出たらしい。"},
+      {"name":"rand_name","text":"俺は薄い長袖と大きめのズボンを履く。<br>泥まみれの黒い長靴を履いて、麦わら帽子を被った。"},
+      {"name":"rand_name","text":"そして、外に出る。"},
+      {"name":"rand_name","text":"蝉がよく鳴いている理由がはっきりと分かる。<br>こんな朝早くから太陽は異様なほど暑くて、強すぎる日差しが俺の見える世界の範囲を明るく照らしていた。"},
+      {"name":"rand_name","text":"正直、今すぐこの服を脱いで部屋に戻りたい気分だ。<br>けれども、そんなわけにもいかないだろう。"},
+      {"name":"rand_name","text":"俺はガレージから少し歩いて畑に向かう。<br>すると、白の軽トラが見えて父が畑に入って行くところだった。<br>水茄子の畑だった。"},
+      {"name":"rand_name","text":"俺は軽トラの側に寄って、置いてあるゴム手袋を手につける。<br>そして紫色の液体が入ったスプレーのような物を取り出して、畑に入っていく。"},
+      {"name":"rand_name","text":"これは水茄子の成長を促進するもので、大きく美味しい水茄子にする為にはほぼ必須だ。"},
+      {"name":"rand_name","text":"畑に入ってすぐの所にしゃがみ込んで水茄子の状態を確認していた父が言った。"},
+      {"name":"父さん","text":"「……あっちの端の方から、やっていってくれ」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「わかった」","value":"A30"},
+      {"text":"「……」","value":"A31"}
+    ]
+  },
+  "A30":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
+    ]
+  },
+  "A31":{
+    "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
     ],
