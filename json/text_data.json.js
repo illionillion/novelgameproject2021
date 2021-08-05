@@ -822,7 +822,36 @@ var substitute_text_data={
   },
   "C1C":{
     "text_data":[
-      {"name":"騎士","text":""},
+      {"name":"rand_name","text":"図書館の前へと辿り着いた俺は、馬鹿なことに入場する方法を知らなかった。だが、『入国許可書』を見せると、意外と簡単に図書館に入ることが出来た。"},
+      {"name":"rand_name","text":"図書館内は、まさに絶景であった。<br>書物、書物、書物！<br>王国の歴史を伝える書、精霊の性質と契約に関する書、地下に巣くうと言われる悪鬼の絵本、魔法の指南本、それから身の丈程もある書物だってある。"},
+      {"name":"rand_name","text":"世界中、全ての書物があると言われても、信じてしまうだけの量だ。"},
+      {"name":"rand_name","text":"しかし、これらの本を片っ端から調べるのは、無理だろう。"},
+      {"name":"rand_name","text":"世界中、全ての書物があると言われても、信じてしまうだけの量だ。"},
+      {"name":"rand_name","text":"「さて、どうするか。」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"司書官に話しかける","value":"C2C"},
+        {"text":"図書館内を一周して見る","value":"C3C"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C":{
+    "text_data":[
+      {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
     ],
     "audio":{"file_path":""},
