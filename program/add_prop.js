@@ -20,9 +20,9 @@ var add_prop_changed={
       "index":0,
       "type":"character_position",
       "value":{
-        "character_first":"character_img/guildtyo.jpg",
+        "character_first":"character_img/guildtyo.png",
         "character_center":"img/transparent_background.png",
-        "character_second":"character_img/gorotsuki.jpg"
+        "character_second":"character_img/gorotsuki.png"
       }
     },
     {
