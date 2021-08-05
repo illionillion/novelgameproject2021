@@ -714,14 +714,12 @@ var substitute_text_data={
       {"name":"rand_name","text":"いろいろな露店がある中で、俺は路地裏で水晶を抱えている占い師が気になった。にこにこと不気味な笑みを浮かべて、じっとこちらを見てくる占い師を。"},
       {"name":"rand_name","text":"怖くなって占い師から離れようとすると、急に手招きをしてきた。逃げようとも考えたが、記憶の手がかりでも調べてもらおうと納得し、占い師のもとまで行くことにした。"},
       {"name":"占いババア","text":"「ヒヒッ、この占いババに何か用ですかな？"},
-      {"name":"rand_name","text":"実は記憶喪失で……"},
-      {"name":"rand_name","text":"自分のことが何一つ分からなくて……"},
-      {"name":"rand_name","text":"自分の名前以外が思い出せなくて……"},
-      {"name":"占いババア","text":"「それは、ヒヒッ、災難なことで。では、お手を見せてもらっても？」"},
+      {"name":"rand_name","text":"「……実は記憶がないんだ。」"},
+      {"name":"占い師","text":"「それは、ヒヒッ、災難なことで。では、お手を見せてもらっても？」"},
+      {"name":"rand_name","text":"俺は占い師に手を差し出した。"},
       {"name":"占いババア","text":"「……あぁ、これは外世界からの大いなる影響と、時空間に並ぶ異次元的作用によって成されるような、摩訶不思議な手相ではありますね。ヒヒッ、稀有な運命によって選ばれた、お人のようで。」"},
-      {"name":"rand_name","text":"俺は何をすれば良い？"},
-      {"name":"rand_name","text":"記憶に繋がりそうなことはないか？"},
-      {"name":"占いババア","text":"「ならば、あの人の流れに付いて行かれると良いでしょう。そこにあなた様の求めている、何かがあります。」"},
+      {"name":"主人公","text":"「何を言ってるんだ……。そんなことより、記憶に繋がりそうなことはないか？」"},
+      {"name":"占い師","text":"「ならば、あの人の流れに付いて行かれると良いでしょう。そこにあなた様の求めている何かがあります。」"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":"audio/bgm_town.mp3"},
@@ -732,10 +730,110 @@ var substitute_text_data={
   "C1A":{
     "text_data":[
       {"name":"rand_name","text":"人の流れについて行くと、大きな広場のような場所に来た。<br>そこには簡易的な壇上が建てられてあり、その周りを屈強そうな騎士や兵士、それから傭兵だろう人間が取り囲んでいた。"},
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""},
+      {"name":"大臣","text":"「国の宝が行方不明になって、数年！<br>我々は幾度も探索隊を出し、国中を探し回ったが、その影すら見ることは出来なかった。しかし、我らの国の占星術師たちは、未だに姫の生存を確認している！」"},
+      {"name":"rand_name","text":"壇上に立っている大臣らしき人物の声量が、最後になればなるほど大きくなる。"},
+      {"name":"大臣","text":"「今日こそ、姫を見つけ出す日とするのだ！<br>諸君、何度も言うが、姫は国の至宝である。必ず見つけ出し、そして、姫を救出した勇者には、国から財宝を授ける」"},
+      {"name":"rand_name","text":"壇上で演説が終わると同時に、周りから大地が揺れるかのような雄叫びが響き渡った。<br>広場に集まった傭兵は、仲間内で集合して話し合った後、蜘蛛の子を散らすようにして去っていった。"},
+      {"name":"rand_name","text":"「さて、どうするか……」"},
+      {"name":"rand_name","text":"一瞬だけ戸惑ったが、俺も姫の捜索に行こうと思った。<br>どこに行こうかと考えていたら、一人の女性騎士が背後から話しかけてきた。"},
+      {"name":"騎士","text":"「やぁ、君は広場に来るのは初めてだろう？」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"そうですが、何か？","value":"C1A_1"},
+        {"text":"初めてですね","value":"C1A_2"},
+        {"text":"えっと、怪しい者ではありませんよ？","value":"C1A_3"},
+        {"text":"……","value":"C1A_4"}
+    ]
+  },
+  "C1A_1":{
+    "text_data":[
+      {"name":"騎士","text":"「やっぱりか。広場には沢山の人種が集まるが、この近くの人間ではなさそうだったからね。」"},
+      {"name":"rand_name","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1A_2":{
+    "text_data":[
+      {"name":"騎士","text":"「そうだろう。この近くの顔つきではない。」"},
+      {"name":"rand_name","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1A_3":{
+    "text_data":[
+      {"name":"騎士","text":"「そんなもの、見れば分かる。見た目は普通の市民だ。」"},
+      {"name":"rand_name","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1A_4":{
+    "text_data":[
+      {"name":"騎士","text":"「私は怪しい者じゃないぞ？〈br〉この鎧を見れば、一目瞭然だ。」"},
+      {"name":"rand_name","text":"go_to_next"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1A_E":{
+    "text_data":[
+      {"name":"騎士","text":"「まぁ、君には姫様の捜索にあたって、これまでの情報を伝えておこうと思ってね。」"},
+      {"name":"rand_name","text":"「有難いです。」"},
+      {"name":"騎士","text":"「君に無駄な捜査をして欲しくないだけさ。さて、話を戻すが、これまでの捜索で分かっていることは非常に少ない。」"},
+      {"name":"騎士","text":"「一つ、行方をくらますまでの姫様は図書館で本を読み、市場を見て回った後、学園へと帰られた。」"},
+      {"name":"騎士","text":"「一つ、国外、王都から出たという情報は一つもない。」"},
+      {"name":"騎士","text":"「一つ、盗賊団や犯罪者による誘拐ではない。」"},
+      {"name":"騎士","text":"「あの時は、帝国が誇る最高の時代。鼠一匹も逃すことない、賢王と大臣と恐れられたのだから。」"},
+      {"name":"騎士","text":"「と、まぁ、このあたりまでは分かっていることだな。」"},
+      {"name":"rand_name","text":"「助かった、ありがとう。」"},
+      {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
+      {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
+      {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"図書館","value":"C1C"},
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":""
+  },
+  "C1C":{
+    "text_data":[
+      {"name":"騎士","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1D":{
+    "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
     ],
@@ -743,6 +841,31 @@ var substitute_text_data={
     "next_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
-    ]
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1E":{
+    "text_data":[
+      {"name":"騎士","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C1F":{
+    "text_data":[
+      {"name":"騎士","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
   }
 }
