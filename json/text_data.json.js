@@ -651,24 +651,56 @@ var substitute_text_data={
   },
   "A30":{
     "text_data":[
-      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":"俺は返事をすると、畑の奥の方へ入っていく。"},
+      {"name":"rand_name","text":"ぬかるんだ土を踏んで、自分の足跡を刻みながらゆっくりと歩く。"},
+      {"name":"rand_name","text":"溝に流れる水の音"},
+      {"name":"rand_name","text":"風で揺れ動く木の葉"},
+      {"name":"rand_name","text":"空に広がる入道雲"},
+      {"name":"rand_name","text":"肌を刺激する日光は暑いが、駆け抜ける風は俺に涼しさを感じさせた。"},
+      {"name":"rand_name","text":"「……よいしょっと」"},
+      {"name":"rand_name","text":"しゃがみ込んで、暗い紫色の茄子の実を覗き込む。<br>今は卵ぐらいな大きさだが、収穫する時期になれば握り拳ぐらいの大きさになる。"},
+      {"name":"rand_name","text":"プシュ、プシュと俺は薄い紫色の液体を茄子に吹きかけていく。<br>ついた水滴が、流れていき、土に落ちていく。"},
+      {"name":"rand_name","text":"湿った土の中に落ちた水滴は、どこに落ちたかもわからないから、探す事もない。"},
+      {"name":"rand_name","text":"涼しさを感じていても、いつからか額から汗は流れ、そして土へ沈んでいく。"},
+      {"name":"rand_name","text":"……この茄子はウィズサンに行く前、僕も種を植えたものだった。<br>それが今となっては実をつけるほどまでに成長しており、自分が長い間ここを離れていたのだと実感する。"},
+      {"name":"rand_name","text":"自分の足を離そうとしない土の柔らかさも、あの時に比べたら大分柔らかいように感じた。<br>水分が多く必要な水茄子は常に土に多くの水を含ませているから、感じたのは間違い無いのだろう。"},
+      {"name":"rand_name","text":"ただ、淡々と作業をこなしていく。<br>一つ一つ大きさが違う実に、丁度良い量のスプレーを吹きかけていくのだ。"},
+      {"name":"rand_name","text":"まだ大きくなれていないものや、一際大きいものも数多くあった。<br>それを見極めて、作業していく。」"},
+      {"name":"rand_name","text":"作業も終盤に差し掛かってくると、ゆっくりと土を踏む音が聞こえてくる。」"},
+      {"name":"父さん","text":"「……ヨゾラ、もうすぐ終わるか？」"},
       {"name":"rand_name","text":""}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
+      {"text":"「ああ、うん」","value":""},
+      {"text":"「…あとちょっと」","value":""}
     ]
   },
   "A31":{
     "text_data":[
-      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":"何も言わずとも父は理解したのか、畑の奥の方へ入っていく。"},
+      {"name":"rand_name","text":"ぬかるんだ土を踏んで、自分の足跡を刻みながらゆっくりと歩く。"},
+      {"name":"rand_name","text":"溝に流れる水の音"},
+      {"name":"rand_name","text":"風で揺れ動く木の葉"},
+      {"name":"rand_name","text":"空に広がる入道雲"},
+      {"name":"rand_name","text":"肌を刺激する日光は暑いが、駆け抜ける風は俺に涼しさを感じさせた。"},
+      {"name":"rand_name","text":"「……よいしょっと」"},
+      {"name":"rand_name","text":"しゃがみ込んで、暗い紫色の茄子の実を覗き込む。<br>今は卵ぐらいな大きさだが、収穫する時期になれば握り拳ぐらいの大きさになる。"},
+      {"name":"rand_name","text":"プシュ、プシュと俺は薄い紫色の液体を茄子に吹きかけていく。<br>ついた水滴が、流れていき、土に落ちていく。"},
+      {"name":"rand_name","text":"湿った土の中に落ちた水滴は、どこに落ちたかもわからないから、探す事もない。"},
+      {"name":"rand_name","text":"涼しさを感じていても、いつからか額から汗は流れ、そして土へ沈んでいく。"},
+      {"name":"rand_name","text":"……この茄子はウィズサンに行く前、僕も種を植えたものだった。<br>それが今となっては実をつけるほどまでに成長しており、自分が長い間ここを離れていたのだと実感する。"},
+      {"name":"rand_name","text":"自分の足を離そうとしない土の柔らかさも、あの時に比べたら大分柔らかいように感じた。<br>水分が多く必要な水茄子は常に土に多くの水を含ませているから、感じたのは間違い無いのだろう。"},
+      {"name":"rand_name","text":"ただ、淡々と作業をこなしていく。<br>一つ一つ大きさが違う実に、丁度良い量のスプレーを吹きかけていくのだ。"},
+      {"name":"rand_name","text":"まだ大きくなれていないものや、一際大きいものも数多くあった。<br>それを見極めて、作業していく。"},
+      {"name":"rand_name","text":"作業も終盤に差し掛かってくると、ゆっくりと土を踏む音が聞こえてくる。"},
+      {"name":"父さん","text":"「……ヨゾラ、もうすぐ終わるか？」"},
       {"name":"rand_name","text":""}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「……久しぶり」","value":"A16"},
-      {"text":"「……」","value":"A17"}
+      {"text":"「ああ、うん」","value":""},
+      {"text":"「…あとちょっと」","value":""}
     ]
   },
   "A11BB":{
@@ -838,6 +870,58 @@ var substitute_text_data={
     "go_to_next":"C1A_E"
   },
   "C2C":{
+    "text_data":[
+      {"name":"rand_name","text":"国営の図書館だから、司書の一人や二人と思っていたが、広すぎるのも問題だな。"},
+      {"name":"rand_name","text":"やっと見つけることのできた司書官に話しかけ、行方知れずの姫について聞いてみた。"},
+      {"name":"司書","text":"「姫様……。昔は何度もお会いしていて、研究熱心だったのを覚えています。」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"研究をしてたんですか？","value":"C2C_1"},
+        {"text":"姫様は毎日図書館に来てたんですか？","value":"C2C_2"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C_1":{
+    "text_data":[
+      {"name":"司書","text":"「えぇ、おひとりで古代の研究を……」"},
+      {"name":"rand_name","text":"司書官は遠い過去を見るような目をしていた。」いやいや、俺は記憶の手がかりを探しに来たんだ。何か重要なことを聞かないと……。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫の行方を知りそうな人は？","value":"C2C1"},
+        {"text":"姫が調べていた研究資材とは？","value":"C2C2"}
+    ],
+    "go_to_next":"C2C_E"
+  },
+  "C2C_2":{
+    "text_data":[
+      {"name":"rand_name","text":"「えぇ、研究資材として、書物を読み漁っておりましたから。」"},
+      {"name":"rand_name","text":"司書官は遠い過去を見るような目をしていた。」いやいや、俺は記憶の手がかりを探しに来たんだ。何か重要なことを聞かないと……。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫の行方を知りそうな人は？","value":"C2C1"},
+        {"text":"姫が調べていた研究資材とは？","value":"C2C2"}
+    ],
+    "go_to_next":"C2C_E"
+  },
+  "C2C1":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C2":{
     "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
