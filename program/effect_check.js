@@ -9,7 +9,7 @@ function effect_play(value,output_charname,output_text){
     setTimeout(() => {
 
       event_check(output_charname,output_text);    
-    }, 1000); 
+    }, 1000);
 
   }
   //効果音再生
@@ -38,7 +38,7 @@ function position_select(value){
 function background_change(val){
   // console.log(val);
   var image=val['image'];
-  // console.log(image);
+  console.log(image);
 
   $('#background_frame').removeClass();
   $('#background_frame').addClass(image);

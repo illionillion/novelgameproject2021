@@ -104,7 +104,7 @@ var add_prop_changed={
       "value":{
         "stop":true,
         "se":"",
-        "darkeng":true
+        "darkening":true
       }
     },
     {
