@@ -167,12 +167,18 @@ function event_check(char,event){
       }
       audio_file_path=text_data[now_page]['audio']['file_path'];
       text_animation=false;
-      back_text_animation=true;
 
       next();
-      setTimeout(() => {
-       back(); 
-      }, "1000");
+      var phrase=text_data[now_page]['text_data'];
+      console.log(phrase);
+      console.log(phrase[num-1]['effect']['stop']);
+      if(phrase[num-1]['effect']['stop']){
+        back_text_animation=true;
+        setTimeout(() => {
+          back();
+        }, "1000");
+      }
+
       
 
     break;
@@ -219,8 +225,8 @@ function replace_name(char2,name){
       s=null;//変数sを空にする
       text_animation=false;
       if(back_text_animation){
-        word(result);
         back_text_animation=false;
+        word(result);
       }
       
       n=1;
