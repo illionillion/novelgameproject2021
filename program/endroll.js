@@ -56,6 +56,11 @@ function endroll(){
     $("#change_endroll_speed").addClass("none");
     $("#back_title_btn").removeClass("none");
     $("#back_title_btn input").attr("onclick","back_title_btn()");
+    $('#background_frame').removeClass();
+    $('#background_frame').addClass("sougen");
+    document.querySelector("#character_first").querySelector("img").setAttribute("src",'./character_img/transparent_background.png');
+    document.querySelector("#character_center").querySelector("img").setAttribute("src",'./character_img/transparent_background.png');
+    document.querySelector("#character_second").querySelector("img").setAttribute("src",'./character_img/transparent_background.png');
   }
 
 }
