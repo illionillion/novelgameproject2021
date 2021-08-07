@@ -40,6 +40,7 @@ function next(){
     audio_start();
 
     event_check(output_charname,output_text);
+    text_animation=null;
 
     console.log(num);
     console.log(backnum);
@@ -56,9 +57,10 @@ function next(){
     if(effect_check["stop"]==false){
       event_check(output_charname,output_text);
     }
-    effect_play(effect_check,output_charname,output_text);
     position_select(character_array);
     background_change(background_image);
+    effect_play(effect_check,output_charname,output_text);
+
     take_save(num);
 
     audio_start();
@@ -77,12 +79,7 @@ function back(){
 
   if(num>1){
 
-    //名前イベント後にテキストアニメーションを発生させるためのif文
-    if(!text_animation){
-      text_animation=true;
-    }else{
-      text_animation=null;
-    }
+    text_animation=true;
 
     num--;
     backnum--;
@@ -167,8 +164,13 @@ function event_check(char,event){
         // audio_file_path=null;
       }
       audio_file_path=text_data[now_page]['audio']['file_path'];
+      text_animation=false;
 
       next();
+      setTimeout(() => {
+       back(); 
+      }, "1000");
+      
 
     break;
 
