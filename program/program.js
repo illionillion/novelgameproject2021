@@ -11,6 +11,8 @@ var result;
 
 var save_data={};
 
+var back_text_animation=false;
+
 //getElement
 const character_name=document.getElementById('character_name');
 const text_frame=document.getElementById('text_area');
@@ -165,6 +167,7 @@ function event_check(char,event){
       }
       audio_file_path=text_data[now_page]['audio']['file_path'];
       text_animation=false;
+      back_text_animation=true;
 
       next();
       setTimeout(() => {
@@ -214,7 +217,12 @@ function replace_name(char2,name){
       // intervalId=null;
       len=null;
       s=null;//変数sを空にする
-      text_animation=null;
+      text_animation=false;
+      if(back_text_animation){
+        word(result);
+        back_text_animation=false;
+      }
+      
       n=1;
     }else{
       word(result);
