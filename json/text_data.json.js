@@ -794,6 +794,7 @@ var substitute_text_data={
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
+      {"name":"rand_name","text":"さて、どこへ行こうか？"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
@@ -820,6 +821,7 @@ var substitute_text_data={
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
+      {"name":"rand_name","text":"さて、どこへ行こうか？"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
@@ -846,6 +848,7 @@ var substitute_text_data={
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
+      {"name":"rand_name","text":"さて、どこへ行こうか？"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
@@ -872,6 +875,7 @@ var substitute_text_data={
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
+      {"name":"rand_name","text":"さて、どこへ行こうか？"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
