@@ -34,3 +34,12 @@ function position_select(value){
     document.querySelector("#"+char_key).querySelector("img").setAttribute("src",char_url);
   }
 }
+
+function background_change(val){
+  // console.log(val);
+  var image=val['image'];
+  // console.log(image);
+
+  $('#background_frame').removeClass();
+  $('#background_frame').addClass(image);
+}

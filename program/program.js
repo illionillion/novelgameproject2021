@@ -50,6 +50,7 @@ function next(){
     var output_text=phrase[num]['text'];
     var effect_check=phrase[num]['effect'];
     var character_array=phrase[num]['character_position'];
+    var background_image=phrase[num]['background_image'];
     console.log(text_data);
     // console.log(effect_check);
     if(effect_check["stop"]==false){
@@ -57,6 +58,7 @@ function next(){
     }
     effect_play(effect_check,output_charname,output_text);
     position_select(character_array);
+    background_change(background_image);
     take_save(num);
 
     audio_start();
@@ -91,7 +93,9 @@ function back(){
     var output_charname=phrase[backnum]['name'];
     var output_text=phrase[backnum]['text'];
     var character_array=phrase[backnum]['character_position'];
+    var background_image=phrase[backnum]['background_image'];
     position_select(character_array);
+    background_change(background_image);
     // console.log(num);
     take_save(backnum);
     console.log(output_text);
