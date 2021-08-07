@@ -1,44 +1,70 @@
 .test{
   background-image: url(../img/test_background_image.png);
+  background-size: cover;
 
 }
 
 .sougen{
   background-image: url(../background_img/sougen_nohara.jpg);
+  background-size: cover;
 }
 
 .himawari{
   background-image: url(../background_img/himawari.jpg);
+  background-size: cover;
 }
 
 .kaidan{
   background-image: url(../background_img/kaidan.jpg);
+  background-size: cover;
 }
 
 .kuruma{
   background-image: url(../background_img/kuruma.jpg);
+  background-size: cover;
 }
 
 .kuwa{
   background-image: url(../background_img/kuwa.jpg);
+  background-size: cover;
 }
 
 .nasubi{
   background-image: url(../background_img/nasubi.jpg);
+  background-size: cover;
 }
 
 .sora{
   background-image: url(../background_img/sora.jpg);
+  background-size: cover;
 }
 
 .tanbo{
   background-image: url(../background_img/tanbo.jpg);
+  background-size: cover;
 }
 
 .yamamodori{
   background-image: url(../background_img/yamamidori.jpg);
+  background-size: cover;
 }
 
 .yane{
   background-image: url(../background_img/yane.jpg);
+  background-size: cover;
+}
+
+.cumulonimbs{
+  background: url(../background_img/cumulonimbs.jpg);
+  background-size: cover;
+}
+
+.leaf_and_sky{
+  background: url(../background_img/leaf_and_sky.jpg);
+  background-size: cover;
+}
+
+.waterflow{
+  background: url(../background_img/waterflow.jpg);
+  background-size: cover;
 }
