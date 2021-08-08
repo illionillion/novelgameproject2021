@@ -163,6 +163,16 @@ main{
   cursor: pointer;
 }
 
+#flash_frame{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 .none{
   display: none !important;
 }
@@ -194,7 +204,7 @@ main{
 }
 #text_area{
   overflow-y: auto;
-  /* height: 100%; */
+  height: 100%;
 }
 
 #user_frame #controller_frame{

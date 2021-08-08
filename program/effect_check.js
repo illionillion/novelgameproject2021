@@ -18,6 +18,13 @@ function effect_play(value,output_charname,output_text){
     se_file=new Audio(se_file_path);
     se_file.play();
   }
+
+  if(value["flash"]){
+    $('#flash_frame').removeClass('none');
+    setTimeout(() => {
+      $('#flash_frame').addClass('none');
+    }, 1000);
+  }
 }
 
 function position_select(value){

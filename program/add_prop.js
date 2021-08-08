@@ -104,7 +104,7 @@ var add_prop_changed={
       "value":{
         "stop":true,
         "se":"",
-        "darkening":true
+        "flash":true
       }
     },
     {
@@ -273,28 +273,28 @@ var default_background_image={
 }
 
 function add_propaty(text_data){
-// console.log(text_data);
-//text_dataの総数
-var text_data_all_num=Object.keys(text_data).length;
+  // console.log(text_data);
+  //text_dataの総数
+  var text_data_all_num=Object.keys(text_data).length;
 
-for(let i=0;i<text_data_all_num;i++){
-  // console.log(text_data[Object.keys(text_data)[i]]["text_data"]);
-  //各ページ配列が持つ総数
-  let t_array_length=text_data[Object.keys(text_data)[i]]["text_data"].length;
-  // console.log(Object.keys(text_data)[i]);
-  // console.log(t_array_length);
+  for(let i=0;i<text_data_all_num;i++){
+    // console.log(text_data[Object.keys(text_data)[i]]["text_data"]);
+    //各ページ配列が持つ総数
+    let t_array_length=text_data[Object.keys(text_data)[i]]["text_data"].length;
+    // console.log(Object.keys(text_data)[i]);
+    // console.log(t_array_length);
 
-  //key名text_dataに追加する
-  for(let j=0;j<t_array_length;j++){
-    for(let s=0;s<Object.keys(add_prop).length;s++){
-      text_data[Object.keys(text_data)[i]]["text_data"][j][Object.keys(add_prop)[s]]=add_prop[Object.keys(add_prop)[s]];
+    //key名text_dataに追加する
+    for(let j=0;j<t_array_length;j++){
+      for(let s=0;s<Object.keys(add_prop).length;s++){
+        text_data[Object.keys(text_data)[i]]["text_data"][j][Object.keys(add_prop)[s]]=add_prop[Object.keys(add_prop)[s]];
+      }
+
     }
 
   }
 
-}
-
-console.log(text_data);
+  console.log(text_data);
 
   var add_prop_changed_all_num=Object.keys(add_prop_changed).length;
 
