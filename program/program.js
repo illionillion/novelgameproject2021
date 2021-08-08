@@ -279,7 +279,7 @@ function name_event(){
   var user_name = window.prompt("自分の名前を入力してください", "アーロン");
   if(user_name){
 
-    if(user_name=="ホシゾラヨゾラ"){
+    if(user_name==="ホシゾラヨゾラ"){
       hero_name=user_name;
       console.log(hero_name);
       now_page="A4";
