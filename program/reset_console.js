@@ -23,7 +23,7 @@ function remove_console(){
         let change=String(window.console[Object.keys(window.console)[i]]);//log,trace,count...を取得
         change=(change.replace('function ', ''));                         //function log() { [native code] }になるのでlogだけになるように置き換える
         change=(change.replace('() { [native code] }', ''));              //上に同じく
-        // save_console[change]=window.console[change];                    //ここに保存        
+        // save_console[change]=window.console[change];                   //ここに保存        
         window.console[change] = function(s){return;};                    //空の値を返す変数を上書き
     }
   }
