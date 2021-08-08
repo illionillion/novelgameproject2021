@@ -201,10 +201,11 @@ main{
 }
 #character_name{
   margin: 3px 0;
+  height: 11%;
 }
 #text_area{
   overflow-y: auto;
-  height: 100%;
+  height: 85%;
 }
 
 #user_frame #controller_frame{
