@@ -1033,6 +1033,34 @@
   },
   "C3C":{
     "text_data":[
+      {"name":"rand_name","text":"図書館を見回っていると、自分でも何だか分からないくらいに落ち着いてくる。<br>清廉な世界のような、静謐のような棺を思わせた。"},
+      {"name":"rand_name","text":"ふらふらと図書館を回りながら、精霊が居ないかを探していた。"},
+      {"name":"ブッカ","text":"「ちょっと、そこの貴方、私を探しているのだろう？」"},
+      {"name":"rand_name","text":"声を掛けられ振り返ると、空中を浮遊している女性がいた。"},
+      {"name":"ブッカ","text":"貴方が探しているのは、司書から聞いた。」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫様と一緒に研究をしていたのは、本当ですか？","value":"C3C1"},
+        {"text":"大精霊様で間違いないですか？","value":"C3C2"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C1":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C2":{
+    "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
     ],

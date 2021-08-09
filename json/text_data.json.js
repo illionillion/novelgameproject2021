@@ -971,17 +971,86 @@ var substitute_text_data={
   },
   "C2C1":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"司書官は腕を組んで考え込んだ後、ふと思い出したかのように喋り出した。"},
+      {"name":"司書","text":"「姫様は研究をするために書物を漁っておいででしたから……。その書物をご一緒に探すことはあっても、私と深い関係にあったわけではありませんから……。」"},
+      {"name":"rand_name","text":"精霊という単語に惹かれ、俺は図書館内を探してみるが、その影すら見つけられることはなかった。」そこでさっきの司書官のもとへと帰ってきた。"},
+      {"name":"司書","text":"「やはり、見つかりませんでしたか……。精霊とは一つの場所に留まることを嫌いますので、仕方のないことです。それよりも姫様が使われていた、研究資材を調べられては？」"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
+        {"text":"姫が調べていた研究資材とは？","value":"C2C2"}
     ],
     "go_to_next":"C1A_E"
   },
   "C2C2":{
+    "text_data":[
+      {"name":"rand_name","text":"司書官に図書館の奥へと案内され、それから姫様が研究の材料として使っていた書物の説明をしれくれた。"},
+      {"name":"司書","text":"「姫様は歴史の研究から始まり、古代、神代の研究をされておりました。ですから、この辺りの書物全般は読み込まれていると思います。<br>特に『太陽神歴』、『魔神伝』、『精霊記録』など……。」"},
+      {"name":"rand_name","text":"俺は聞いた書物を取り出して、片っ端から調べ上げることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"太陽神歴","value":"C2C2_1"},
+        {"text":"魔神伝","value":"C2C2_2"},
+        {"text":"精霊記録","value":"C2C2_3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C2_1":{
+    "text_data":[
+      {"name":"rand_name","text":"「何もわからなかった。」"},
+      {"name":"rand_name","text":"書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"図書館内を一周して見る","value":"C3C"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C2_2":{
+    "text_data":[
+      {"name":"rand_name","text":"「何もわからなかった。」"},
+      {"name":"rand_name","text":"書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"図書館内を一周して見る","value":"C3C"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2C2_3":{
+    "text_data":[
+      {"name":"rand_name","text":"「何もわからなかった。」"},
+      {"name":"rand_name","text":"書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"図書館内を一周して見る","value":"C3C"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C":{
+    "text_data":[
+      {"name":"rand_name","text":"図書館を見回っていると、自分でも何だか分からないくらいに落ち着いてくる。<br>清廉な世界のような、静謐のような棺を思わせた。"},
+      {"name":"rand_name","text":"ふらふらと図書館を回りながら、精霊が居ないかを探していた。"},
+      {"name":"ブッカ","text":"「ちょっと、そこの貴方、私を探しているのだろう？」"},
+      {"name":"rand_name","text":"声を掛けられ振り返ると、空中を浮遊している女性がいた。"},
+      {"name":"ブッカ","text":"貴方が探しているのは、司書から聞いた。」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫様と一緒に研究をしていたのは、本当ですか？","value":"C3C1"},
+        {"text":"大精霊様で間違いないですか？","value":"C3C2"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C1":{
     "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
@@ -993,7 +1062,7 @@ var substitute_text_data={
     ],
     "go_to_next":"C1A_E"
   },
-  "C3C":{
+  "C3C2":{
     "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
