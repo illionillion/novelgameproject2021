@@ -284,20 +284,15 @@ function name_event(){
       console.log(hero_name);
       now_page="A4";
       num=0;
-      // backnum=0;
     }else{
       hero_name=user_name;
       console.log(hero_name);
       now_page="A2";
       num=0;
-      // backnum=0;
     }
     
     if(music_file){
       music_file.pause();
-      // audio_file_path=null;
-      // audio_file=null;
-      // console.log("pause");
     }
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
