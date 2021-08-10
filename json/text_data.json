@@ -1049,25 +1049,119 @@
   },
   "C3C1":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"ブッカ","text":"「あぁ、少し前に姫とは共に居た。だが、何度聞かれようとも行方は知らん」"},
+      {"name":"rand_name","text":"興味がなさそうに大精霊は、くるりと体を回転させた。すると、燐光がパラパラと舞い散って、神秘的な雰囲気を纏っていた。"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
+        {"text":"一緒に姫様を探してくれませんか？","value":"C3C1_1"},
+        {"text":"大精霊様の力なら、姫様の行方を知れるのでは？","value":"C3C1_2"},
+        {"text":"研究の内容を教えては貰えないか？","value":"C3C1_3"}
     ],
     "go_to_next":"C1A_E"
   },
   "C3C2":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"ブッカ","text":"「あぁ、私は大精霊である。貴方の目の前にいるのは、原書にして、書物の大精霊。」"},
+      {"name":"rand_name","text":"図書館にある数百、数千、数万の書物が揺れ動く。大精霊から発せられる力が、大気と同時に図書館を揺らしていた。<br>書物が大精霊を肯定しているようだった。"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
+        {"text":"大精霊様、私は貴方と出会ったことがありますか？","value":"C3C2_1"},
+        {"text":"私と共に姫を探してはくれませんか？","value":"C3C2_2"},
+        {"text":"書物の大精霊様なら、姫の研究を知っていますよね？","value":"C3C2_3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C1_1":{
+    "text_data":[
+      {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C1_2":{
+    "text_data":[
+      {"name":"ブッカ","text":"「私の力を使う……。本当に馬鹿だな。」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C1_3":{
+    "text_data":[
+      {"name":"ブッカ","text":"「私と姫のことだ。赤の他人、それもどこの誰とも分からない、曖昧な人間に言うつもりはない。」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C2_1":{
+    "text_data":[
+      {"name":"ブッカ","text":"「曖昧な記憶で語るな。」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C2_2":{
+    "text_data":[
+      {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね。」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3C2_3":{
+    "text_data":[
+      {"name":"ブッカ","text":"「書物は全て網羅しているのだ。知っているとも、私は原書であるからな。だが、貴方に教えるつもりはない。」"},
+      {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
+      {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"都市","value":"C1D"},
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
     ],
     "go_to_next":"C1A_E"
   },
