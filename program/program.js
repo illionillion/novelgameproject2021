@@ -12,6 +12,7 @@ var result;
 var save_data={};
 
 var back_text_animation=false;
+let skip_text=false;
 
 //getElement
 const character_name=document.getElementById('character_name');
@@ -110,13 +111,18 @@ function back(){
 
 //スキップボタン
 function skip(){
+  if(!skip_text){
+    audio_start();
+    text_animation=null;
+    n=1;
+    console.log("skip");
+    // num=all_num-1;
+    num=all_num-2;
+    backnum=num-1;
+    next();
+    skip_text=true;
+  }
 
-  audio_start();
-  text_animation=null;
-  console.log("skip");
-  num=all_num-2;
-  backnum=num-1;
-  next();
 }
 
 //イベントないかチェック
@@ -125,6 +131,7 @@ function event_check(char,event){
   switch (event) {
     case "name_event":
       name_event();
+      skip_text=false;
       
     break;
 
@@ -143,6 +150,7 @@ function event_check(char,event){
       var phrase=text_data[now_page]["next_page_option"];
       var option_total=phrase.length;
       option_area.setAttribute("branch_sum",option_total);
+      skip_text=false;
   
       //分岐の数リストを表示
       for(let i=0;i<option_total;i++){
@@ -167,6 +175,7 @@ function event_check(char,event){
       }
       audio_file_path=text_data[now_page]['audio']['file_path'];
       text_animation=false;
+      skip_text=false;
 
       next();
       var phrase=text_data[now_page]['text_data'];
@@ -224,6 +233,8 @@ function replace_name(char2,name){
       len=null;
       s=null;//変数sを空にする
       text_animation=false;
+      skip_text=false;
+
       if(back_text_animation){
         back_text_animation=false;
         word(result);
