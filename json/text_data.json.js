@@ -1040,7 +1040,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"ふらふらと図書館を回りながら、精霊が居ないかを探していた。"},
       {"name":"ブッカ","text":"「ちょっと、そこの貴方、私を探しているのだろう？」"},
       {"name":"rand_name","text":"声を掛けられ振り返ると、空中を浮遊している女性がいた。"},
-      {"name":"ブッカ","text":"貴方が探しているのは、司書から聞いた。」"},
+      {"name":"ブッカ","text":"貴方が探しているのは、司書から聞いた。"},
       {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
@@ -1170,13 +1170,107 @@ var substitute_text_data={
   },
   "C1D":{
     "text_data":[
-      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":"都市へと出てきた俺は、ふらふらと行く当てもなく歩いていた。"},
+      {"name":"rand_name","text":"記憶にない街並み。記憶にない人々。記憶にない自分。"},
+      {"name":"rand_name","text":"ちらりと視線が向いた先に、壁に、古紙が貼られてあるのが見えた。"},
+      {"name":"rand_name","text":"足の行くまま古紙に近づくと、そこには姫の顔が描かれていた。"},
+      {"name":"町人","text":"「もう何年も昔のことだ。姫様が行方を消したのは。」"},
+      {"name":"rand_name","text":"「姫様の行方を知る人はいないのか？」"},
+      {"name":"町人","text":"「私にはわかりませんよ……。私はただの町人ですから。ですが、あの裏通りにいる占い師なら、もしかしたら。」"},
+      {"name":"rand_name","text":"町人と別れた後、町人が言っていたことを思い出し、裏通りの近くまでやって来た。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"占い師に会う","value":"C2DD"},
+        {"text":"占い師に会わない","value":"C2DDD"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2DD":{
+    "text_data":[
+      {"name":"rand_name","text":"近くまで行くと、占い師がニタニタと笑っているのが見えた。"},
+      {"name":"占い師","text":"「ヒヒッ、姫様の居場所を知りたいのですよね？<br>だったら、この私にお任せください。」"},
+      {"name":"rand_name","text":"人の気持ちを分かっているかのような、嫌みな占い師だ。<br>嫌気が差すが、頼るしかない。"},
+      {"name":"rand_name","text":"俺は考え込んだ後、いくつかの占って欲しいことを考えた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫の居場所","value":"C2D1"},
+        {"text":"自分の記憶","value":"C2D2"},
+        {"text":"精霊とは？","value":"C2D3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2DDD":{
+    "text_data":[
+      {"name":"rand_name","text":"占い師の手招きを見ていると、いつの間にか目の前に立っていた。"},
+      {"name":"占い師","text":"「ヒヒッ、姫様の居場所を知りたいのですよね？<br>だったら、この私にお任せください。」"},
+      {"name":"rand_name","text":"人の気持ちを分かっているかのような、嫌みな占い師だ。<br>嫌気が差すが、頼るしかない。"},
+      {"name":"rand_name","text":"俺は考え込んだ後、いくつかの占って欲しいことを考えた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"姫の居場所","value":"C2D1"},
+        {"text":"自分の記憶","value":"C2D2"},
+        {"text":"精霊とは？","value":"C2D3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2D1":{
+    "text_data":[
+      {"name":"rand_name","text":"「姫は、今どこに居るんだ？」"},
+      {"name":"rand_name","text":"そう聞くと、占い師は水晶の周りを手で囲み、ぶつぶつと呟いた。"},
+      {"name":"占い師","text":"「ヒヒッ、流石は王宮に使える占星術師。姫はまだ生きております。<br>しかし……。」"},
+      {"name":"rand_name","text":"「早く教えてくれ。」"},
+      {"name":"占い師","text":"「今のままでは情報が足りんのです。そういえば、姫様は図書館、学園、騎士団に通っていたらしいですので、その三つに行ってから、また来てくださいな。<br>他に御用は？」"},
       {"name":"rand_name","text":""}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
+        {"text":"自分の記憶","value":"C2D2"},
+        {"text":"精霊とは？","value":"C2D3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2D2":{
+    "text_data":[
+      {"name":"rand_name","text":"「俺の記憶は戻らないのか？」"},
+      {"name":"rand_name","text":"占い師は、しわくちゃの頬を吊り上げて、不気味な笑みを作り出した。"},
+      {"name":"占い師","text":"「貴方様の運命は絡まり合い、解くことは至難の業でしょう。選択を間違えると、尾を噛む蛇の力により、記憶は永久に戻ることはないでしょう。」"},
+      {"name":"rand_name","text":"訳の分からないことを言い出す、占い師。その不気味な笑みに、俺は後ずさりをした。"},
+      {"name":"rand_name","text":"「何が言いたい？」"},
+      {"name":"占い師","text":"「ヒヒッ、私の言葉で伝えるのが占いのコツなんですよ。<br>他に御用は？」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"精霊とは？","value":"C2D3"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2D3":{
+    "text_data":[
+      {"name":"rand_name","text":"「精霊とは一体なんだ？」"},
+      {"name":"占い師","text":"「私は学者ではないのですがね、ヒヒッ。万物に潜む、叡智と長寿と魔法を操る種族のことです。」"},
+      {"name":"rand_name","text":"声を潜めるようにして占い師は言う。<br>そして、占い師は水晶を前に出してきた。"},
+      {"name":"rand_name","text":"すると、突如として水晶が光を帯び始め、閃光のように光ったと思ったら、すぐに光は収束した。"},
+      {"name":"占い師","text":"「ヒヒッ、私も精霊を使役しておるのです。」"},
+      {"name":"rand_name","text":"本当に不気味な占い師だ。"},
+      {"name":"rand_name","text":"「大精霊とは何なんだ？」"},
+      {"name":"占い師","text":"「大精霊とは、五百年以上の歳月を生きる超越種でございます。ヒヒッ、尊き個体のことですな。<br>他に御用は？」"},
+      {"name":"rand_name","text":"他にも聞きたいことはあったが、一度路地裏から出ることにした。"},
+      {"name":"rand_name","text":"路地裏から出る"},
+      {"name":"rand_name","text":"路地裏を出た俺は、占い師の言う通りにすることにした。"},
+      {"name":"rand_name","text":"さて、どこへ行こうか？"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"学園","value":"C1E"},
+        {"text":"騎士団","value":"C1F"}
     ],
     "go_to_next":"C1A_E"
   },
