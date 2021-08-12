@@ -1,4 +1,4 @@
-let remove_console_flag=false;                                            //フラグ
+let remove_console_flag=true;                                            //フラグ
 let save_console={};                                                      //console機能回復用
 
 let ori={"a":"1","b":"2"};
@@ -19,12 +19,12 @@ function remove_console(){
 
   if(remove_console_flag){
     save_console=Object.assign({},window.console);
-    for(let i=0;i<all_num;i++){                                           //window.consoleの総数分繰り返す
-        let change=String(window.console[Object.keys(window.console)[i]]);//log,trace,count...を取得
-        change=(change.replace('function ', ''));                         //function log() { [native code] }になるのでlogだけになるように置き換える
-        change=(change.replace('() { [native code] }', ''));              //上に同じく
-        // save_console[change]=window.console[change];                   //ここに保存        
-        window.console[change] = function(s){return;};                    //空の値を返す変数を上書き
+    for(let i=0;i<all_num;i++){                                   //window.consoleの総数分繰り返す
+        let change=window.console[Object.keys(window.console)[i]];//log,trace,count...を取得
+        if(typeof change==='function'){
+          window.console[change.name] = function(s){return;};     //空の値を返す変数を上書き
+
+        }
     }
   }
 }
