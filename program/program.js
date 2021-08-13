@@ -113,6 +113,7 @@ function back(){
 function skip(){
   if(!skip_text){
     audio_start();
+    clearInterval(intervalId);//タイマーをリセットする
     text_animation=null;
     n=1;
     console.log("skip");
