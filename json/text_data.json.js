@@ -1226,7 +1226,7 @@ var substitute_text_data={
       {"name":"占い師","text":"「ヒヒッ、流石は王宮に使える占星術師。姫はまだ生きております。<br>しかし……。」"},
       {"name":"rand_name","text":"「早く教えてくれ。」"},
       {"name":"占い師","text":"「今のままでは情報が足りんのです。そういえば、姫様は図書館、学園、騎士団に通っていたらしいですので、その三つに行ってから、また来てくださいな。<br>他に御用は？」"},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1422,50 +1422,144 @@ var substitute_text_data={
   },
   "C3E1":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"門番と別れた後、庭園の周りをぐるぐると回り歩いた。<br>花壇に残されている花は、今も手入れがされているように綺麗だ。"},
+      {"name":"rand_name","text":"そよ風が屋上に吹いた時、一凛の花が異様な揺れ動き方をしているのが目についた。"},
+      {"name":"rand_name","text":"その花に近づいてくと、花弁が萎んで、もう一度咲いたときに、小さな精霊が顔を出した。"},
+      {"name":"花冠","text":"「あらら、完璧な擬態だったと思ったのだけれど……。」"},
+      {"name":"rand_name","text":"「妖精……精霊なのか？」"},
+      {"name":"花冠","text":"「あら、精霊を見たことがないの？<br>私は正真正銘、花冠の精霊よ。そして、この庭園の守護者でもあるのよ！」"},
+      {"name":"rand_name","text":"ふわふわと浮かびながら、鱗粉をパラパラと落とす。<br>精霊というのは、どうしても飛ぶのが好きらしい。"},
+      {"name":"rand_name","text":"ふらふらと歩くよりも、精霊に姫様の行方を聞き出そうと考えた。"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"書庫","value":"C2E"},
-        {"text":"庭園","value":"C3E"}
+        {"text":"姫様が行方不明になる前、何か言っていなかったか？","value":"C3E1_1"},
+        {"text":"姫様は、ここで研究をしていたか？","value":"C3E1_2"},
+        {"text":"君と姫様は契約をしていたのか？","value":"C3E1_3"},
+        {"text":"姫様の研究内容を知っているか？","value":"C3E1_4"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3E1_1":{
+    "text_data":[
+      {"name":"花冠","text":"「急に消えたから、私にだって何も分からないわ。ただ、小説を大切に持っていたわ。」"},
+      {"name":"rand_name","text":"俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"門番のところへ","value":"C4E"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3E1_2":{
+    "text_data":[
+      {"name":"花冠","text":"「研究なんてしてないわ。お花を手入れして、お茶を優雅に飲んで、小説を楽しむだけよ。」"},
+      {"name":"rand_name","text":"俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"門番のところへ","value":"C4E"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3E1_3":{
+    "text_data":[
+      {"name":"花冠","text":"「契約はしてないわ。ただ、書物の大精霊様を気にかけていたわ。」"},
+      {"name":"rand_name","text":"俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"門番のところへ","value":"C4E"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C3E1_4":{
+    "text_data":[
+      {"name":"花冠","text":"「それは教えてくれなかったわ。ただ、ニイドギューフの恋人という小説を大切に持っていたわ。」"},
+      {"name":"rand_name","text":"俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"門番のところへ","value":"C4E"}
     ],
     "go_to_next":"C1A_E"
   },
   "C3E2":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"奥へ奥へと進んで行くと、小さな家を見つけることが出来た。<br>緑の蔦が伸びていて、周りも草木に囲まれていたから、すぐに気づくことが出来なかった。"},
+      {"name":"rand_name","text":"その家に入ってみると、そこには庭園を整備する道具やじょうろなどが置いてあった。"},
+      {"name":"rand_name","text":"その家に入ってみると、そこには庭園を整備する道具やじょうろなどが置いてあった。"},
+      {"name":"rand_name","text":"棚や机、花瓶から植木鉢まで調べてみるも、手がかりになりそうなことはなかった。"},
+      {"name":"rand_name","text":"後ろからギィという音が鳴った。<br>振り向くと、精霊らしきものがふわふわと浮いていた。"},
+      {"name":"花冠","text":"「なんだ、姫様が帰ってきたのかもと思ったのだけれど……。」"},
+      {"name":"rand_name","text":"「姫様の知り合いか？」"},
+      {"name":"花冠","text":"「えぇ、この庭園を一緒に手入れをしていたのよ。<br>花冠の精霊と呼んでちょうだい。」"},
+      {"name":"rand_name","text":"ふわふわと浮かびながら、鱗粉をパラパラと落とす。<br>精霊というのは、どうしても飛ぶのが好きらしい。"},
+      {"name":"rand_name","text":"ふらふらと歩くよりも、精霊に姫様の行方を聞き出そうと考えた。"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"書庫","value":"C2E"},
-        {"text":"庭園","value":"C3E"}
+        {"text":"姫様が行方不明になる前、何か言っていなかったか？","value":"C3E1_1"},
+        {"text":"姫様は、ここで研究をしていたか？","value":"C3E1_2"},
+        {"text":"君と姫様は契約をしていたのか？","value":"C3E1_3"},
+        {"text":"姫様の研究内容を知っているか？","value":"C3E1_4"}
     ],
     "go_to_next":"C1A_E"
   },
   "C4E":{
     "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"俺は門番の居るところまで、全力で走って行った。"},
+      {"name":"門番","text":"「おい、何か分かったのか？」"},
+      {"name":"rand_name","text":"そんな言葉が聞こえてきたが、無視して走り去っていった。"},
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-        {"text":"書庫","value":"C2E"},
-        {"text":"庭園","value":"C3E"}
+        {"text":"騎士団","value":"C1F"}
     ],
     "go_to_next":"C1A_E"
   },
   "C1F":{
     "text_data":[
-      {"name":"騎士","text":""},
+      {"name":"rand_name","text":"騎士団の城へと向かった俺は、広場で出会った騎士と再会した。"},
+      {"name":"騎士","text":"「おぉ、こんなところまで姫様の捜索か？<br>もし手伝って欲しいことがあれば、気にせず私に言ってくれ。」"},
+      {"name":"rand_name","text":"騎士団で権力を持っているのだろう。<br>鎧の胴を叩いて、「頼ってくれ」という意思を表してきた。"},
+      {"name":"rand_name","text":"なら、お言葉に甘えよう。"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"当時の護衛とかは、どうなっていた？","value":"C2F"},
+        {"text":"当時、姫様の言動は、どうだった？","value":"C3F"}
+    ],
+    "go_to_next":"C1A_E"
+  },
+  "C2F":{
+    "text_data":[
+      {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
         {"text":"","value":""},
         {"text":"","value":""}
+    ]
+  },
+  "C3F":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
     ],
-    "go_to_next":"C1A_E"
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ]
   }
 }
