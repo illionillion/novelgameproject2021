@@ -25,6 +25,22 @@ function effect_play(value,output_charname,output_text){
       $('#flash_frame').addClass('none');
     }, 1000);
   }
+
+  if(value["character_animation"]){
+    // console.log(value["rotateY"]);
+    for(let i in value["character_animation"]){
+      // console.log(i);
+      // console.log(value["rotateY"][i]);
+      if(value["character_animation"][i]){
+        console.log(i);
+        $("#"+i).addClass(value["character_animation"][i]);
+        setTimeout(() => {
+          $("#"+i).removeClass(value["character_animation"][i]);
+
+        }, 1200);
+      }
+    }
+  }
 }
 
 function position_select(value){

@@ -2,7 +2,12 @@
 var add_prop={
   "effect":{
     "stop":false,
-    "se":""
+    "se":"",
+    "character_animation":{
+      "character_first":null,
+      "character_center":null,
+      "character_second":null
+    }
   },
   "character_position":{
     "character_first":"img/transparent_background.png",
@@ -21,26 +26,65 @@ var add_prop_changed={
       "type":"character_position",
       "value":{
         "character_first":"character_img/guildtyo.png",
-        "character_center":"img/transparent_background.png",
+        "character_center":"img/test_character_02.png",
         "character_second":"character_img/gorotsuki.png"
+      }
+    },
+    {
+      "index":0,
+      "type":"effect",
+      "value":{
+        "stop":false,
+        "se":"",
+        "character_animation":{
+          "character_first":"purun",
+          "character_center":"korokoro",
+          "character_second":"poyon"
+        }
+      }
+    },
+    {
+      "index":1,
+      "type":"effect",
+      "value":{
+        "stop":false,
+        "se":"",
+        "character_animation":{
+          "character_first":"purun",
+          "character_center":"korokoro",
+          "character_second":"poyon"
+        }
+      }
+    },
+    {
+      "index":2,
+      "type":"effect",
+      "value":{
+        "stop":false,
+        "se":"",
+        "character_animation":{
+          "character_first":"purupuru",
+          "character_center":"poyooon",
+          "character_second":"left_right"
+        }
       }
     },
     {
       "index":1,
       "type":"character_position",
       "value":{
-        "character_first":"img/test_character_01.png",
-        "character_center":"img/transparent_background.png",
-        "character_second":"img/transparent_background.png"
+        "character_first":"character_img/guildtyo.png",
+        "character_center":"img/test_character_02.png",
+        "character_second":"character_img/gorotsuki.png"
       }
     },
     {
       "index":2,
       "type":"character_position",
       "value":{
-        "character_first":"img/test_character_02.png",
-        "character_center":"img/transparent_background.png",
-        "character_second":"img/transparent_background.png"
+        "character_first":"character_img/guildtyo.png",
+        "character_center":"img/test_character_02.png",
+        "character_second":"character_img/gorotsuki.png"
       }
     },
     {
