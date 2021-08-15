@@ -48,6 +48,7 @@ function chapter_start(data){
     music_file.pause();
   }
   text_animation=null;
+  skip_text=false;
   audio_file_path=text_data[now_page]['audio']['file_path'];
   start();
   toziru();

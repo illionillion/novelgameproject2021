@@ -10,6 +10,7 @@ var music_file=null;
 var result;
 
 var save_data={};
+let chose_special_data={"図書館":"C1C","都市":"C1D","学園":"C1E","騎士団":"C1F"};//1回選ばれたものは消す
 
 var back_text_animation=false;
 let skip_text=false;
@@ -189,14 +190,40 @@ function event_check(char,event){
         }, "1000");
       }
 
-      
+
 
     break;
 
     case "endroll":
       endroll_go();
     break;
+
+    case 'chose_special':
+      option_area.classList.remove('none');
+      //分岐の数
+      // var phrase=text_data[now_page]["next_page_option"];
+      var option_total=Object.keys(chose_special_data).length;
+      option_area.setAttribute("branch_sum",option_total);
+      option_area.setAttribute("chose_special",true);
+      skip_text=false;
+
+      if(option_total===0){
+        chose_special_data['都市(解放)']='C3D';
+        option_total=Object.keys(chose_special_data).length;
+        option_area.setAttribute("branch_sum",option_total);
+      }
   
+      //分岐の数リストを表示
+      for(let i=0;i<option_total;i++){
+
+        document.getElementsByClassName('option')[i].classList.remove('none');
+        document.getElementsByClassName('option_text')[i].innerHTML=Object.keys(chose_special_data)[i];
+        document.getElementsByClassName('option')[i].setAttribute("branch_value",chose_special_data[Object.keys(chose_special_data)[i]]);
+
+      }
+
+    break;
+
     default:
       //文章描画
       replace_name(char,event);
@@ -334,6 +361,12 @@ function branch(branch_text){
 
   option_area.classList.add('none');
   now_page=branch_text.getAttribute("branch_value");
+    delete chose_special_data[branch_text.innerText];
+    console.log(chose_special_data[branch_text.innerText]);
+  if(option_area.getAttribute("chose_special")=="true"){
+    console.log('delete');
+    delete chose_special_data[branch_text.innerText];
+  }
   
 
   num=0;
