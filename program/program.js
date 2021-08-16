@@ -288,10 +288,6 @@ function word(result){
   var s = result;//HTMLの入力欄に入力された文字を取得する変数sの宣言
   var len = s.length;//入力された文字の変数sの文字数をカウントする変数lenの宣言
   text_frame.innerHTML=s.slice(0,n);//HTMLのoutput_spaceというidの要素に、変数sの０文字目からn文字までのテキストを表示する
-  // console.log(s.slice(0,n));
-  // console.log(len);
-  // console.log(n);
-  // console.log(text_animation);
 
   if(n < len){//文字を増やす処理の回数が入力された文字数を超えるまで繰り返す
     n++;

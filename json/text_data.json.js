@@ -695,12 +695,12 @@ var substitute_text_data={
       {"name":"rand_name","text":"まだ大きくなれていないものや、一際大きいものも数多くあった。<br>それを見極めて、作業していく。"},
       {"name":"rand_name","text":"作業も終盤に差し掛かってくると、ゆっくりと土を踏む音が聞こえてくる。"},
       {"name":"父さん","text":"「……ヨゾラ、もうすぐ終わるか？」"},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「ああ、うん」","value":""},
-      {"text":"「…あとちょっと」","value":""}
+      {"text":"「ああ、うん」","value":"A32"},
+      {"text":"「…あとちょっと」","value":"A32"}
     ]
   },
   "A32":{
@@ -841,7 +841,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -868,7 +868,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -895,7 +895,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -922,7 +922,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -947,7 +947,7 @@ var substitute_text_data={
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1129,7 +1129,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1144,7 +1144,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「私の力を使う……。本当に馬鹿だな。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1159,7 +1159,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「私と姫のことだ。赤の他人、それもどこの誰とも分からない、曖昧な人間に言うつもりはない。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1174,7 +1174,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「曖昧な記憶で語るな。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1189,7 +1189,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1204,7 +1204,7 @@ var substitute_text_data={
       {"name":"ブッカ","text":"「書物は全て網羅しているのだ。知っているとも、私は原書であるからな。だが、貴方に教えるつもりはない。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1311,7 +1311,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"路地裏から出る"},
       {"name":"rand_name","text":"路地裏を出た俺は、占い師の言う通りにすることにした。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1563,7 +1563,7 @@ var substitute_text_data={
       {"name":"rand_name","text":"俺は門番の居るところまで、全力で走って行った。"},
       {"name":"門番","text":"「おい、何か分かったのか？」"},
       {"name":"rand_name","text":"そんな言葉が聞こえてきたが、無視して走り去っていった。"},
-      {"name":"rand_name","text":"chose_event"}
+      {"name":"rand_name","text":"chose_special"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1587,6 +1587,17 @@ var substitute_text_data={
     "go_to_next":"C1A_E"
   },
   "C2F":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+        {"text":"","value":""},
+        {"text":"","value":""}
+    ]
+  },
+  "C3D":{
     "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
