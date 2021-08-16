@@ -665,12 +665,12 @@
       {"name":"rand_name","text":"まだ大きくなれていないものや、一際大きいものも数多くあった。<br>それを見極めて、作業していく。」"},
       {"name":"rand_name","text":"作業も終盤に差し掛かってくると、ゆっくりと土を踏む音が聞こえてくる。」"},
       {"name":"父さん","text":"「……ヨゾラ、もうすぐ終わるか？」"},
-      {"name":"rand_name","text":""}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
-      {"text":"「ああ、うん」","value":""},
-      {"text":"「…あとちょっと」","value":""}
+      {"text":"「ああ、うん」","value":"A32"},
+      {"text":"「…あとちょっと」","value":"A32"}
     ]
   },
   "A31":{
@@ -698,6 +698,52 @@
     "next_page_option":[
       {"text":"「ああ、うん」","value":""},
       {"text":"「…あとちょっと」","value":""}
+    ]
+  },
+  "A32":{
+    "text_data":[
+      {"name":"父さん","text":"「……そうか。終わったら別の畑に出るぞ」"},
+      {"name":"rand_name","text":"そう言って、父は俺の側から離れていった。"},
+      {"name":"rand_name","text":"一体なんだろうと考えている間に、茄子にスプレーをかけ終わり、ぬかるんだ土を踏んで茄子畑を出る。<br>畑には少し湿った空気が漂っていた。"},
+      {"name":"rand_name","text":"スプレーを軽トラに戻そうとすると、父は既に車の運転席に座っていた。"},
+      {"name":"rand_name","text":"黄色い籠にスプレーを入れ、荷台を少し整理して助手席に乗り込む。<br>車内の狭い空間はクーラーの微風が吹いていた。"},
+      {"name":"父さん","text":"「……出るぞ」"},
+      {"name":"rand_name","text":"軽トラを動かし、畑から離れる。<br>白い砂利に揺れながら、まっすぐ進んでいた。"},
+      {"name":"rand_name","text":"「それで…今から何の作業？」"},
+      {"name":"父さん","text":"「……玉ねぎの収穫。本当は昨日やろうと思ったんだがな」"},
+      {"name":"rand_name","text":"「……そう」"},
+      {"name":"rand_name","text":"そんな少ない会話を父と交わし、軽トラは広い道に出て、信号を二つ超えた。"},
+      {"name":"rand_name","text":"少し離れた場所にある畑に着いて、その様子を眺める。"},
+      {"name":"rand_name","text":"大きくなった玉ねぎは、土から表面を出していて、緑の葉の部分がピンと伸びていた。"},
+      {"name":"父さん","text":"「……ヨゾラは引っこ抜いていってくれ。俺は葉を刈っていく」"},
+      {"name":"rand_name","text":"「わかった」"},
+      {"name":"rand_name","text":"俺はそう言って、土を踏み、数え切れないほど並んだ玉ねぎの端に立つ。<br>玉ねぎ特有の匂いがこの畑の上に漂っていた。"},
+      {"name":"rand_name","text":"葉の根元の部分を持ち、上に引っ張る。<br>玉ねぎは少しばかり抵抗して、やがて全身を土から出て表して、その大きさを理解させる。"},
+      {"name":"rand_name","text":"間違いなく普通のスーパーなどでは目にかからないであろう大きさ。<br>一回り、1.5倍くらいの大きさだろうか。"},
+      {"name":"rand_name","text":"そんな玉ねぎを一つずつ、抜いては隣へ、抜いては隣へを繰り返して、作業していく。"},
+      {"name":"rand_name","text":"その俺に着いてくるように父は抜いた玉ねぎの葉を鎌で刈り取っていくのだ。"},
+      {"name":"rand_name","text":"刈り取った葉からは時々、ポタリと雫が一滴落ちていた。"},
+      {"name":"父さん","text":"「……ヨゾラ」"},
+      {"name":"rand_name","text":"「ん？」"},
+      {"name":"rand_name","text":"太陽の日差しがどんどん厳しくなっていく中、作業の手を止めることなく、父は声をかけてくる。"},
+      {"name":"父さん","text":"「……大人になることの意味…わかったか」"},
+      {"name":"rand_name","text":"chose_event"}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「…いつかわかる気がする」","value":"A33"},
+      {"text":"「……今はまだわからない」","value":"A33"}
+    ]
+  },
+  "A33":{
+    "text_data":[
+      {"name":"rand_name","text":""},
+      {"name":"rand_name","text":""}
+    ],
+    "audio":{"file_path":""},
+    "next_page_option":[
+      {"text":"「……久しぶり」","value":"A16"},
+      {"text":"「……」","value":"A17"}
     ]
   },
   "A11BB":{
@@ -792,7 +838,7 @@
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -819,7 +865,7 @@
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -846,7 +892,7 @@
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -873,7 +919,7 @@
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -898,7 +944,7 @@
       {"name":"騎士","text":"「少ない情報で悪かったな。健闘したまえよ。」"},
       {"name":"rand_name","text":"騎士の立ち去る後ろ姿は、女性でもあってもカッコいいものだ。"},
       {"name":"rand_name","text":"俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1080,7 +1126,7 @@
       {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1095,7 +1141,7 @@
       {"name":"ブッカ","text":"「私の力を使う……。本当に馬鹿だな。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1110,7 +1156,7 @@
       {"name":"ブッカ","text":"「私と姫のことだ。赤の他人、それもどこの誰とも分からない、曖昧な人間に言うつもりはない。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外を出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1125,7 +1171,7 @@
       {"name":"ブッカ","text":"「曖昧な記憶で語るな。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1140,7 +1186,7 @@
       {"name":"ブッカ","text":"「貴方達、人間は本当に愚かだね。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1155,7 +1201,7 @@
       {"name":"ブッカ","text":"「書物は全て網羅しているのだ。知っているとも、私は原書であるからな。だが、貴方に教えるつもりはない。」"},
       {"name":"rand_name","text":"大精霊の姿がすぅと霧散して、図書館から消え去ってしまった。"},
       {"name":"rand_name","text":"俺は図書館に居る理由もなくなったので、一度外に出ることにした。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1262,7 +1308,7 @@
       {"name":"rand_name","text":"路地裏から出る"},
       {"name":"rand_name","text":"路地裏を出た俺は、占い師の言う通りにすることにした。"},
       {"name":"rand_name","text":"さて、どこへ行こうか？"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1514,7 +1560,7 @@
       {"name":"rand_name","text":"俺は門番の居るところまで、全力で走って行った。"},
       {"name":"門番","text":"「おい、何か分かったのか？」"},
       {"name":"rand_name","text":"そんな言葉が聞こえてきたが、無視して走り去っていった。"},
-      {"name":"rand_name","text":"chose_special"}
+      {"name":"rand_name","text":"chose_event"}
     ],
     "audio":{"file_path":""},
     "next_page_option":[
@@ -1538,17 +1584,6 @@
     "go_to_next":"C1A_E"
   },
   "C2F":{
-    "text_data":[
-      {"name":"rand_name","text":""},
-      {"name":"rand_name","text":""}
-    ],
-    "audio":{"file_path":""},
-    "next_page_option":[
-        {"text":"","value":""},
-        {"text":"","value":""}
-    ]
-  },
-  "C3D":{
     "text_data":[
       {"name":"rand_name","text":""},
       {"name":"rand_name","text":""}
