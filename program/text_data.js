@@ -90,9 +90,15 @@ function change_json_name(data){
 $(function() {
 
   if(location.hostname != ""){
-    $.getJSON("json/text_data.json" , function(data) {
-        change_json_name(data);
-    });
+     try {
+        $.getJSON("json/text_data.json" , function(data) {
+            change_json_name(data);
+        });       
+     } catch (error) {
+       console.error('f')
+     }
+
+
   }else{
     change_json_name(substitute_text_data);
   }
