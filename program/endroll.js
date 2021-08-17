@@ -5,6 +5,7 @@ var animation_speed=25;
 var css_top;
 var css_height;
 var css_margin_top;
+var endroll_music="audio/Datura.m4a";
 
 //エンドロールの速さ切り替え
 function endroll_speed(){
@@ -38,6 +39,8 @@ function endroll_go(){
     endroll_num=css_top;
     // css_top+=css_height;
     console.log(css_top);
+    music_file=new Audio(endroll_music);
+    music_file.play();
     endroll();
 
   }
@@ -81,6 +84,8 @@ function back_title_btn(){
   all_num=text_data[now_page]['text_data'].length;
   num=0;
   backnum=0;
+  music_file.pause();
+  // music_file=null;
   audio_file_path=text_data[now_page]['audio']['file_path'];
   music_file=null;
   result=null;
