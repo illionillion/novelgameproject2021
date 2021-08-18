@@ -1,7 +1,9 @@
 var endroll_num=100;
 var endroll_intervalId;
 var endroll_flag="normal";
-var animation_speed=25;
+const animation_speed=25*3;
+const animation_speed_f=15*3;
+var animation_speed_n;
 var css_top;
 var css_height;
 var css_margin_top;
@@ -11,10 +13,10 @@ var endroll_music="audio/Datura.m4a";
 function endroll_speed(){
 
   if(endroll_flag=="normal"){
-    animation_speed=10;
+    animation_speed_n=animation_speed_f;
     endroll_flag="high";
   }else{
-    animation_speed=25;
+    animation_speed_n=animation_speed;
     endroll_flag="normal";
   }
 
@@ -41,7 +43,10 @@ function endroll_go(){
     console.log(css_top);
     music_file=new Audio(endroll_music);
     music_file.play();
-    endroll();
+    animation_speed_n=animation_speed;
+    setTimeout(() => {
+      endroll();      
+    }, 12000);
 
   }
   
@@ -70,7 +75,7 @@ function endroll(){
 
 //↓関数の宣言↓
 function endroll_startTimer(){
-  endroll_intervalId=setTimeout(endroll,animation_speed);
+  endroll_intervalId=setTimeout(endroll,animation_speed_n);
 }
 
 function back_title_btn(){
@@ -93,7 +98,7 @@ function back_title_btn(){
   save_data={};
   endroll_num=100;
   endroll_flag="normal";
-  animation_speed=25;
+  animation_speed_n=null;
   character_name.innerHTML="";
   text_frame.innerHTML="";
 }
