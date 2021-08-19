@@ -43,6 +43,8 @@ var rand_name=encrypted;
 var text_data={};
 
 function change_json_name(data){
+
+  // let copy_data=Object.assign({},data);
   var len = Object.keys(data).length;
   // ulObj = $("#demo"),
   
@@ -93,6 +95,7 @@ $(function() {
      try {
         $.getJSON("json/text_data.json" , function(data) {
             change_json_name(data);
+            // console.log(data);
         });       
      } catch (error) {
        console.error('f')
