@@ -2204,7 +2204,8 @@
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
-            { "text": "姫の救出", "value": "C4H" }
+            { "text": "姫の救出", "value": "C4H" },
+            { "text": "", "value": "" }
         ]
     },
     "C2H4": {
