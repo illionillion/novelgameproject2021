@@ -50,9 +50,9 @@ var add_prop_changed={
         "stop":false,
         "se":"",
         "character_animation":{
-          "character_first":"purun",
+          "character_first":"shake",
           "character_center":"korokoro",
-          "character_second":"poyon"
+          "character_second":"shake"
         }
       }
     },
