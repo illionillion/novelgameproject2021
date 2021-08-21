@@ -81,7 +81,9 @@ function endroll_startTimer(){
 function back_title_btn(){
   title_frame.classList.remove("none");
   document.querySelector('#endroll_frame').classList.add("none");
-
+  $('#view_start').removeClass('none');
+  $('#title_btn_box').addClass('none');
+  $('#user_frame').addClass('none');
   //初期化
   now_page="A1";
   hero_name="????";
