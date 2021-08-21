@@ -160,6 +160,7 @@ function load(index){
       // backnum=num-1;
       hero_name=save_file[index_data]["hero_name"];
       audio_file_path=save_file[index_data]["audio_file_path"];
+      chose_special_data=Object.assign({},save_file[index_data]["chose_special_data"]);
       console.log(text_animation);
       clearInterval(intervalId);//タイマーをリセットする
       text_animation=null;

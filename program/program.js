@@ -428,4 +428,5 @@ function take_save(num){
   save_data['num']=num;
   save_data['hero_name']=hero_name;
   save_data['audio_file_path']=audio_file_path;
+  save_data['chose_special_data']=Object.assign({},chose_special_data);
 }
