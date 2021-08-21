@@ -26,6 +26,9 @@ body{
   main::before{
     padding-top: 76%;
   }
+  /* #text_area{
+    font-size: 1.2rem;
+  } */
 }
 
 input[type="button"]:focus{
