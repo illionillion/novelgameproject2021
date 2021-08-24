@@ -55,7 +55,7 @@ function endroll_go(){
 //エンドロールを流すプログラム
 function endroll(){
 
-  if (endroll_num>-(css_height-331)) {
+  if (endroll_num>-(css_height*0.9)) {
     endroll_num--;
     $("#endroll").css({"top":endroll_num+"px"});
     endroll_startTimer();
