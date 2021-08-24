@@ -1,7 +1,7 @@
 var endroll_num=100;
 var endroll_intervalId;
 var endroll_flag="normal";
-const animation_speed=25*3;
+const animation_speed=20*3;
 const animation_speed_f=15*3;
 var animation_speed_n;
 var css_top;
