@@ -125,12 +125,45 @@ var add_prop_changed={
   },
   {
     "index":4,
-    "type":"character_position",
+    "type":"background_image",
     "value":{
-      "character_first":"img/guildtyo_w.jpg",
-      "character_center":"img/transparent_background.png",
-      "character_second":"img/gorotsuki_w.jpg"
-    }    
+      "image":"city_1"
+    }
+  },
+  {
+    "index":5,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":6,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":7,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":8,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":9,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
   }
   ],
   "A8":[{
@@ -139,8 +172,51 @@ var add_prop_changed={
     "value":{
       "stop":true,
       "se":""
+    }    
+  },
+  {
+    "index":5,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
     }
-  }],
+  },
+  {
+    "index":6,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":7,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":8,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":9,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  },
+  {
+    "index":10,
+    "type":"background_image",
+    "value":{
+      "image":"city_1"
+    }
+  }
+],
   "A28":[
     {
       "index":0,
