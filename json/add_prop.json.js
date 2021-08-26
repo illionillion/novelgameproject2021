@@ -120,7 +120,7 @@ var add_prop_changed={
     "type":"effect",
     "value":{
       "stop":true,
-      "se":"audio/door.m4a"
+      "se":""
     }
   },
   {
