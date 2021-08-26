@@ -69,6 +69,10 @@
   background-size: cover;
 }
 
+.black{
+  background: url(../background_img/black.png);
+  background-size: cover;
+}
 .city_1{
   background: url(../background_img/city_1.jpg);
   background-size: cover;
