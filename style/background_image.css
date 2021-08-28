@@ -83,3 +83,8 @@
   background: url(../background_img/city_2.jpg);
   background-size: cover;
 }
+
+.dark_bridge{
+  background: url(../background_img/dark_bridge.jpg);
+  background-size: cover;
+}
