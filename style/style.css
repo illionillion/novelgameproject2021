@@ -11,14 +11,14 @@ body{
 
 
 
-@media screen and (max-width:450px){
+@media screen and (max-width:700px){
   main{
     width: 500px;
     height: 380px;
     margin: auto;
   }
 }
-@media screen and (min-width:450px){
+@media screen and (min-width:700px){
   main{
     width: 60%;
     margin: auto;
