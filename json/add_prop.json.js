@@ -1324,91 +1324,91 @@ var add_prop_changed={
       "index":0,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":1,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":2,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":3,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":4,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":5,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":6,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":7,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":8,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":9,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":10,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":11,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     },
     {
       "index":12,
       "type":"background_image",
       "value":{
-        "image":"dark_bridge"
+        "image":"city_3"
       }
     }
   ],
