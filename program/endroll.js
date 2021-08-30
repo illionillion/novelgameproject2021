@@ -7,7 +7,24 @@ var animation_speed_n;
 var css_top;
 var css_height;
 var css_margin_top;
+var css_body_top;
 var endroll_music="audio/Datura.m4a";
+var endroll_music_time;
+
+function set_screen_width(){
+  const window_width=window.innerWidth;
+  console.log(window_width);
+  if(window_width>700){
+    let screen_width=$("#screen_frame").css("width");
+    screen_width= Number(screen_width.replace( "px" , "" ));
+    console.log(screen_width*0.76);
+    $('main').css('height',screen_width*0.76);
+  }
+}
+
+window.onload=function(){ set_screen_width()};
+window.addEventListener('resize', function(){set_screen_width()});
+
 
 //エンドロールの速さ切り替え
 function endroll_speed(){
@@ -34,8 +51,10 @@ function endroll_go(){
     css_top= Number(css_top.replace( "px" , "" ));
     css_margin_top=$(".endroll_section").css("margin-top");
     css_margin_top= Number(css_margin_top.replace( "px" , "" ));
+    css_body_top=$("body").css("margin-top");
+    css_body_top= Number(css_body_top.replace( "px" , "" ));
     css_height=$("#endroll").css("height");
-    css_height= Number(css_height.replace( "px" , "" ))+css_margin_top;
+    css_height= Number(css_height.replace( "px" , "" ))+css_margin_top+css_body_top;
     console.log(css_margin_top);
 
     endroll_num=css_top;
@@ -43,6 +62,13 @@ function endroll_go(){
     console.log(css_top);
     music_file=new Audio(endroll_music);
     music_file.play();
+    // endroll_music_time=music_file.duration;
+    music_file.addEventListener('loadedmetadata',function(e) {
+      endroll_music_time=Math.floor(music_file.duration);
+      console.log(endroll_music_time); // 総時間の取得
+      console.log(css_height/endroll_music_time);
+    });
+    
     animation_speed_n=animation_speed;
     setTimeout(() => {
       endroll();      
