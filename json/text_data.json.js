@@ -1181,7 +1181,7 @@ var substitute_text_data={
             { "name": "騎士", "text": "「やぁ、君は広場に来るのは初めてだろう？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "そうですが、何か？", "value": "C1A_1" },
             { "text": "初めてですね", "value": "C1A_2" },
@@ -1207,7 +1207,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "図書館", "value": "C1C" },
             { "text": "都市", "value": "C1D" },
@@ -1234,7 +1234,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "図書館", "value": "C1C" },
             { "text": "都市", "value": "C1D" },
@@ -1261,7 +1261,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "図書館", "value": "C1C" },
             { "text": "都市", "value": "C1D" },
@@ -1288,7 +1288,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "図書館", "value": "C1C" },
             { "text": "都市", "value": "C1D" },
@@ -1313,7 +1313,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺はもう一度気合を入れ直しつつ、これからどこに行くかを検討した。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "図書館", "value": "C1C" },
             { "text": "都市", "value": "C1D" },
@@ -1332,7 +1332,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "「さて、どうするか。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "司書官に話しかける", "value": "C2C" },
             { "text": "図書館内を一周して見る", "value": "C3C" }
@@ -1346,7 +1346,7 @@ var substitute_text_data={
             { "name": "司書", "text": "「姫様……。昔は何度もお会いしていて、研究熱心だったのを覚えています。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "研究をしてたんですか？", "value": "C2C_1" },
             { "text": "姫様は毎日図書館に来てたんですか？", "value": "C2C_2" }
@@ -1359,7 +1359,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "司書官は遠い過去を見るような目をしていた。」いやいや、俺は記憶の手がかりを探しに来たんだ。何か重要なことを聞かないと……。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "姫の行方を知りそうな人は？", "value": "C2C1" },
             { "text": "姫が調べていた研究資材とは？", "value": "C2C2" }
@@ -1372,7 +1372,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "司書官は遠い過去を見るような目をしていた。」いやいや、俺は記憶の手がかりを探しに来たんだ。何か重要なことを聞かないと……。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "姫の行方を知りそうな人は？", "value": "C2C1" },
             { "text": "姫が調べていた研究資材とは？", "value": "C2C2" }
@@ -1387,7 +1387,7 @@ var substitute_text_data={
             { "name": "司書", "text": "「やはり、見つかりませんでしたか……。精霊とは一つの場所に留まることを嫌いますので、仕方のないことです。それよりも姫様が使われていた、研究資材を調べられては？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "姫が調べていた研究資材とは？", "value": "C2C2" }
         ],
@@ -1400,7 +1400,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は聞いた書物を取り出して、片っ端から調べ上げることにした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "太陽神歴", "value": "C2C2_1" },
             { "text": "魔神伝", "value": "C2C2_2" },
@@ -1414,7 +1414,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "図書館内を一周して見る", "value": "C3C" }
         ],
@@ -1426,7 +1426,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "図書館内を一周して見る", "value": "C3C" }
         ],
@@ -1438,7 +1438,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "書物を読んでも、記憶に繋がりそうなことはなかった。」最後に図書館内を散策することにした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "図書館内を一周して見る", "value": "C3C" }
         ],
@@ -1453,7 +1453,7 @@ var substitute_text_data={
             { "name": "ブッカ", "text": "貴方が探しているのは、司書から聞いた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "姫様と一緒に研究をしていたのは、本当ですか？", "value": "C3C1" },
             { "text": "大精霊様で間違いないですか？", "value": "C3C2" }
@@ -1466,7 +1466,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "興味がなさそうに大精霊は、くるりと体を回転させた。すると、燐光がパラパラと舞い散って、神秘的な雰囲気を纏っていた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "一緒に姫様を探してくれませんか？", "value": "C3C1_1" },
             { "text": "大精霊様の力なら、姫様の行方を知れるのでは？", "value": "C3C1_2" },
@@ -1480,7 +1480,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "図書館にある数百、数千、数万の書物が揺れ動く。大精霊から発せられる力が、大気と同時に図書館を揺らしていた。<br>書物が大精霊を肯定しているようだった。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "大精霊様、私は貴方と出会ったことがありますか？", "value": "C3C2_1" },
             { "text": "私と共に姫を探してはくれませんか？", "value": "C3C2_2" },
@@ -1495,7 +1495,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外を出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1510,7 +1510,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外を出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1525,7 +1525,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外を出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1540,7 +1540,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外に出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1555,7 +1555,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外に出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1570,7 +1570,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺は図書館に居る理由もなくなったので、一度外に出ることにした。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C1D" },
             { "text": "学園", "value": "C1E" },
@@ -1590,7 +1590,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "町人と別れた後、町人が言っていたことを思い出し、裏通りの近くまでやって来た。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/nodoka.mp3" },
         "next_page_option": [
             { "text": "占い師に会う", "value": "C2DD" },
             { "text": "占い師に会わない", "value": "C2DDD" }
@@ -1672,7 +1672,16 @@ var substitute_text_data={
             { "name": "rand_name", "text": "「大精霊とは何なんだ？」" },
             { "name": "占い師", "text": "「大精霊とは、五百年以上の歳月を生きる超越種でございます。ヒヒッ、尊き個体のことですな。<br>他に御用は？」" },
             { "name": "rand_name", "text": "他にも聞きたいことはあったが、一度路地裏から出ることにした。" },
-            { "name": "rand_name", "text": "路地裏から出る" },
+            { "name": "rand_name", "text": "chose_event" }
+        ],
+        "audio": { "file_path": "" },
+        "next_page_option": [
+            { "text": "路地裏から出る", "value": "C2D3_" }
+        ],
+        "go_to_next": "C1A_E"
+    },
+    "C2D3_": {
+        "text_data": [
             { "name": "rand_name", "text": "路地裏を出た俺は、占い師の言う通りにすることにした。" },
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
@@ -1691,7 +1700,7 @@ var substitute_text_data={
             { "name": "門番", "text": "「そんな目で見られてもな……。私もここを守るのが仕事なのだ。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "姫様の行方を探しているんだ", "value": "C1AEE" },
             { "text": "姫様の捜索をしていて……", "value": "C1AEE" }
@@ -1703,7 +1712,7 @@ var substitute_text_data={
             { "name": "門番", "text": "「そうか、姫様の捜索か……。ならば、特例として書庫か庭園かを見せてやろう。<br>どちらを選ぶ？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "書庫", "value": "C2E" },
             { "text": "庭園", "value": "C3E" }
@@ -1716,7 +1725,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "どんどんと廊下を進んで行き、本が大量に置かれてある部屋が見えたが、その部屋とは逆の方向へと歩いて行く。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "過ぎたぞ！", "value": "C2E_1" },
             { "text": "おい、どこに行っている？", "value": "C2E_1" }
@@ -1728,7 +1737,7 @@ var substitute_text_data={
             { "name": "門番", "text": "「書庫と言っただろ？<br>あっちは図書館だ。それに姫様は、よく書庫で研究されていた。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "そうだったのか", "value": "C2E_2" },
             { "text": "すまない……", "value": "C2E_2" },
@@ -1746,7 +1755,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "『魔女日記』、『ウィズ・サンを滅ぼす者』、『精霊契約術』の三冊。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "魔女日記", "value": "C2E_3" },
             { "text": "ウィズ・サンを滅ぼす者", "value": "C2E_3" },
@@ -1770,7 +1779,7 @@ var substitute_text_data={
             { "name": "学園長", "text": "「門番は、私が下がらせたよ。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "そうでしたか。では、俺も帰ります", "value": "C2E_4" },
             { "text": "俺もそろそろ帰るところなので……", "value": "C2E_4" }
@@ -1782,7 +1791,7 @@ var substitute_text_data={
             { "name": "学園長", "text": "「姫様の捜索をしている人のようだが、目の付け所が良いじゃないか。それは姫様が面白いと言っていた小説だよ。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "返答する", "value": "C2E1" },
             { "text": "庭園", "value": "C2E2" }
@@ -1796,7 +1805,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "そんな短い会話をした後に、俺は書庫を後にした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],
@@ -1809,7 +1818,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "そんな寂し気な教師を背中に、俺は書庫を後にした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],

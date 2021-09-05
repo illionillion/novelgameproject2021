@@ -152,9 +152,9 @@ function load(index){
 
     if(save_file[index_data]["now_page"]){
         
-      if(music_file){
-        music_file.pause();
-      }
+      // if(music_file){
+      //   music_file.pause();
+      // }
       now_page=save_file[index_data]["now_page"];
       num=save_file[index_data]["num"];
       // backnum=num-1;

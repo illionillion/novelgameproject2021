@@ -171,10 +171,10 @@ function event_check(char,event){
       console.log(now_page);
       num=0;
       backnum=0;
-      if(music_file){
-        music_file.pause();
-        // audio_file_path=null;
-      }
+      // if(music_file){
+      //   music_file.pause();
+      //   // audio_file_path=null;
+      // }
       audio_file_path=text_data[now_page]['audio']['file_path'];
       text_animation=false;
       skip_text=false;
@@ -326,9 +326,9 @@ function name_event(){
       num=0;
     }
     
-    if(music_file){
-      music_file.pause();
-    }
+    // if(music_file){
+    //   music_file.pause();
+    // }
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
     setTimeout(() => {
@@ -367,11 +367,11 @@ function branch(branch_text){
 
   num=0;
   backnum=0;
-  if(music_file){
+  // if(music_file){
     
-    music_file.pause();
+  //   music_file.pause();
 
-  }
+  // }
   audio_file_path=text_data[now_page]['audio']['file_path'];
   var sum=option_area.getAttribute("branch_sum");
   for(let i=0;i<sum;i++){
@@ -390,18 +390,26 @@ function branch(branch_text){
 //音声再生
 function audio_start(){
   if(num==0){
-    if(audio_file_path){
-      console.log(audio_file_path);
-      if(music_file){
-        music_file.pause();
-      }
-      music_file=new Audio(audio_file_path);
-      music_file.play();
-      music_file.addEventListener("ended", function () {
-        music_file.currentTime = 0;
+    if(location.protocol+"//"+location.host+location.pathname+audio_file_path==music_file.src){
+      console.log(music_file);
+      // return;
+    }else{
+      if(audio_file_path){
+        console.log(location.protocol+"//"+location.host+location.pathname+audio_file_path);
+        // console.log(music_file);
+        // console.log(music_file.src);
+        if(music_file){
+          music_file.pause();
+        }
+        music_file=new Audio(audio_file_path);
         music_file.play();
-      }, false);
+        music_file.addEventListener("ended", function () {
+          music_file.currentTime = 0;
+          music_file.play();
+        }, false);
+      }      
     }
+
   }
 
 }

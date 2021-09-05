@@ -44,9 +44,9 @@ function chapter_start(data){
 
     break;
   }
-  if(music_file){
-    music_file.pause();
-  }
+  // if(music_file){
+  //   music_file.pause();
+  // }
   text_animation=null;
   skip_text=false;
   audio_file_path=text_data[now_page]['audio']['file_path'];

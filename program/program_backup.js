@@ -151,10 +151,10 @@ function event_check(char,event){
       console.log(now_page);
       num=0;
       backnum=0;
-      if(audio_file_path){
-        music_file.pause();
-        // audio_file_path=null;
-      }
+      // if(audio_file_path){
+      //   music_file.pause();
+      //   // audio_file_path=null;
+      // }
       audio_file_path=text_data[now_page]['audio']['file_path'];
 
       next();
@@ -262,12 +262,12 @@ function name_event(){
 
 
     
-    if(audio_file_path){
-      music_file.pause();
-      // audio_file_path=null;
-      // audio_file=null;
-      // console.log("pause");
-    }
+    // if(audio_file_path){
+    //   music_file.pause();
+    //   // audio_file_path=null;
+    //   // audio_file=null;
+    //   // console.log("pause");
+    // }
 
     audio_file_path=text_data[now_page]['audio']['file_path'];
     setTimeout(() => {
@@ -301,10 +301,10 @@ function branch(branch_text){
 
   num=0;
   backnum=0;
-  if(audio_file_path){
-    music_file.pause();
-    // audio_file_path=null;
-  }
+  // if(audio_file_path){
+  //   music_file.pause();
+  //   // audio_file_path=null;
+  // }
   audio_file_path=text_data[now_page]['audio']['file_path'];
   var sum=option_area.getAttribute("branch_sum");
   for(let i=0;i<sum;i++){

@@ -50,6 +50,7 @@ function add_propaty(text_data){
       console.log(index);
       console.log(value);
       console.log(type);
+      console.log(text_data[prop_key]);
       console.log(text_data[prop_key]["text_data"][index]);
       console.log(text_data[prop_key]["text_data"][index][type]);
       text_data[prop_key]["text_data"][index][type]=value;

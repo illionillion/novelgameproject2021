@@ -2254,6 +2254,16 @@ var add_prop_changed={
       }
     }
   ],
+  "C2D3_":[
+    {
+      "index":0,
+      "type":"effect",
+      "value":{
+          "stop":true,
+          "se":"audio/asioto.m4a"
+      }
+    }
+  ],
   "C1E":[
     {
       "index":0,
