@@ -409,7 +409,9 @@ function audio_start(){
         }, false);
       }      
     }
-
+    if(!audio_file_path && music_file){
+      music_file.pause();
+    }
   }
 
 }
