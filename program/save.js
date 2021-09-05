@@ -6,8 +6,10 @@ var save_options_array=[
 
 ];
 
-window.onload=function create_save_frame(){
+function create_save_frame(){
+  console.log('%c aaaaa','color:red;');
   var frame=document.getElementById("save_option");
+  frame.innerHTML="";
 
   for(let i=1;i<=4;i++){
     
