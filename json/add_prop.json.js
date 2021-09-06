@@ -2580,5 +2580,45 @@ var add_prop_changed={
           "se":"audio/asioto.m4a"
       }
     }
+  ],
+  "C4E":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"black"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"black"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"black"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"black"
+      }
+    }
+  ],
+  "C1G":[
+    {
+      "index":0,
+      "type":"effect",
+      "value":{
+          "stop":true,
+          "se":"audio/asioto.m4a"
+      }
+    }
   ]
 }

@@ -3411,7 +3411,7 @@
             { "name": "rand_name", "text": "なら、お言葉に甘えよう。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "当時の護衛とかは、どうなっていた？", "value": "C2F" },
             { "text": "当時、姫様の言動は、どうだった？", "value": "C3F" }
@@ -3430,7 +3430,7 @@
             { "name": "団長", "text": "「そうか……。しかし、我は学園内で何があったかを知らん。<br>それでも聞きたいことがあると言うのなら、質問をしたまえ。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "姫様の動向について", "value": "C2F1" },
             { "text": "姫様の研究について", "value": "C2F2" }
@@ -3446,7 +3446,7 @@
             { "name": "rand_name", "text": "それから数回話し合ったが、記憶に繋がりそうなことも得られなかった。<br>成果は、今のところゼロだ。<br>さて、どうするか。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C3D" }
         ]
@@ -3459,7 +3459,7 @@
             { "name": "rand_name", "text": "それから数回話し合ったが、記憶に繋がりそうなことも得られなかった。<br>成果は、今のところゼロだ。<br>さて、どうするか。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C3D" }
         ]
@@ -3473,7 +3473,7 @@
             { "name": "rand_name", "text": "chose_event" }
 
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "大精霊様の力か", "value": "C3F1" },
             { "text": "世情には疎かったでしょう", "value": "C3F2" }
@@ -3487,7 +3487,7 @@
             { "name": "rand_name", "text": "それから数回話し合ったが、 記憶に繋がりそうなことも得られなかった。<br>成果は、 今のところゼロだ。<br> さて、 どうするか。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C3D" }
         ]
@@ -3500,7 +3500,7 @@
             { "name": "rand_name", "text": "ニイドギューフ、聞いたことがあるような、無いような名前だ。<br>それから数回話し合ったが、記憶に繋がりそうなことも得られなかった。<br>成果は、今のところゼロだ。<br>さて、どうするか。" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
             { "text": "都市", "value": "C3D" }
         ]
@@ -3529,7 +3529,7 @@
             { "name": "rand_name", "text": "何を言ってもダメそうだったので、俺は考え込んだ。<br>どんなに大精霊に頼み込んでも、どうしたって教えてくれないと分かっていた。<br>だから、ここで一世一代の行動を起こさなければいけない。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "居場所を教えろ、と怒る", "value": "C1G1" },
             { "text": "記憶を取り戻したい、と泣く", "value": "C1G2" }
