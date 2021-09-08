@@ -1377,9 +1377,9 @@
             { "name": "rand_name", "text": "街からおよそ2時間くらい騎馬で駆けて、遠目からも見える高い丘があった。" },
             { "name": "rand_name", "text": "丘陵の上に人の営みの跡が残されている遺跡があった。<br> 遺跡の奥へと歩いていくと石柱と平屋根の神観性を感じる神殿が建っていた。" },
             { "name": "レイア", "text": "｢今回の任務はこの神殿の調査だ。ここ最近のモンスターの活発な動きの原因はこの神殿にあるという情報だ。<br>もしかしたら何らかの封印が開放されたかしているはずだから呉々も注意を怠るな。｣" },
-            { "name": "主人公・ゴードン・エブリン", "text": "｢｢｢はい!!｣｣｣" },
+            { "name": "rand_name・ゴードン・エブリン", "text": "｢｢｢はい!!｣｣｣" },
             { "name": "レイア", "text": "｢これより、二手に別れる。君と私は神殿の奥へ、ゴードンとエブリンは神殿の周辺を調査してくれ。｣" },
-            { "name": "主人公・ゴードン・エブリン", "text": "｢｢｢はい!!｣｣｣" },
+            { "name": "rand_name・ゴードン・エブリン", "text": "｢｢｢はい!!｣｣｣" },
             { "name": "rand_name", "text": "神殿の奥へ行くと広大な聖所あり、太陽神の石碑があった。" },
             { "name": "レイア", "text": "｢私は他を調べるから、もう少しその辺に調べていてくれ。｣" },
             { "name": "rand_name", "text": "｢はい！｣" },
@@ -2307,7 +2307,7 @@
             { "name": "ブッカ", "text": "(OK〜、あっちのチョイイケメンが放つ瞬間に行くよ〜！！)" },
             { "name": "イーライ", "text": "｢死なないでくれよ、魔力衝撃波!!｣" },
             { "name": "rand_name", "text": "ボオーン (爆発音)" },
-            { "name": "主人公・ブッカ", "text": "｢今だ(です)｣" },
+            { "name": "rand_name・ブッカ", "text": "｢今だ(です)｣" },
             { "name": "rand_name", "text": "球状に広がる濃紫色の衝撃波とブッカの魔力を借りて放った黄緑に輝く光線が真っ向からぶつかった。" },
             { "name": "rand_name", "text": "ギギギギギギ(削り会う音)" },
             { "name": "rand_name", "text": "｢まずい、エブリンさんとゴードン君逃げろ!!イーライも！｣" },
@@ -2404,7 +2404,7 @@
             { "name": "rand_name", "text": "さっきまでの乱戦が彼の一喝で一気に静まった。" },
             { "name": "オケアノス", "text": "｢先程私の部屋に彼女が来たよ！｣" },
             { "name": "エブリン", "text": "｢――――――｣" },
-            { "name": "オケアノス", "text": "｢これにより、今年度の舞踏会を閉会する！｣" },
+            { "name": "オケアノス", "text": "｢これにより、今年度の武闘会を閉会する！｣" },
             { "name": "rand_name", "text": "ゴォーン  ゴォーン  (鐘の音)" },
             { "name": "rand_name", "text": "オケアノス学園長の声と同時に、武闘会の終わりを知らせる鐘の音が学園中に鳴り響いた。" },
             { "name": "rand_name", "text": "翌日、優勝した僕達は校長室に呼び出された。<br>校長室にオケアノス学園長とレイアさんが待っていた。" },
@@ -2623,7 +2623,7 @@
             { "name": "占い師", "text": "「ならば、あの人の流れに付いて行かれると良いでしょう。そこにあなた様の求めている何かがあります。」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_town.mp3" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "人の流れに付いて行く", "value": "C1A" }
         ]
@@ -3064,7 +3064,7 @@
             { "name": "rand_name", "text": "俺は考え込んだ後、いくつかの占って欲しいことを考えた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "姫の居場所", "value": "C2D1" },
             { "text": "自分の記憶", "value": "C2D2" },
@@ -3080,7 +3080,7 @@
             { "name": "rand_name", "text": "俺は考え込んだ後、いくつかの占って欲しいことを考えた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "姫の居場所", "value": "C2D1" },
             { "text": "自分の記憶", "value": "C2D2" },
@@ -3097,7 +3097,7 @@
             { "name": "占い師", "text": "「今のままでは情報が足りんのです。そういえば、姫様は図書館、学園、騎士団に通っていたらしいですので、その三つに行ってから、また来てくださいな。<br>他に御用は？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "自分の記憶", "value": "C2D2" },
             { "text": "精霊とは？", "value": "C2D3" }
@@ -3114,7 +3114,7 @@
             { "name": "占い師", "text": "「ヒヒッ、私の言葉で伝えるのが占いのコツなんですよ。<br>他に御用は？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "精霊とは？", "value": "C2D3" }
         ],
@@ -3133,7 +3133,7 @@
             { "name": "rand_name", "text": "他にも聞きたいことはあったが、一度路地裏から出ることにした。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "路地裏から出る", "value": "C2D3_" }
         ],
@@ -3145,7 +3145,7 @@
             { "name": "rand_name", "text": "さて、どこへ行こうか？" },
             { "name": "rand_name", "text": "chose_special" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "学園", "value": "C1E" },
             { "text": "騎士団", "value": "C1F" }
@@ -3516,7 +3516,7 @@
             { "name": "rand_name", "text": "やはり、大精霊は何か知っているのだ。<br>少なくとも姫について、何らかの情報を持っているはずだ。<br>俺が何者であるか、それを確かめるために図書館へと向かった。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "大精霊のもとへ", "value": "C1G" }
         ],
@@ -3717,7 +3717,7 @@
             { "name": "rand_name", "text": "声が叫んだ瞬間、波打つような闇の触手が頬を掠めた。そして、それがもう一撃やってくるのが見える。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "その手を放す", "value": "C2J3" },
             { "text": "その手を放さない", "value": "C2J4" }
@@ -3937,7 +3937,7 @@
             { "name": "rand_name", "text": "俺はどうすれば良いか分からない。しかし、答えを出さなければならない。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "禁術を行使させる", "value": "C1H1" },
             { "text": "自分の力で考える", "value": "C1H2" }
@@ -3964,7 +3964,7 @@
             { "name": "rand_name", "text": "古い礼式を掲げる占い師。<br>調べた資料の中に、同じ格好をした神の図を見た。" },
             { "name": "rand_name", "text": "go_to_next" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/suspicious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
@@ -3979,7 +3979,7 @@
             { "name": "rand_name", "text": "何をすれば良いのか分からない。<br>俺には覚悟が足りなかった。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
