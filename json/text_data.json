@@ -3784,7 +3784,7 @@
             { "name": "rand_name", "text": "俺は闇の中へと消えていった。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
@@ -3857,7 +3857,7 @@
             { "name": "rand_name", "text": "記憶を聞かされても、その記憶を思い出すことはない。壊れてしまったものだからか。<br>俺は当てのない旅で出た。<br>沈まない太陽の下で。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
@@ -4011,7 +4011,7 @@
             { "name": "rand_name", "text": "世界が崩壊していく中で、俺の体にも崩壊の手が伸びてきたのが、最後の記憶だった。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
@@ -4051,7 +4051,7 @@
             { "name": "rand_name", "text": "もし間違えていたらと思うと、少しだけぞっとした。<br>蔵書の精霊が小説を生み出すと同時に、白い光が灯り、それは俺たちを包み込むのだった。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "姫の救出", "value": "C4H" }
         ]
@@ -4065,7 +4065,7 @@
             { "name": "rand_name", "text": "一瞬だけ精霊との繋がりを感じた後、俺の意識は途切れた。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
