@@ -1023,7 +1023,7 @@
             { "name": "rand_name", "text": "どっちに進もうか――" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_town.mp3" },
         "next_page_option": [
             { "text": "右の方へ進むか", "value": "B2" },
             { "text": "左の方へ進むか", "value": "B3" }
@@ -1455,7 +1455,7 @@
             { "name": "rand_name", "text": "イーライはそう言って、見物人の僕らの方に手を向けた。" },
             { "name": "rand_name", "text": "「お前ら、さっさと逃げろー！」" },
             { "name": "rand_name", "text": " やっぱりそう来るよな。" },
-            { "name": "rand_name", "text": " chose_event" }
+            { "name": "rand_name", "text": "chose_event" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
@@ -1956,7 +1956,7 @@
             { "name": "オケアノス", "text": "「君の魔法と勇敢さな行動に興味があってねぇ。 どうかな？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/bgm_temple.mp3" },
         "next_page_option": [
             { "text": "「……わかりました、でも記憶を戻した場合も辞めやすように入学以外の形で入らしてください。」", "value": "B8" },
             { "text": "「……すみません、お誘いは嬉しいんですが、もう少し考えさせてもらいませんか？」", "value": "B9" }
@@ -1972,9 +1972,9 @@
             { "name": "rand_name", "text": "マジかよ、なんか防ぐ手段。こう、掌に力を集中させてバリアーみたいなのが出るような――" },
             { "name": "rand_name", "text": "逃げ切れ――――あの貴族のやることはわかったのに、賭けに出られなかった。" },
             { "name": "rand_name", "text": "思考を回らせる前に僕の意識はとおのいていった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
