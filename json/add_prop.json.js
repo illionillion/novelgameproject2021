@@ -83,7 +83,7 @@ var add_prop_changed={
       "type":"character_position",
       "value":{
         "character_first":"character_img/guildtyo.png",
-        "character_center":"img/test_character_02.png",
+        "character_center":"character_img/bibian.png",
         "character_second":"character_img/gorotsuki.png"
       }
     },
