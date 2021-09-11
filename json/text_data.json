@@ -3819,7 +3819,7 @@
             { "name": "ブッカ", "text": "「後で教えてやる、そんな暇はない！」" },
             { "name": "rand_name", "text": "「違う、そうじゃない！」" },
             { "name": "rand_name", "text": "俺は大精霊の腕を振り払い、光の渦の中から飛び出していた。<br>光の湖畔の中へと飛び込んで、もう一度姫の記憶を読もうとするが、ただ苦しいばかりで断片すら見えてこない。<br>世界に亀裂が入り、水と一緒に俺の体も崩壊していく。<br>姫と大精霊がどうなったのか、俺には分からない。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [

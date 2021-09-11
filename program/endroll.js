@@ -45,7 +45,7 @@ function endroll_go(){
   if(endroll_num==100){
     $("#back_title_btn").addClass("none");
     $("#change_endroll_speed").removeClass("none");
-    document.querySelector('#endroll_frame').classList.remove("none");
+    $('#endroll_frame').removeClass("none");
     $("#endroll").css({"top":"100%"});
     css_top=$("#endroll").css("top");
     css_top= Number(css_top.replace( "px" , "" ));
@@ -118,7 +118,6 @@ function back_title_btn(){
   num=0;
   backnum=0;
   music_file.pause();
-  // music_file=null;
   audio_file_path=text_data[now_page]['audio']['file_path'];
   music_file=null;
   result=null;
@@ -129,4 +128,17 @@ function back_title_btn(){
   animation_speed_n=null;
   character_name.innerHTML="";
   text_frame.innerHTML="";
+  $("#back_title_btn input").val("タイトルへ");
+
+}
+
+//エンドロール流さない
+function not_endroll(){
+
+  $('#endroll_frame').removeClass("none");
+  $("#change_endroll_speed").addClass("none");
+  $("#back_title_btn").removeClass("none");
+  $("#back_title_btn input").attr("onclick","back_title_btn()");
+  $("#back_title_btn input").val("終了");
+
 }

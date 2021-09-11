@@ -198,6 +198,10 @@ function event_check(char,event){
       endroll_go();
     break;
 
+    case "not_endroll":
+      not_endroll();
+    break;
+
     case 'chose_special':
       option_area.classList.remove('none');
       //分岐の数
