@@ -3871,7 +3871,7 @@
             { "name": "rand_name", "text": "亀裂が迫ってくる。<br>あと少しで当たる。" },
             { "name": "rand_name", "text": "瓦礫の山と化した塔を上る。<br>亀裂が体を巡り、俺は空中で崩れていった。" },
             { "name": "rand_name", "text": "姫と大精霊がどうなったのか、俺は知る由もなかった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
@@ -3904,7 +3904,7 @@
             { "name": "rand_name", "text": " 俺は無性に怖くなって、視線をさまよわせると、階段の上から人が覗き込むのが見えた。<br>ずっと見ている奴が居るのかもしれないと考え、俺はすぐに階段を上り出した。" },
             { "name": "ブッカ", "text": "「待て、勝手な行動を執るな！」" },
             { "name": "rand_name", "text": "大精霊の制止を無視して、誰が見ていたかを確認しに行く。<br>それを後悔したのは、階段を中盤まで上った時だった。<br>また人が覗き込むと思ったら、それは小さな子供だったのだ。しかも、恐らく本の住民だろう。<br>すぐに階段を下りようとしたが、時はすでに遅かった。<br>階段がガラガラと崩れ出し、ブラックホールのような虚空に飲み込まれた。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
@@ -3919,7 +3919,7 @@
             { "name": "ブッカ", "text": "「うッ――しまッ！」" },
             { "name": "rand_name", "text": "後ろを振り向くと、扉に阻まれている大精霊がいた。逆に俺は吸い込まれる力が強くなり、動こうにも半身が中に入ってしまい、どうにも出来ない状況へと追い込まれていた。<br>部屋の中では、もうすでに変化が生じていた。<br>奥の方が縮こまり、空間が湾曲しているのが目に見えて分かる。" },
             { "name": "rand_name", "text": "そして、その空間も部屋全体を侵食しようと迫って来ていた。<br>耐えようとしてみるが、体が扉から押し出されようとするので、どうしようもない。<br>俺は虚空へと飲み込まれた。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
@@ -3977,7 +3977,7 @@
             { "name": "rand_name", "text": "俺は占い師のところを離れた後、やはり自分の力ではどうしようも出来なかった。" },
             { "name": "rand_name", "text": "本の世界に入ることすら躊躇ってしまった。" },
             { "name": "rand_name", "text": "何をすれば良いのか分からない。<br>俺には覚悟が足りなかった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
@@ -4009,7 +4009,7 @@
             { "name": "rand_name", "text": "次の瞬間、白い世界が崩壊をし始めた。<br>砕けていく世界の中で、精霊との繋がりが剥がれていくのが分かる。" },
             { "name": "rand_name", "text": "「裏切り……。まぁ、当然かぁ。」" },
             { "name": "rand_name", "text": "世界が崩壊していく中で、俺の体にも崩壊の手が伸びてきたのが、最後の記憶だった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
@@ -4063,7 +4063,7 @@
             { "name": "rand_name", "text": "蔵書の精霊へと手を向けて、占い師から聞いた呪文を唱える。<br>黒い靄のような触手が蠢き、鈍器で殴られたような感覚が脳に響き、自分の中の何かを吸われていくようだった。" },
             { "name": "rand_name", "text": "鼻血が出て、目から血が流れ、その場に倒れ込んだ。" },
             { "name": "rand_name", "text": "一瞬だけ精霊との繋がりを感じた後、俺の意識は途切れた。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
@@ -4114,7 +4114,7 @@
             { "name": "rand_name", "text": "一瞬の迷いの後、俺は決断した。" },
             { "name": "rand_name", "text": "「だったら、姫様を助けろ。」" },
             { "name": "rand_name", "text": "三体の精霊が姫を助けに向かった。<br>俺はすでに上半身だけの姿と化していた。<br>姫がどうなったのかは分からない。ただ、姫は助かっただろう。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
