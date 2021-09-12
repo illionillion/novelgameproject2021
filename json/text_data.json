@@ -2368,6 +2368,17 @@
             { "name": "イーライ", "text": "｢勝てるのなら乗るが……まぁいい話せ。｣" },
             { "name": "rand_name", "text": "｢よし、それじゃあまず――――｣" },
             { "name": "rand_name", "text": "武闘会前日の夜、イーライとの作戦会議で夜は更けていった。" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "" },
+        "next_page_option": [
+            { "text": "｢旅への軍資金を用意してください｣", "value": "B12" },
+            { "text": "｢魔導書を1冊くれませんか｣", "value": "B13" }
+        ],
+        "go_to_next":"B10_"
+    },
+    "B10_": {
+        "text_data": [
             { "name": "rand_name", "text": "武闘会当日、鐘の音が鳴るのを待つ間、僕達はエブリンらと作戦の最終確認とエブリンを調査した情報を聞いた。" },
             { "name": "エブリン", "text": "「転校生とイーライ、調べた感じだと今回の優勝候補は同じクラスでギルドで働いている組とレイアさんのチームかな。」" },
             { "name": "イーライ", "text": "｢ジブがいるチームはともかく、レイアのいるチームとはなるべく避けたいな。｣" },
@@ -2431,11 +2442,12 @@
             { "name": "rand_name", "text": "ついに僕の番が来たか、どうする？" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/battle.mp3" },
         "next_page_option": [
             { "text": "｢旅への軍資金を用意してください｣", "value": "B12" },
             { "text": "｢魔導書を1冊くれませんか｣", "value": "B13" }
-        ]
+        ],
+        "go_to_next":"B10_"
     },
     "B12": {
         "text_data": [
