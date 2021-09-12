@@ -81,7 +81,16 @@ function endroll_go(){
 //エンドロールを流すプログラム
 function endroll(){
 
-  if (endroll_num>-(css_height*0.9)) {
+  var endrollpase
+  const window_width=window.innerWidth;
+  console.log(window_width);
+  if(window_width>900){
+    endrollpase=0.85;
+  }else{
+    endrollpase=0.9;
+  }
+
+  if (endroll_num>-(css_height*endrollpase)) {
     endroll_num--;
     $("#endroll").css({"top":endroll_num+"px"});
     endroll_startTimer();
