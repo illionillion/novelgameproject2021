@@ -22,8 +22,8 @@ function set_screen_width(){
   }
 }
 
-window.onload=function(){ set_screen_width()};
-window.addEventListener('resize', function(){set_screen_width()});
+  window.onload=function(){ set_screen_width();create_save_frame();};
+  window.addEventListener('resize', function(){set_screen_width()});
 
 
 //エンドロールの速さ切り替え

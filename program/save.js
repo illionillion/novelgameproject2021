@@ -7,7 +7,7 @@ var save_options_array=[
 ];
 
 function create_save_frame(){
-  console.log('%c aaaaa','color:red;');
+  // console.log('%c aaaaa','color:red;');
   var frame=document.getElementById("save_option");
   frame.innerHTML="";
 
@@ -109,8 +109,18 @@ function show_save_prop(){
     
     // console.log(save_file[Object.keys(save_file)[i]]);
     var data_page_text=save_file[Object.keys(save_file)[i]]["hero_name"]+"-"+save_file[Object.keys(save_file)[i]]["now_page"]+"-"+save_file[Object.keys(save_file)[i]]["num"];
+    let image=save_file[Object.keys(save_file)[i]]["image"];
+    console.log(image);
+
     if(data_page_text!="undefined-undefined-undefined"){
       document.getElementsByClassName("data_page")[i].innerHTML=data_page_text;
+    }
+
+    if(image!=undefined){
+      // console.log(document.getElementsByClassName("save_icon")[i]);
+      // console.log($('.save_icon img')[i]);
+      // document.getElementsByClassName("save_icon")[i].querySelector("image").src=image;
+      $('.save_icon img')[i].setAttribute("src",image);
     }
   }
 }
@@ -154,9 +164,9 @@ function load(index){
 
     if(save_file[index_data]["now_page"]){
         
-      // if(music_file){
-      //   music_file.pause();
-      // }
+      if(music_file){
+        music_file.pause();
+      }
       now_page=save_file[index_data]["now_page"];
       num=save_file[index_data]["num"];
       // backnum=num-1;

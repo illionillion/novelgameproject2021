@@ -443,4 +443,11 @@ function take_save(num){
   save_data['hero_name']=hero_name;
   save_data['audio_file_path']=audio_file_path;
   save_data['chose_special_data']=Object.assign({},chose_special_data);
+
+  let image=$('#background_frame').css('background-image');
+  console.log(image);
+  image=image.replace( "url(\"" , "" )
+  image=image.replace( "\")" , "" )
+
+  save_data['image']=image;
 }
