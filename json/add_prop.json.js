@@ -2198,8 +2198,18 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
+      }
+    }
+  ],
+  "B3":[
+    {
+      "index":4,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/door.m4a"
       }
     }
   ],
@@ -2485,6 +2495,58 @@ var add_prop_changed={
       }
     }
   ],
+  "B12":[
+    {
+      "index":5,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/door.m4a"
+      }
+    },
+    {
+      "index":6,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/asioto.m4a"
+      }
+    },
+    {
+      "index":14,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/tobira.m4a"
+      }
+    }
+  ],
+  "B13":[
+    {
+      "index":6,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/door.m4a"
+      }
+    },
+    {
+      "index":7,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/asioto.m4a"
+      }
+    },
+    {
+      "index":15,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/tobira.m4a"
+      }
+    }
+  ],
   "C1B":[
     {
       "index":0,
@@ -2511,7 +2573,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2521,7 +2583,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2531,7 +2593,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2541,7 +2603,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2551,7 +2613,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2858,7 +2920,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
@@ -2898,7 +2960,7 @@ var add_prop_changed={
       "index":0,
       "type":"effect",
       "value":{
-          "stop":true,
+          "stop":false,
           "se":"audio/asioto.m4a"
       }
     }
