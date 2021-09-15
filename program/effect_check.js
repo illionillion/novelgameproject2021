@@ -13,6 +13,7 @@ function effect_play(value,output_charname,output_text){
 
   }
   //効果音再生
+  if(se_file){se_file.pause();}
   if(value["se"]){
     se_file_path=value["se"];
     se_file=new Audio(se_file_path);

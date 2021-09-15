@@ -2203,6 +2203,16 @@ var add_prop_changed={
       }
     }
   ],
+  "B2":[
+    {
+      "index":0,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-magic-electron4.mp3"
+      }
+    }
+  ],
   "B3":[
     {
       "index":4,
@@ -2210,6 +2220,16 @@ var add_prop_changed={
       "value":{
           "stop":false,
           "se":"audio/door.m4a"
+      }
+    }
+  ],
+  "B6":[
+    {
+      "index":9,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-magic-electron4.mp3"
       }
     }
   ],
@@ -2446,7 +2466,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     },
     {
@@ -2454,7 +2474,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/door.m4a"
+          "se":"audio/labo-door-open1.mp3"
       }
     },
     {
@@ -2462,7 +2482,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/door.m4a"
+          "se":"audio/labo-door-open1.mp3"
       }
     },
     {
@@ -2470,7 +2490,15 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/door.m4a"
+          "se":"audio/labo-door-close2.mp3"
+      }
+    },
+    {
+      "index":35,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-magic-circle1.mp3"
       }
     },
     {
@@ -2711,6 +2739,64 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"white"
+      }
+    },
+    {
+      "index":83,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-magic-electron4.mp3"
+      }
+    },
+    {
+      "index":86,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-qigong-fight1.mp3"
+      }
+    },
+    {
+      "index":91,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-magic-electron4.mp3"
+      }
+    },
+    {
+      "index":105,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/door.m4a"
+      }
+    },
+    {
+      "index":134,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-door-open1.mp3"
+      }
+    }
+  ],
+  "B10_":[
+    {
+      "index":17,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-dragon-cry1.mp3"
+      }
+    },
+    {
+      "index":21,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-dragon-cry1.mp3"
       }
     }
   ],
