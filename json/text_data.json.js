@@ -1909,7 +1909,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "モロに直撃したため全身火傷と打撲でろくに腕も上がらない。" },
             { "name": "rand_name", "text": "こんなことになるんだったら……戻るんじゃなかったな。" },
             { "name": "rand_name", "text": "薄れゆく意識の中で、自身の選択への後悔と自身の空っぽの記憶で意識は無くなった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [

@@ -2199,7 +2199,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -2758,6 +2758,136 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"white"
+      }
+    },
+    {
+      "index":125,
+      "type":"background_image",
+      "value":{
+        "image":"white"
+      }
+    },
+    {
+      "index":126,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":127,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":128,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":129,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":130,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":131,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":132,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":133,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":134,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":135,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":136,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":137,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":138,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":139,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    },
+    {
+      "index":140,
+      "type":"background_image",
+      "value":{
+        "image":"sougen"
+      }
+    }
+  ],
+  "B5E":[
+    {
+      "index":11,
+      "type":"effect",
+      "value":{
+        "stop":false,
+        "se":"audio/labo-walk-asphalt2.mp3"
+      }
+    },
+    {
+      "index":50,
+      "type":"effect",
+      "value":{
+        "stop":false,
+        "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3453,7 +3583,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3463,7 +3593,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3473,7 +3603,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3483,7 +3613,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3493,7 +3623,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3503,7 +3633,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":true,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3800,7 +3930,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ],
@@ -3840,7 +3970,7 @@ var add_prop_changed={
       "type":"effect",
       "value":{
           "stop":false,
-          "se":"audio/asioto.m4a"
+          "se":"audio/labo-walk-asphalt2.mp3"
       }
     }
   ]
