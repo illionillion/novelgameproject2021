@@ -92,3 +92,33 @@
   background: url(../background_img/dark_bridge.jpg);
   background-size: cover;
 }
+
+.cave{
+  background: url(../background_img/cave.jpg);
+  background-size: cover;
+}
+
+.classroom1{
+  background: url(../background_img/classroom1.jpg);
+  background-size: cover;
+}
+
+.classroom2{
+  background: url(../background_img/classroom2.jpg);
+  background-size: cover;
+}
+
+.library{
+  background: url(../background_img/library.jpg);
+  background-size: cover;
+}
+
+.openbook{
+  background: url(../background_img/openbook.jpg);
+  background-size: cover;
+}
+
+.fortune_telling{
+  background: url(../background_img/fortune_telling.jpg);
+  background-size: cover;
+}
