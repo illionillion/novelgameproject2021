@@ -3142,6 +3142,97 @@ var add_prop_changed={
   ],
   "B8":[
     {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"classroom2"
+      }
+    },
+    {
+      "index":18,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":19,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":20,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":21,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":22,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":23,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":24,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
       "index":5,
       "type":"effect",
       "value":{
@@ -3306,6 +3397,423 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"white"
+      }
+    }
+  ],
+  "B4":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":15,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":16,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":17,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":18,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":19,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    }
+  ],
+  "B6":[
+    // {
+    //   "index":0,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":1,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":2,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":3,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":4,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":5,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":6,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":7,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":8,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":9,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    // {
+    //   "index":10,
+    //   "type":"background_image",
+    //   "value":{
+    //     "image":"classroom1"
+    //   }
+    // },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":15,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":16,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":17,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":18,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":19,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":20,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":21,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":22,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":23,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":24,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":25,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":26,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":27,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":28,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":29,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":30,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":31,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":32,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":33,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":34,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":35,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":36,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":37,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":38,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
       }
     }
   ],
