@@ -406,7 +406,7 @@
             { "name": "rand_name", "text": "近づけば、彼が誰なのかわかった。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/tennozi_at_night.m4a" },
         "next_page_option": [
             { "text": "「……お前」", "value": "A46" },
             { "text": "「……クト」", "value": "A46" }
@@ -424,7 +424,7 @@
             { "name": "rand_name", "text": "そこから出てきたのは…。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/yorunomiti.m4a" },
         "next_page_option": [
             { "text": "「母さん…」", "value": "A22" },
             { "text": "「明菜…」", "value": "A23" }

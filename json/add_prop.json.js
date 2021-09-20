@@ -1535,6 +1535,14 @@ var add_prop_changed={
   ],
   "A21":[
     {
+      "index":6,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/door.m4a"
+      }
+    },
+    {
       "index":0,
       "type":"background_image",
       "value":{
