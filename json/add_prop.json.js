@@ -2047,6 +2047,14 @@ var add_prop_changed={
   ],
   "A30":[
     {
+      "index":2,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/flow_water.m4a"
+      }
+    },
+    {
       "index":0,
       "type":"background_image",
       "value":{
@@ -2174,6 +2182,14 @@ var add_prop_changed={
     }
   ],
   "A31":[
+    {
+      "index":2,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/flow_water.m4a"
+      }
+    },
     {
       "index":0,
       "type":"background_image",
