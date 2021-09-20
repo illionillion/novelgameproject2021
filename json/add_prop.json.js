@@ -23,6 +23,55 @@ var add_prop_changed={
   "A1":[
     {
       "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":0,
       "type":"character_position",
       "value":{
         "character_first":"character_img/guildtyo.png",
@@ -114,6 +163,78 @@ var add_prop_changed={
         "character_second":"img/test_character_02.png"
       }
     },
+  ],
+  "A2":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"tunnel"
+      }
+    }
   ],
   "A7":[
     {
