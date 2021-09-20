@@ -108,6 +108,11 @@
   background-size: cover;
 }
 
+.classroom3{
+  background: url(../background_img/classroom3.jpg);
+  background-size: cover;
+}
+
 .library{
   background: url(../background_img/library.jpg);
   background-size: cover;
@@ -160,11 +165,6 @@
 
 .tunnel{
   background: url(../background_img/tunnel.jpg);
-  background-size: cover;
-}
-
-.training_ground{
-  background: url(../background_img/training_ground.jpg);
   background-size: cover;
 }
 
