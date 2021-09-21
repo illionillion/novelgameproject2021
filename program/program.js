@@ -450,4 +450,6 @@ function take_save(num){
   image=image.replace( "\")" , "" )
 
   save_data['image']=image;
+
+  save_data["endroll_count"]=endroll_count;
 }

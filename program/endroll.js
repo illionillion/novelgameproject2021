@@ -10,6 +10,7 @@ var css_margin_top;
 var css_body_top;
 var endroll_music="audio/Datura.m4a";
 var endroll_music_time;
+let endroll_count=0;
 
 function set_screen_width(){
   const window_width=window.innerWidth;
@@ -43,6 +44,8 @@ function endroll_speed(){
 function endroll_go(){
 
   if(endroll_num==100){
+    endroll_count++;
+
     $("#back_title_btn").addClass("none");
     $("#change_endroll_speed").removeClass("none");
     $('#endroll_frame').removeClass("none");
@@ -83,7 +86,7 @@ function endroll(){
 
   var endrollpase
   const window_width=window.innerWidth;
-  console.log(window_width);
+  // console.log(window_width);
   if(window_width>900){
     endrollpase=0.85;
   }else{
@@ -138,6 +141,10 @@ function back_title_btn(){
   character_name.innerHTML="";
   text_frame.innerHTML="";
   $("#back_title_btn input").val("タイトルへ");
+
+  if (endroll_count>1) {
+    alert("ホシゾラヨゾラ");
+  }
 
 }
 
