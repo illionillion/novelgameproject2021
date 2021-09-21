@@ -172,3 +172,43 @@
   background: url(../background_img/real_nohara.jpg);
   background-size: cover;
 }
+
+.archive{
+  background: url(../background_img/archive.jpg);
+  background-size: cover;
+}
+
+.bushes1{
+  background: url(../background_img/bushes.jpg);
+  background-size: cover;
+}
+
+.bushes2{
+  background: url(../background_img/bushes2.jpg);
+  background-size: cover;
+}
+
+.principalroom1{
+  background: url(../background_img/principalroom.jpg);
+  background-size: cover;
+}
+
+.principalroom2{
+  background: url(../background_img/principalroom2.jpg);
+  background-size: cover;
+}
+
+.wall1{
+  background: url(../background_img/wall1.jpg);
+  background-size: cover;
+}
+
+.wall2{
+  background: url(../background_img/wall2.jpg);
+  background-size: cover;
+}
+
+.wall3{
+  background: url(../background_img/wall3.jpg);
+  background-size: cover;
+}
