@@ -63,7 +63,7 @@ function create_save_frame(){
     // パーセント
     let save_option_element8=document.createElement("div");
     save_option_element8.className="percent";
-    save_option_element8.innerHTML="0%";
+    save_option_element8.innerHTML="クリア回数-";
     save_option_element7.appendChild(save_option_element8);
 
   }
@@ -112,8 +112,12 @@ function show_save_prop(){
     let image=save_file[Object.keys(save_file)[i]]["image"];
     console.log(image);
 
-    if(data_page_text!="undefined-undefined-undefined"){
-      document.getElementsByClassName("data_page")[i].innerHTML=data_page_text;
+
+    if (save_file[Object.keys(save_file)[i]]["hero_name"]!=undefined) {
+      document.getElementsByClassName("data_page")[i].innerHTML=save_file[Object.keys(save_file)[i]]["hero_name"];
+    }
+    if (save_file[Object.keys(save_file)[i]]["endroll_count"]!=undefined) {
+      document.getElementsByClassName("percent")[i].innerHTML="クリア回数"+save_file[Object.keys(save_file)[i]]["endroll_count"];
     }
 
     if(image!=undefined){
