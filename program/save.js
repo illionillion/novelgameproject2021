@@ -97,9 +97,7 @@ function change_load_screen(){
   document.getElementById("switching_btn").setAttribute('onclick', 'change_save_screen()');
   document.getElementById("switching_btn").value="セーブ";
   for(let i=0;i<4;i++){
-    // document.getElementsByClassName("option_count")[i].onclick=save(this);
     document.getElementsByClassName("option_count")[i].setAttribute('onclick', 'load(this)');
-    // console.log(document.getElementsByClassName("option_count")[i]);
   }
   show_save_prop();
 }
@@ -107,7 +105,6 @@ function change_load_screen(){
 function show_save_prop(){
   for(let i=0;i<Object.keys(save_file).length;i++){
     
-    // console.log(save_file[Object.keys(save_file)[i]]);
     var data_page_text=save_file[Object.keys(save_file)[i]]["hero_name"]+"-"+save_file[Object.keys(save_file)[i]]["now_page"]+"-"+save_file[Object.keys(save_file)[i]]["num"];
     let image=save_file[Object.keys(save_file)[i]]["image"];
     console.log(image);
@@ -121,9 +118,6 @@ function show_save_prop(){
     }
 
     if(image!=undefined){
-      // console.log(document.getElementsByClassName("save_icon")[i]);
-      // console.log($('.save_icon img')[i]);
-      // document.getElementsByClassName("save_icon")[i].querySelector("image").src=image;
       $('.save_icon img')[i].setAttribute("src",image);
     }
   }
