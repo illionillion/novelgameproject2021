@@ -3329,7 +3329,7 @@
             { "name": "ブッカ", "text": "貴方が探しているのは、司書から聞いた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "姫様と一緒に研究をしていたのは、本当ですか？", "value": "C3C1" },
             { "text": "大精霊様で間違いないですか？", "value": "C3C2" }
@@ -3708,7 +3708,7 @@
             { "name": "門番", "text": "「さて、これから何をするんだ？」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "姫様の手がかりを探す", "value": "C3E1" },
             { "text": "庭園の奥へと進む", "value": "C3E2" }
@@ -3727,7 +3727,7 @@
             { "name": "rand_name", "text": "ふらふらと歩くよりも、精霊に姫様の行方を聞き出そうと考えた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "姫様が行方不明になる前、何か言っていなかったか？", "value": "C3E1_1" },
             { "text": "姫様は、ここで研究をしていたか？", "value": "C3E1_2" },
@@ -3742,7 +3742,7 @@
             { "name": "rand_name", "text": "俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],
@@ -3754,7 +3754,7 @@
             { "name": "rand_name", "text": "俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],
@@ -3766,7 +3766,7 @@
             { "name": "rand_name", "text": "俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],
@@ -3778,7 +3778,7 @@
             { "name": "rand_name", "text": "俺は気になることが出来て、足早に庭園を出ていくと、精霊が不思議そうに見てきた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "門番のところへ", "value": "C4E" }
         ],
@@ -3798,7 +3798,7 @@
             { "name": "rand_name", "text": "ふらふらと歩くよりも、精霊に姫様の行方を聞き出そうと考えた。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_temple.mp3" },
+        "audio": { "file_path": "audio/sinpi.mp3" },
         "next_page_option": [
             { "text": "姫様が行方不明になる前、何か言っていなかったか？", "value": "C3E1_1" },
             { "text": "姫様は、ここで研究をしていたか？", "value": "C3E1_2" },
