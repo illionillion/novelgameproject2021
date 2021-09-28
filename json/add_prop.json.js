@@ -3965,6 +3965,14 @@ var add_prop_changed={
       }
     },
     {
+      "index":14,
+      "type":"effect",
+      "value":{
+          "stop":false,
+          "se":"audio/labo-mechanical-pencil-write1.mp3"
+      }
+    },
+    {
       "index":15,
       "type":"background_image",
       "value":{
@@ -4917,6 +4925,265 @@ var add_prop_changed={
   ],
   "B5D":[
     {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"wall2"
+      }
+    },
+    {
+      "index":15,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":16,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":17,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":18,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":19,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":20,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":21,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":22,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":23,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":24,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":25,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":26,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":27,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":28,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":29,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":30,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":31,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":32,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":33,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":34,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":35,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
+      "index":36,
+      "type":"background_image",
+      "value":{
+        "image":"classroom1"
+      }
+    },
+    {
       "index":37,
       "type":"background_image",
       "value":{
@@ -5228,112 +5495,112 @@ var add_prop_changed={
       "index":81,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":82,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":83,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":84,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":85,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":86,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":87,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":88,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":89,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":90,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":91,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":92,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":93,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":94,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":95,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":96,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
@@ -5358,21 +5625,21 @@ var add_prop_changed={
       "index":0,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":1,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
       "index":2,
       "type":"background_image",
       "value":{
-        "image":"sougen"
+        "image":"yamamodori"
       }
     },
     {
