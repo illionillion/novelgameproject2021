@@ -51,7 +51,7 @@
             { "name": "rand_name", "text": "自分の名前は本当にホシゾラヨゾラだっただろうか？" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/bgm_royal.mp3" },
+        "audio": { "file_path": "" },
         "next_page_option": [
             { "text": "はい", "value": "A5" },
             { "text": "いいえ", "value": "A6" }

@@ -18,7 +18,7 @@
 
 // for(let c of test_cookiesArray){
 //     const test_cArray = c.split('=');
-//     if( test_cArray[0] == 'test_cokkie'){ // 取り出したいkeyと合致したら
+//     if( test_cArray[0] === "test_cokkie"){ // 取り出したいkeyと合致したら
 //         console.log(JSON.parse(decodeURIComponent(test_cArray[1])));  // 元の文字列 = エスケープ文字を正しく置き換えた文字列
 //     }
 // }
@@ -39,11 +39,13 @@
 
 //   for(let c of get_cookiesArray){
 //       const get_cArray = c.split('=');
-//       console.log(typeof get_cArray[0]);
-//       console.log(typeof get_cArray[1]);
+//       // console.log(typeof get_cArray[0]);
+//       // console.log(typeof get_cArray[1]);
 //       console.log(get_cArray[0]);
-//       console.log(get_cArray[1]);
+//       console.log(get_cArray[0]==cookie_key);
+//       // console.log(get_cArray[1]);
 
+//       // console.log(JSON.parse(decodeURIComponent(get_cArray[1])));
 //       if( get_cArray[0] == cookie_key){ // 取り出したいkeyと合致したら
 //           console.log(get_cArray[1]);
 //           console.log(JSON.parse(decodeURIComponent(get_cArray[1])));  // 元の文字列 = エスケープ文字を正しく置き換えた文字列

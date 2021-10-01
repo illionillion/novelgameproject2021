@@ -148,22 +148,25 @@ function save(index){
   var index_text_data=index.getAttribute("text");
   // console.log(index_data);
 
-  var flag=window.confirm(index_text_data+"にセーブしますか？");
+  var flag=window.confirm(index_text_data+"にセーブしますか？\n(キャッシュを削除するとセーブデータが消えてしまいます)");
 
   if(flag){
-    var save_data2=new Object;
-    //同じオブジェクトを代入できない
-    for(let i=0;i<Object.keys(save_data).length;i++){
-      save_data2[Object.keys(save_data)[i]]=save_data[Object.keys(save_data)[i]];
+    if (Object.keys(save_data).length) {
+
+      save_file[index_data]=Object.assign({},save_data);
+
+      console.log(save_file);
+      
+      // set_cookies(save_file);
+      set_ls(save_file);
+      show_save_prop();
+      
+      alert("セーブしました");
+    }else{
+      alert("セーブできませんでした");
     }
 
-    save_file[index_data]=save_data2;
-
-    console.log(save_file);
     
-    show_save_prop();
-    // set_cookies(save_file);
-    alert("セーブしました");
   }
 
 }
@@ -213,6 +216,8 @@ function load(index){
       console.log(text_animation);
       clearInterval(intervalId);//タイマーをリセットする
       text_animation=null;
+      // start();
+      title_frame.classList.add('none');
       toziru();
       // music_file.pause();
       setTimeout(() => {
