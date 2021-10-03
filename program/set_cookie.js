@@ -39,13 +39,13 @@ function get_cookies() {
 
   for(let c of get_cookiesArray){
       const get_cArray = c.trim().split('=');
-      console.log(typeof get_cArray[0]);
+      // console.log(typeof get_cArray[0]);
       // console.log(typeof get_cArray[1]);
-      console.log(get_cArray[0]);
-      console.log(get_cArray[0]==cookie_key);
+      // console.log(get_cArray[0]);
+      // console.log(get_cArray[0]==cookie_key);
       // console.log(get_cArray[1]);
-      console.log(cookie_key.length);
-      console.log(get_cArray[0].length);
+      // console.log(cookie_key.length);
+      // console.log(get_cArray[0].length);
 
       let result_cookie=null;
 
