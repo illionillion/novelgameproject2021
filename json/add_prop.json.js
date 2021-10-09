@@ -12912,6 +12912,24 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":3,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C2E":[
@@ -13194,6 +13212,33 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C2C_2":[
@@ -13216,6 +13261,33 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
       }
     }
   ],
@@ -13254,6 +13326,51 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":3,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":4,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C2C2":[
@@ -13283,6 +13400,42 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":3,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/julia.png",
+        "character_second":"character_img/transparent_background.png"
       }
     }
   ],
@@ -13397,6 +13550,42 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":3,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":4,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":5,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C3C1":[
@@ -13420,6 +13609,33 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C3C2":[
@@ -13442,6 +13658,33 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":1,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    },
+    {
+      "index":2,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
       }
     }
   ],
@@ -13473,6 +13716,15 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C3C1_2":[
@@ -13503,6 +13755,15 @@ var add_prop_changed={
       "value":{
         "image":"library"
       }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
     }
   ],
   "C3C1_3":[
@@ -13532,6 +13793,132 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    }
+  ],
+  "C3C2_1":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    }
+  ],
+  "C3C2_2":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
+      }
+    }
+  ],
+  "C3C2_3":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"library"
+      }
+    },
+    {
+      "index":0,
+      "type":"character_position",
+      "value":{
+        "character_first":"character_img/transparent_background.png",
+        "character_center":"character_img/buka.png",
+        "character_second":"character_img/transparent_background.png"
       }
     }
   ],
