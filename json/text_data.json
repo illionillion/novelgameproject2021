@@ -3887,7 +3887,6 @@
             { "name": "rand_name", "text": "悩みつつも当時の言動について教えてくれた。" },
             { "name": "団長", "text": "「書物の大精霊様の力は知っているだろう？<br>あの方の力によって、物語の世界に意識を飛ばすことが出来るのだが、資料には入ることが出来ないからな。多分、それについて嘆かれておったのだろう。」" },
             { "name": "rand_name", "text": "chose_event" }
-
         ],
         "audio": { "file_path": "audio/bgm_royal.mp3" },
         "next_page_option": [
