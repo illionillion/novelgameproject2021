@@ -70,99 +70,99 @@ var add_prop_changed={
         "image":"tunnel"
       }
     },
-    {
-      "index":0,
-      "type":"character_position",
-      "value":{
-        "character_first":"character_img/guildtyo.png",
-        "character_center":"img/test_character_02.png",
-        "character_second":"character_img/gorotsuki.png"
-      }
-    },
-    {
-      "index":0,
-      "type":"effect",
-      "value":{
-        "stop":false,
-        "se":"",
-        "character_animation":{
-          "character_first":"purun",
-          "character_center":"korokoro",
-          "character_second":"poyon"
-        }
-      }
-    },
-    {
-      "index":1,
-      "type":"effect",
-      "value":{
-        "stop":false,
-        "se":"",
-        "character_animation":{
-          "character_first":"shake",
-          "character_center":"korokoro",
-          "character_second":"shake"
-        }
-      }
-    },
-    {
-      "index":2,
-      "type":"effect",
-      "value":{
-        "stop":false,
-        "se":"",
-        "character_animation":{
-          "character_first":"purupuru",
-          "character_center":"poyooon",
-          "character_second":"left_right"
-        }
-      }
-    },
-    {
-      "index":1,
-      "type":"character_position",
-      "value":{
-        "character_first":"character_img/king.png",
-        "character_center":"character_img/minister.png",
-        "character_second":"character_img/receptionist.png"
-      }
-    },
-    {
-      "index":2,
-      "type":"character_position",
-      "value":{
-        "character_first":"character_img/guildtyo.png",
-        "character_center":"character_img/bibian.png",
-        "character_second":"character_img/gorotsuki.png"
-      }
-    },
-    {
-      "index":3,
-      "type":"character_position",
-      "value":{
-        "character_first":"img/transparent_background.png",
-        "character_center":"img/test_character_02.png",
-        "character_second":"img/transparent_background.png"
-      }
-    },
-    {
-      "index":4,
-      "type":"character_position",
-      "value":{
-        "character_first":"img/transparent_background.png",
-        "character_center":"img/test_character_02.png",
-        "character_second":"img/test_character_02.png"
-      }
-    },
-    {
-      "index":5,
-      "type":"character_position",
-      "value":{
-        "character_first":"img/transparent_background.png",
-        "character_center":"img/transparent_background.png",
-        "character_second":"img/test_character_02.png"
-      }
-    },
+    // {
+    //   "index":0,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"character_img/guildtyo.png",
+    //     "character_center":"img/test_character_02.png",
+    //     "character_second":"character_img/gorotsuki.png"
+    //   }
+    // },
+    // {
+    //   "index":0,
+    //   "type":"effect",
+    //   "value":{
+    //     "stop":false,
+    //     "se":"",
+    //     "character_animation":{
+    //       "character_first":"purun",
+    //       "character_center":"korokoro",
+    //       "character_second":"poyon"
+    //     }
+    //   }
+    // },
+    // {
+    //   "index":1,
+    //   "type":"effect",
+    //   "value":{
+    //     "stop":false,
+    //     "se":"",
+    //     "character_animation":{
+    //       "character_first":"shake",
+    //       "character_center":"korokoro",
+    //       "character_second":"shake"
+    //     }
+    //   }
+    // },
+    // {
+    //   "index":2,
+    //   "type":"effect",
+    //   "value":{
+    //     "stop":false,
+    //     "se":"",
+    //     "character_animation":{
+    //       "character_first":"purupuru",
+    //       "character_center":"poyooon",
+    //       "character_second":"left_right"
+    //     }
+    //   }
+    // },
+    // {
+    //   "index":1,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"character_img/king.png",
+    //     "character_center":"character_img/minister.png",
+    //     "character_second":"character_img/receptionist.png"
+    //   }
+    // },
+    // {
+    //   "index":2,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"character_img/guildtyo.png",
+    //     "character_center":"character_img/bibian.png",
+    //     "character_second":"character_img/gorotsuki.png"
+    //   }
+    // },
+    // {
+    //   "index":3,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"img/transparent_background.png",
+    //     "character_center":"img/test_character_02.png",
+    //     "character_second":"img/transparent_background.png"
+    //   }
+    // },
+    // {
+    //   "index":4,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"img/transparent_background.png",
+    //     "character_center":"img/test_character_02.png",
+    //     "character_second":"img/test_character_02.png"
+    //   }
+    // },
+    // {
+    //   "index":5,
+    //   "type":"character_position",
+    //   "value":{
+    //     "character_first":"img/transparent_background.png",
+    //     "character_center":"img/transparent_background.png",
+    //     "character_second":"img/test_character_02.png"
+    //   }
+    // },
   ],
   "A2":[
     {
@@ -233,6 +233,43 @@ var add_prop_changed={
       "type":"background_image",
       "value":{
         "image":"tunnel"
+      }
+    }
+  ],
+  "A3":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
       }
     }
   ],
@@ -2317,6 +2354,43 @@ var add_prop_changed={
       }
     }
   ],
+  "C1":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    }
+  ],
   "C1A":[
     {
       "index":0,
@@ -2387,6 +2461,527 @@ var add_prop_changed={
       "value":{
           "stop":false,
           "se":"audio/labo-walk-asphalt2.mp3"
+      }
+    }
+  ],
+  "C1A_1":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    }
+  ],
+  "C1A_2":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    }
+  ],
+  "C1A_3":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    }
+  ],
+  "C1A_4":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":13,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":14,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    }
+  ],
+  "C1A_E":[
+    {
+      "index":0,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":1,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":2,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":3,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":4,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":5,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":6,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":7,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":8,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":9,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":10,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":11,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
+      }
+    },
+    {
+      "index":12,
+      "type":"background_image",
+      "value":{
+        "image":"machinami"
       }
     }
   ],
