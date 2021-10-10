@@ -4194,7 +4194,7 @@
             { "name": "rand_name", "text": "扉に向かって走ると、後ろの空間から消滅していくのが分かる。それが後戻りはできないことを意味しているのは、当然のように理解することができた。<br>俺は走り、扉のドアノブを握りしめ、勢いよく開いた。<br>そこは闇だった。<br>どこまで続く闇、その奥に大精霊の姿も見えた。" },
             { "name": "rand_name", "text": "「う、うわぁぁぁ！」" },
             { "name": "rand_name", "text": "俺は闇の中へと消えていった。" },
-            { "name": "rand_name", "text": "endroll" }
+            { "name": "rand_name", "text": "not_endroll" }
         ],
         "audio": { "file_path": "audio/serious.mp3" },
         "next_page_option": [
