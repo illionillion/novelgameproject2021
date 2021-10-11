@@ -20,7 +20,9 @@ function get_ls() {
 }
 
 $(function(){
-  if (get_ls()) {
-    save_file=Object.assign({},get_ls());
-  }
+  // if(location.hostname == ""){
+    if (get_ls()) {
+      save_file=Object.assign({},get_ls());
+    }
+  // }
 })

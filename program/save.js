@@ -149,7 +149,11 @@ function save(index){
   // console.log(index_data);
 
   // var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはcookieに保存されます)");
-  var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはWebStorageに保存されます)");
+  // if(location.hostname != ""){
+  //   var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはcookieに保存されます)");
+  // }else{
+    var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはWebStorageに保存されます)");
+  // }
 
   if(flag){
     if (Object.keys(save_data).length) {

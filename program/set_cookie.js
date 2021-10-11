@@ -61,7 +61,10 @@ function get_cookies() {
 }
 
 $(function(){
-  if (get_cookies()) {
-    save_file=Object.assign({},get_cookies());
-  }
+  // if(location.hostname != ""){
+    if (get_cookies()) {
+      save_file=Object.assign({},get_cookies());
+    }
+  // }
+
 })

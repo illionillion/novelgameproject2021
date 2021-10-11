@@ -18347,13 +18347,6 @@ var add_prop_changed={
       "value":{
         "image":"leaf_and_sky"
       }
-    },
-    {
-      "index":10,
-      "type":"background_image",
-      "value":{
-        "image":"leaf_and_sky"
-      }
     }
   ],
   "C3E1_1":[
