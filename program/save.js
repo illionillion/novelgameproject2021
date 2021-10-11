@@ -148,7 +148,8 @@ function save(index){
   var index_text_data=index.getAttribute("text");
   // console.log(index_data);
 
-  var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはcookieに保存されます)");
+  // var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはcookieに保存されます)");
+  var flag=window.confirm(index_text_data+"にセーブしますか？\n(セーブデータはWebStorageに保存されます)");
 
   if(flag){
     if (Object.keys(save_data).length) {
@@ -157,8 +158,8 @@ function save(index){
 
       console.log(save_file);
       
-      set_cookies(save_file);
-      // set_ls(save_file);
+      // set_cookies(save_file);
+      set_ls(save_file);
       show_save_prop();
       
       alert("セーブしました");
