@@ -1,3 +1,4 @@
+// let remove_console_flag=true;                                            //フラグ
 let remove_console_flag=false;                                            //フラグ
 let save_console={};                                                      //console機能回復用
 
