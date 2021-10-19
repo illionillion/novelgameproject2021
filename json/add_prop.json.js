@@ -4783,7 +4783,7 @@ var add_prop_changed={
     "type": "character_position",
     "value": {
         "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
+        "character_center": "character_img/transparent_background.png",
         "character_second": "character_img/transparent_background.png"
     }
 },
@@ -4918,7 +4918,7 @@ var add_prop_changed={
     "index": 76,
     "type": "character_position",
     "value": {
-        "character_first": "character_img/jurlia.png",
+        "character_first": "character_img/julia.png",
         "character_center": "character_img/transparent_background.png",
         "character_second": "character_img/amira.png"
     }
@@ -8470,28 +8470,28 @@ var add_prop_changed={
     "index": 37,
     "type": "background_image",
     "value": {
-        "image": "library"
+        "image": "machinami"
     }
 },
 {
     "index": 38,
     "type": "background_image",
     "value": {
-        "image": "library"
+        "image": "machinami"
     }
 },
 {
     "index": 39,
     "type": "background_image",
     "value": {
-        "image": "library"
+        "image": "machinami"
     }
 },
 {
     "index": 40,
     "type": "background_image",
     "value": {
-        "image": "library"
+        "image": "machinami"
     }
 },
 {
@@ -13725,91 +13725,91 @@ var add_prop_changed={
     "index": 103,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 104,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 105,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 106,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 107,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 108,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 109,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 110,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 111,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 112,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 113,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 114,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
     "index": 115,
     "type": "background_image",
     "value": {
-        "image": "thrknightsone"
+        "image": "knights"
     }
 },
 {
