@@ -10201,845 +10201,861 @@ var add_prop_changed={
 }
 ],
 "B5F": [{
-    "index": 0,
-    "type": "background_image",
-    "value": {
-        "image": "izumi"
-    }
+  "index": 0,
+  "type": "background_image",
+  "value": {
+      "image": "izumi"
+  }
 },
 {
-    "index": 1,
-    "type": "background_image",
-    "value": {
-        "image": "izumi"
-    }
+  "index": 1,
+  "type": "background_image",
+  "value": {
+      "image": "izumi"
+  }
 },
 {
-    "index": 2,
-    "type": "background_image",
-    "value": {
-        "image": "izumi"
-    }
+  "index": 2,
+  "type": "background_image",
+  "value": {
+      "image": "izumi"
+  }
 },
 {
-    "index": 3,
-    "type": "background_image",
-    "value": {
-        "image": "izumi"
-    }
+  "index": 3,
+  "type": "background_image",
+  "value": {
+      "image": "izumi"
+  }
 },
 {
-    "index": 4,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 4,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 5,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 5,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 6,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 6,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 7,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 7,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 8,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 8,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 9,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 9,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 10,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 10,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 11,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 11,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 12,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 12,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 13,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 13,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 14,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 14,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 15,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 15,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 16,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 16,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 17,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 17,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 18,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 18,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 19,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 19,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 20,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 20,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 21,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 21,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 22,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 22,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 23,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 23,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 24,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 24,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 25,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 25,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 26,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 26,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 27,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 27,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 28,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 28,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 29,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 29,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 30,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 30,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 31,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 31,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 32,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 32,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 33,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 33,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 34,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 34,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 35,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 35,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 36,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 36,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 37,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 37,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 38,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 38,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 39,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 39,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 40,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 40,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 41,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 41,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 42,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 42,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 43,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 43,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 44,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 44,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 45,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 45,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 46,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 46,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 47,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 47,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 48,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 48,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 49,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 49,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 50,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 50,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 51,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 51,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 52,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 52,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 53,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 53,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 54,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 54,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 55,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 55,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 56,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 56,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 57,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 57,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 58,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 58,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 59,
-    "type": "background_image",
-    "value": {
-        "image": "real_nohara"
-    }
+  "index": 59,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 9,
-    "type": "effect",
-    "value": {
-        "stop": false,
-        "se": "audio/flow_water.m4a"
-    }
+  "index": 60,
+  "type": "background_image",
+  "value": {
+      "image": "real_nohara"
+  }
 },
 {
-    "index": 49,
-    "type": "effect",
-    "value": {
-        "stop": false,
-        "se": "audio/labo-walk-asphalt2.mp3"
-    }
+  "index": 10,
+  "type": "effect",
+  "value": {
+      "stop": false,
+      "se": "audio/flow_water.m4a"
+  }
 },
 {
-    "index": 0,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/zibu.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 50,
+  "type": "effect",
+  "value": {
+      "stop": false,
+      "se": "audio/labo-walk-asphalt2.mp3"
+  }
 },
 {
-    "index": 4,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 0,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/zibu.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 5,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 4,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 6,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 5,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 13,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 6,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 14,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/zibu.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 7,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 15,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/zibu.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 13,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 16,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/zibu.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 14,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/zibu.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 17,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/zibu.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 15,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/zibu.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 18,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 16,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/zibu.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 19,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 17,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/zibu.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 20,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 18,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 21,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 19,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 22,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 20,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 23,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 21,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 24,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 22,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 25,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 23,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 26,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 24,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 27,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 25,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 28,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 26,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 29,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 27,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 30,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 28,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 31,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 29,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 32,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 30,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 33,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 31,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 34,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/bibian.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 32,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 35,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/bibian.png",
-        "character_center": "character_img/transparent_background.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 33,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 36,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/bibian.png",
-        "character_center": "character_img/transparent_background.png",
-        "character_second": "character_img/surve.png"
-    }
+  "index": 34,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/bibian.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 38,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 35,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/bibian.png",
+      "character_center": "character_img/transparent_background.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 39,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 36,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/bibian.png",
+      "character_center": "character_img/transparent_background.png",
+      "character_second": "character_img/surve.png"
+  }
 },
 {
-    "index": 40,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 38,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 41,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 39,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 42,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
+  "index": 40,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
 },
 {
-    "index": 43,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 44,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 45,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 46,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 47,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 48,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/menia.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 51,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 52,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 53,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/transparent_background.png",
-        "character_center": "character_img/buka.png",
-        "character_second": "character_img/transparent_background.png"
-    }
-},
-{
-    "index": 54,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/buka.png",
-        "character_center": "character_img/transparent_background.png",
-        "character_second": "character_img/bibian.png"
-    }
-},
-{
-    "index": 55,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/buka.png",
-        "character_center": "character_img/transparent_background.png",
-        "character_second": "character_img/bibian.png"
-    }
-},
-{
-    "index": 56,
-    "type": "character_position",
-    "value": {
-        "character_first": "character_img/buka.png",
-        "character_center": "character_img/transparent_background.png",
-        "character_second": "character_img/bibian.png"
-    }
+  "index": 41,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 42,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 43,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 44,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 45,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 46,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 47,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 48,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/menia.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 51,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 52,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 53,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/transparent_background.png",
+      "character_center": "character_img/buka.png",
+      "character_second": "character_img/transparent_background.png"
+  }
+},
+{
+  "index": 54,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/buka.png",
+      "character_center": "character_img/transparent_background.png",
+      "character_second": "character_img/bibian.png"
+  }
+},
+{
+  "index": 55,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/buka.png",
+      "character_center": "character_img/transparent_background.png",
+      "character_second": "character_img/bibian.png"
+  }
+},
+{
+  "index": 56,
+  "type": "character_position",
+  "value": {
+      "character_first": "character_img/buka.png",
+      "character_center": "character_img/transparent_background.png",
+      "character_second": "character_img/bibian.png"
+  }
 }
 ],
 "B9": [{
