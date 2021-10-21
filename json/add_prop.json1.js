@@ -10587,7 +10587,7 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 9,
+            "index": 10,
             "type": "effect",
             "value": {
                 "stop": false,
@@ -10595,7 +10595,7 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 49,
+            "index": 50,
             "type": "effect",
             "value": {
                 "stop": false,
@@ -10648,21 +10648,12 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 13,
+            "index": 14,
             "type": "character_position",
             "value": {
                 "character_first": "character_img/transparent_background.png",
                 "character_center": "character_img/bibian.png",
                 "character_second": "character_img/transparent_background.png"
-            }
-        },
-        {
-            "index": 14,
-            "type": "character_position",
-            "value": {
-                "character_first": "character_img/zibu.png",
-                "character_center": "character_img/bibian.png",
-                "character_second": "character_img/surve.png"
             }
         },
         {
@@ -10696,9 +10687,9 @@ var add_prop_changed = {
             "index": 18,
             "type": "character_position",
             "value": {
-                "character_first": "character_img/transparent_background.png",
+                "character_first": "character_img/zibu.png",
                 "character_center": "character_img/bibian.png",
-                "character_second": "character_img/transparent_background.png"
+                "character_second": "character_img/surve.png"
             }
         },
         {
@@ -10724,7 +10715,7 @@ var add_prop_changed = {
             "type": "character_position",
             "value": {
                 "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/menia.png",
+                "character_center": "character_img/bibian.png",
                 "character_second": "character_img/transparent_background.png"
             }
         },
@@ -10743,15 +10734,6 @@ var add_prop_changed = {
             "value": {
                 "character_first": "character_img/transparent_background.png",
                 "character_center": "character_img/menia.png",
-                "character_second": "character_img/transparent_background.png"
-            }
-        },
-        {
-            "index": 24,
-            "type": "character_position",
-            "value": {
-                "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/buka.png",
                 "character_second": "character_img/transparent_background.png"
             }
         },
@@ -10779,15 +10761,6 @@ var add_prop_changed = {
             "value": {
                 "character_first": "character_img/transparent_background.png",
                 "character_center": "character_img/buka.png",
-                "character_second": "character_img/transparent_background.png"
-            }
-        },
-        {
-            "index": 28,
-            "type": "character_position",
-            "value": {
-                "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/bibian.png",
                 "character_second": "character_img/transparent_background.png"
             }
         },
@@ -10849,9 +10822,9 @@ var add_prop_changed = {
             "index": 35,
             "type": "character_position",
             "value": {
-                "character_first": "character_img/bibian.png",
-                "character_center": "character_img/transparent_background.png",
-                "character_second": "character_img/surve.png"
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/bibian.png",
+                "character_second": "character_img/transparent_background.png"
             }
         },
         {
@@ -10864,12 +10837,12 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 38,
+            "index": 37,
             "type": "character_position",
             "value": {
-                "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/menia.png",
-                "character_second": "character_img/transparent_background.png"
+                "character_first": "character_img/bibian.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/surve.png"
             }
         },
         {
@@ -10963,11 +10936,11 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 51,
+            "index": 49,
             "type": "character_position",
             "value": {
                 "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/buka.png",
+                "character_center": "character_img/menia.png",
                 "character_second": "character_img/transparent_background.png"
             }
         },
@@ -10993,9 +10966,9 @@ var add_prop_changed = {
             "index": 54,
             "type": "character_position",
             "value": {
-                "character_first": "character_img/buka.png",
-                "character_center": "character_img/transparent_background.png",
-                "character_second": "character_img/bibian.png"
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/buka.png",
+                "character_second": "character_img/transparent_background.png"
             }
         },
         {
@@ -11009,6 +10982,15 @@ var add_prop_changed = {
         },
         {
             "index": 56,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/buka.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bibian.png"
+            }
+        },
+        {
+            "index": 57,
             "type": "character_position",
             "value": {
                 "character_first": "character_img/buka.png",
@@ -21330,13 +21312,6 @@ var add_prop_changed = {
             }
         },
         {
-            "index": 6,
-            "type": "background_image",
-            "value": {
-                "image": "library"
-            }
-        },
-        {
             "index": 0,
             "type": "effect",
             "value": {
@@ -21878,15 +21853,6 @@ var add_prop_changed = {
         },
         {
             "index": 1,
-            "type": "character_position",
-            "value": {
-                "character_first": "character_img/transparent_background.png",
-                "character_center": "character_img/julia.png",
-                "character_second": "character_img/transparent_background.png"
-            }
-        },
-        {
-            "index": 2,
             "type": "character_position",
             "value": {
                 "character_first": "character_img/transparent_background.png",
