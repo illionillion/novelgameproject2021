@@ -13974,7 +13974,7 @@ var add_prop_changed = {
         },
         {
             "index": 156,
-            "type": "ba6ckground_image",
+            "type": "background_image",
             "value": {
                 "image": "temple_entrance"
             }
