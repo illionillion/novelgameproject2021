@@ -4667,7 +4667,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "自分を呪ってくださいね。あなたの視界の狭さに。" },
             { "name": "rand_name", "text": "ガツリ。俺の後頭部から綺麗に響く打撃音" },
             { "name": "rand_name", "text": "意識を失うのは、ほぼ同時だった。" },
-            { "name": "rand_name", "text": "not_endroll" }
+            { "name": "rand_name", "text": "go_to_next" }
         ],
         "audio": { "file_path": "" },
         "next_page_option": [
@@ -4675,5 +4675,79 @@ var substitute_text_data={
             { "text": "", "value": "" }
         ],
         "go_to_next": "D4"
+    },
+    "D4": {
+        "text_data": [
+            { "name": "？？？", "text": "起きてくださーい！お・き・てくださーい！！" },
+            { "name": "rand_name", "text": "体がゆさゆさと揺さぶられて、俺は目覚めた。視界には天井と灯と、逆光で良く見えない誰かの顔がある。" },
+            { "name": "？？？", "text": "みんな起きたよ～！集合～！" },
+            { "name": "rand_name", "text": "そいつはどこか別の方を見て誰かを呼んだ……。" },
+            { "name": "rand_name", "text": "——みんな？" },
+            { "name": "？？？", "text": "ようやく起きたか。これじゃあラティカたちの完勝だ。" },
+            { "name": "rand_name", "text": "さわやかそうな男の声がする。<br>ここで俺はあることに気づいた。" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "" },
+        "next_page_option": [
+            { "text": "", "value": "" },
+            { "text": "", "value": "" }
+        ],
+        "go_to_next": "D4_1"
+    },
+    "D4_1": {
+        "text_data": [
+            { "name": "rand_name", "text": "体が全く動かない。正確には瞬きや呼吸など人間に認められた最低限の動き以外が出来ない。" },
+            { "name": "rand_name", "text": "……一体なぜなんだ。" },
+            { "name": "？？？", "text": "でっしょー！？やっぱりラティカの予言は正しいんだって！" },
+            { "name": "rand_name", "text": "焦りと恐怖で瞳孔が開く。まずは状況を認識するしかないと思って逆光で見えなかったそいつの顔を見ると、とても端正な顔立ちの、これまた少女だった。灰色の髪に黄色っぽいツリ目の少女。" },
+            { "name": "rand_name", "text": "顔と口調は似ても似つかない。" },
+            { "name": "rand_name", "text": "その少女はまた俺の顔を覗く" },
+            { "name": "？？？", "text": "こんにちは、rand_name。私の名前はビーチ、よろしくね。" },
+            { "name": "rand_name", "text": "ビーチ……。よ、よろしく。" },
+            { "name": "ビーチ", "text": "ねー、みんなも自己紹介しよ！<br>どーせ仲間になるんだし。" },
+            { "name": "？？？", "text": "ダメ。余計な情報出さないでよね、ビーチ。" },
+            { "name": "ビーチ", "text": "もう余計な情報ならもう出てるから変わんないよ！いすたん！<br>この人私たち逃げられないし、逃げ腰の間だけ損しちゃうよ？" },
+            { "name": "？？？", "text": "……。" },
+            { "name": "？？？", "text": "ビーチの言う通りか。じゃあ、喋っていい。" },
+            { "name": "rand_name", "text": "この声と口調、赤髪の少女——いや、いすたん？" },
+            { "name": "いすたん（？）", "text": "ビーチ、拘束解いてあげて。" },
+            { "name": "ビーチ", "text": "はーい。" },
+            { "name": "rand_name", "text": "ビーチは俺の腕をつかんで…その、幼児を世話するように両手を掴んで俺を起き上がらせた。" },
+            { "name": "rand_name", "text": "するとさっきまで全く動かなかった体が嘘のように動く。指を動かしてみるが頭が理解していないのかぎこちない。" },
+            { "name": "ビーチ", "text": "なに？どうしたの？" },
+            { "name": "rand_name", "text": "くすぐったいよ" },
+            { "name": "rand_name", "text": "ビーチはからからと笑って手をぶんぶんと振る。とりあえず愛想笑いを浮かべているとスッと顔から笑いを抜いた。その真面目そうな顔と笑っている顔の落差に不気味さを覚える。" },
+            { "name": "ビーチ", "text": "ね、左向いて。みんなのこと紹介したいんだ。" },
+            { "name": "rand_name", "text": "俺は言われた通り左を向く。そうすると、見覚えのあるのが一人と見覚えのない二人が部屋の中に立っていた。" },
+            { "name": "ビーチ", "text": "こっちの左の黄色いのが、ベンガル。で…" },
+            { "name": "rand_name", "text": "身長がやたらと高そうな黄色い髪の男。ソファに深く腰掛けて、また厳しい目で俺を見ている。" },
+            { "name": "ビーチ", "text": "こっちの右の黒くて顔が見えないのが、サンゲイズ。" },
+            { "name": "rand_name", "text": "緑と黒の…ローブ？かなにかで顔を隠して立っている図体のでかいなにか。" },
+            { "name": "ビーチ", "text": "で、最後にイースタン！" },
+            { "name": "rand_name", "text": "そしてスツールに腰掛ける赤髪の少女…いすたんではなくイースタンだったか。目つきは初めて会ったときよりかは少し柔らかくなっている気がする。" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "audio/suspicious.mp3" },
+        "next_page_option": [
+            { "text": "", "value": "" },
+            { "text": "", "value": "" }
+        ],
+        "go_to_next": "D4_2"
+    },
+    "D4_2": {
+        "text_data": [
+            { "name": "ビーチ", "text": "あーと…。サンゲイズ、どこ？" },
+            { "name": "サンゲイズ", "text": "ラティカならrand_nameさんの連絡中ですよ。知識はあっても体力に乏しいのが私たちですからね。" },
+            { "name": "rand_name", "text": "ラティカ…？" },
+            { "name": "rand_name", "text": "not_endroll" },
+            { "name": "rand_name", "text": "" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "" },
+        "next_page_option": [
+            { "text": "", "value": "" },
+            { "text": "", "value": "" }
+        ],
+        "go_to_next": "D4_2"
     }
 }
