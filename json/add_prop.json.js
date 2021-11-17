@@ -28779,5 +28779,500 @@ var add_prop_changed = {
                 "image": "machinami"
             }
         }
+    ],
+    "D5": [
+        {
+            "index": 44,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/takemagic.mp3"
+            }
+        },
+        {
+            "index": 48,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/takemagic.mp3"
+            }
+        },
+        {
+            "index": 64,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/sleep.mp3"
+            }
+        },
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 33,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 34,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 35,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 36,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 37,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 38,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 39,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 40,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 41,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 42,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 43,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 44,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 45,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 46,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 47,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 48,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 49,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 50,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 51,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 52,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 53,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 54,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 55,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 56,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 57,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 58,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 59,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 60,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 61,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 62,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 63,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 64,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 65,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 66,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        }
     ]
 }
