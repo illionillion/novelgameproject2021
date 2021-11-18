@@ -29274,5 +29274,849 @@ var add_prop_changed = {
                 "image": "machinami"
             }
         }
-    ]
+    ],
+    "D7": [
+        {
+            "index": 20,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/labo-door-open1.mp3"
+            }
+        },
+        {
+            "index": 23,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/tobira.m4a"
+            }
+        },
+        {
+            "index": 32,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/bandesk.mp3"
+            }
+        },
+        {
+            "index": 76,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/pour.mp3"
+            }
+        },
+        {
+            "index": 100,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/labo-door-open1.mp3"
+            }
+        },
+        {
+            "index": 101,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/labo-walk-asphalt2.mp3"
+            }
+        },
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "machinami"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 33,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 34,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 35,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 36,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 37,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 38,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 39,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 40,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 41,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 42,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 43,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 44,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 45,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 46,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 47,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 48,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 49,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 50,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 51,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 52,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 53,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 54,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 55,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 56,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 57,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 58,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 59,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 60,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 61,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 62,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 63,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 64,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 65,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 66,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 67,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 68,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 69,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 70,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 71,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 72,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 73,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 74,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 75,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 76,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 77,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 78,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 79,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 80,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 81,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 82,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 83,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 84,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 85,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 86,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 87,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 88,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 89,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 90,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 91,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 92,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 93,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 94,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 95,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 96,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 97,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 98,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 99,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 100,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 101,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 102,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        },
+        {
+            "index": 103,
+            "type": "background_image",
+            "value": {
+                "image": "training_ground"
+            }
+        }
+    ],
+    // "_": [
+    //     {
+    //         "index": 44,
+    //         "type": "effect",
+    //         "value": {
+    //             "stop": false,
+    //             "se": "audio/takemagic.mp3"
+    //         }
+    //     },
+    //      {
+    //         "index": 0,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 1,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 2,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 3,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 4,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 5,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 6,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 7,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     }
+    // ]
 }
