@@ -31568,6 +31568,816 @@ var add_prop_changed = {
                 "image": "honbu"
             }
         }
+    ],
+    "D11_1": [
+        {
+            "index": 20,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/knock.m4a"
+            }
+        },
+        {
+            "index": 27,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/stoom.mp3"
+            }
+        },
+         {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        }
+    ],
+    "D11_2": [
+        {
+            "index": 13,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/booon.mp3"
+            }
+        },
+        {
+           "index": 0,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 1,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 2,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 3,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 4,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 5,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 6,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 7,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 8,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 9,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 10,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 11,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 12,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 13,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 14,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 15,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 16,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 17,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 18,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 19,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       },
+       {
+           "index": 20,
+           "type": "background_image",
+           "value": {
+               "image": "honbu"
+           }
+       }
+    ],
+    "D11_3": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "rojiura"
+            }
+        }
+    ],
+    "D12": [
+        {
+            "index": 0,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/labo-door-open1.mp3"
+            }
+        },
+         {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 33,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 34,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 35,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 36,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 37,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 38,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        },
+        {
+            "index": 39,
+            "type": "background_image",
+            "value": {
+                "image": "honbu"
+            }
+        }
     ]
     // "_": [
     //     {
