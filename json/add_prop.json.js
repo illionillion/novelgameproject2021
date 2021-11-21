@@ -27633,7 +27633,251 @@ var add_prop_changed = {
             }
         }
     ],
-    "D2": [{
+    "D2": [
+        {
+            "index": 0,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 1,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 6,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 7,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 8,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 9,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 10,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 11,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 12,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 13,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 14,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 15,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 16,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 17,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 18,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 19,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 20,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 21,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 22,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 23,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 24,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 25,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 26,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
             "index": 0,
             "type": "background_image",
             "value": {
@@ -27845,7 +28089,62 @@ var add_prop_changed = {
             }
         }    
     ],
-    "D3": [{
+    "D3": [
+        {
+            "index": 0,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 1,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
             "index": 0,
             "type": "background_image",
             "value": {
@@ -27925,7 +28224,80 @@ var add_prop_changed = {
             }
         }
     ],
-    "D4": [{
+    "D4": [
+        {
+            "index": 0,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 1,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 6,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 7,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
             "index": 0,
             "type": "background_image",
             "value": {
@@ -27982,7 +28354,233 @@ var add_prop_changed = {
             }
         }
     ],
-    "D4_1": [{
+    "D4_1": [
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 6,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 7,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 8,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 9,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 10,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"
+            }
+        },
+        {
+            "index": 11,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"            }
+        },
+        {
+            "index": 12,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"            }
+        },
+        {
+            "index": 13,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"            }
+        },
+        {
+            "index": 14,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"            }
+        },
+        {
+            "index": 15,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/beach2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/eastern2.png"            }
+        },
+        {
+            "index": 16,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 17,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 18,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 19,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 20,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 21,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 22,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 23,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 24,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"            }
+        },
+        {
+            "index": 25,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/sangaze.png"            }
+        },
+        {
+            "index": 26,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/sangaze.png"            }
+        },
+        {
+            "index": 27,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/sangaze.png"            }
+        },
+        {
+            "index": 28,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/bengal.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/sangaze.png"            }
+        },
+        {
             "index": 0,
             "type": "background_image",
             "value": {
@@ -28194,6 +28792,924 @@ var add_prop_changed = {
         }
     ],
     "D4_2": [
+        {
+            "index": 0,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 1,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/sangaze.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/sangaze.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/sangaze.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/sangaze.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 6,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 7,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 8,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 9,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 10,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 11,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 12,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 13,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 14,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 15,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 16,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 17,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 18,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 19,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 20,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 21,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 22,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 23,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 24,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 25,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 26,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 27,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 28,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 29,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 30,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 31,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 32,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 33,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 34,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 35,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 36,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 37,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 38,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 39,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 40,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 41,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 42,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 43,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/beach2.png"
+            }
+        },
+        {
+            "index": 44,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 45,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 46,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 47,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 48,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 49,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 50,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 51,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 52,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 53,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 54,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 55,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 56,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 57,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 58,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 59,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 60,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 61,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 62,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 63,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 64,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 65,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 66,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 67,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 68,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 69,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 70,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 71,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 72,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 73,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 74,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 75,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 76,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/bengal.png"
+            }
+        },
+        {
+            "index": 77,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 78,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 79,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 80,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 81,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 82,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 83,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 84,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 85,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 86,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 87,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 88,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 89,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 90,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/eastern2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 91,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 92,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 93,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 94,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 95,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 96,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 97,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/transparent_background.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 98,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 99,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 100,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
+        {
+            "index": 101,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/eastern2.png",
+                "character_center": "character_img/bengal.png",
+                "character_second": "character_img/sangaze.png"
+            }
+        },
         {
             "index": 78,
             "type": "effect",
