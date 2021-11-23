@@ -258,6 +258,11 @@
   background-size: cover;
 }
 
+.knightshonbu{
+  background: url(../background_img/knightshonbu.jpg);
+  background-size: cover;
+}
+
 .fantasy_hero_room{
   background: url(../background_img/fantasy_hero_room.jpg);
   background-size: cover;
