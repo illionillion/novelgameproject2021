@@ -39288,10 +39288,503 @@ var add_prop_changed = {
                 "image": "rojiura"
             }
         }
+    ],
+    "D18": [
+        {
+            "index": 0,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 1,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 2,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 3,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 4,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 5,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 6,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 7,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 8,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 9,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 10,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 11,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 12,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 13,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 14,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 15,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 16,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 17,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 18,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 19,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 20,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 21,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 22,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 23,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 24,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 25,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 26,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/beach2.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 0,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/basabasa.mp3"
+            }
+        },
+        {
+            "index": 19,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/cast.mp3"
+            }
+        },
+        {
+            "index": 27,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/basabasa.mp3"
+            }
+        },
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "seiten"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "royal_palace"
+            }
+        }
     ]
     // "_": [
     //     {
-    //         "index": 44,
+    //         "index": 0,
     //         "type": "effect",
     //         "value": {
     //             "stop": false,
