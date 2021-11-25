@@ -5577,7 +5577,7 @@
             { "name": "rand_name", "text": "この状況は好都合だ。鍵をいただこう。" },
             { "name": "rand_name", "text": "鍵といえば帯のあたりと探してみれば、鉄製の鍵の他に白塗の鍵があった。これだ。" },
             { "name": "rand_name", "text": "扉を開けば暗い階段が口を開けている。曲がっていないからか、必要以上の迷いは生まれない。" },
-            { "name": "rand_name", "text": "一歩、一歩と会談を踏みしめる。" },
+            { "name": "rand_name", "text": "一歩、一歩と階段を踏みしめる。" },
             { "name": "rand_name", "text": "go_to_next" }
         ],
         "audio": { "file_path": "" },
