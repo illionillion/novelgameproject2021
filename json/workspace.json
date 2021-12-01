@@ -309,5 +309,17 @@
             { "text": "", "value": "" }
         ],
         "go_to_next": "D8_2"
+    },
+    "D_": {
+        "text_data": [
+            { "name": "rand_name", "text": "not_endroll" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "" },
+        "next_page_option": [
+            { "text": "", "value": "" },
+            { "text": "", "value": "" }
+        ],
+        "go_to_next": "D8_2"
     }
 }

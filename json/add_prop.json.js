@@ -1536,91 +1536,91 @@ var add_prop_changed = {
             "index": 0,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 1,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 2,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 3,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 4,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 5,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 6,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 7,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 8,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 9,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 10,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 11,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 12,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         }
     ],
@@ -1628,84 +1628,383 @@ var add_prop_changed = {
             "index": 0,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 1,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 2,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 3,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 4,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 5,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 6,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 7,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 8,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 9,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 10,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
             }
         },
         {
             "index": 11,
             "type": "background_image",
             "value": {
-                "image": "yane"
+                "image": "real_living_room"
+            }
+        }
+    ],
+    "A24": [
+            {
+                "index": 0,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 1,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 2,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 3,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 4,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 5,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 6,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 7,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 8,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 9,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 10,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 11,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 12,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 13,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 14,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 15,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 16,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 17,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 18,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 19,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            },
+            {
+                "index": 20,
+                "type": "background_image",
+                "value": {
+                    "image": "real_living_room"
+                }
+            }
+    ],
+    "A25": [
+        {
+            "index": 0,
+            "type": "effect",
+            "value": {
+                "stop": false,
+                "se": "audio/tobira.m4a"
+            }
+        },
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "real_hero_room"
             }
         }
     ],
