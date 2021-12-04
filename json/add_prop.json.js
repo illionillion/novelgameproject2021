@@ -4557,6 +4557,441 @@ var add_prop_changed = {
             }
         }
     ],
+    "A39": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "leaf_and_sky"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "bushes1"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 33,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 34,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 35,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 36,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 37,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 38,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 39,
+            "type": "background_image",
+            "value": {
+                "image": "yamamodori"
+            }
+        },
+        {
+            "index": 20,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 21,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 22,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 23,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 24,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 25,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 26,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 27,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 28,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 29,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 30,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 31,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 32,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 33,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 34,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 35,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        },
+        {
+            "index": 36,
+            "type": "character_position",
+            "value": {
+                "character_first": "character_img/transparent_background.png",
+                "character_center": "character_img/rain.png",
+                "character_second": "character_img/transparent_background.png"
+            }
+        }
+    ],
     "C1": [
         {
             "index": 0,
@@ -4594,7 +5029,8 @@ var add_prop_changed = {
             }
         }
     ],
-    "C1A": [{
+    "C1A": [
+        {
             "index": 0,
             "type": "background_image",
             "value": {
