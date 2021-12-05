@@ -5941,6 +5941,158 @@ var add_prop_changed = {
             }
         }
     ],
+    "A41": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "black"
+            }
+        }
+    ],
+    // "A42": [
+    //     {
+    //         "index": 0,
+    //         "type": "effect",
+    //         "value": {
+    //             "stop": false,
+    //             "se": "audio/takemagic.mp3"
+    //         }
+    //     },
+    //     {
+    //         "index": 0,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 1,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 2,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 3,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 4,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 5,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 6,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     },
+    //     {
+    //         "index": 7,
+    //         "type": "background_image",
+    //         "value": {
+    //             "image": "machinami"
+    //         }
+    //     }
+    // ],
     "C1": [
         {
             "index": 0,
