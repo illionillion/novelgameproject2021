@@ -6027,72 +6027,456 @@ var add_prop_changed = {
             }
         }
     ],
-    // "A42": [
-    //     {
-    //         "index": 0,
-    //         "type": "effect",
-    //         "value": {
-    //             "stop": false,
-    //             "se": "audio/takemagic.mp3"
-    //         }
-    //     },
-    //     {
-    //         "index": 0,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 1,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 2,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 3,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 4,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 5,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 6,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     },
-    //     {
-    //         "index": 7,
-    //         "type": "background_image",
-    //         "value": {
-    //             "image": "machinami"
-    //         }
-    //     }
-    // ],
+    "A42": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 11,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 12,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 13,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 14,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 15,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 16,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 17,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 18,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 19,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 20,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 21,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 22,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 23,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 24,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 25,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 26,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 27,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 28,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 29,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 30,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 31,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 32,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 33,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 34,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 35,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 36,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 37,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 38,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 39,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 40,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 41,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 42,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 43,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 44,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 45,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 46,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 47,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 48,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 49,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 50,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 51,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 52,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 53,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 54,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 55,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 56,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 57,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 58,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 59,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 60,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 61,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 62,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        },
+        {
+            "index": 63,
+            "type": "background_image",
+            "value": {
+                "image": "sea1"
+            }
+        }
+    ],
     "C1": [
         {
             "index": 0,

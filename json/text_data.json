@@ -1261,7 +1261,7 @@
             { "name": "rand_name", "text": "「ああ。この世界、ウィズアースをこのまま地球に残すか、消してしまうか」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/sea.m4a" },
         "next_page_option": [
             { "text": "……", "value": "A43" }
         ]
@@ -1294,7 +1294,7 @@
             { "name": "rand_name", "text": "「……俺は」" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/sea.m4a" },
         "next_page_option": [
             { "text": "ウィズアースを残す", "value": "A44" },
             { "text": "ウィズアースを消す", "value": "A45" }
@@ -1332,7 +1332,7 @@
             { "name": "rand_name", "text": "けれども気持ちだけは、誰よりも、速く。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/sea.m4a" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
@@ -1364,7 +1364,7 @@
             { "name": "rand_name", "text": "Goodbye With Sun." },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "" },
+        "audio": { "file_path": "audio/sea.m4a" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
