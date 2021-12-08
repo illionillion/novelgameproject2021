@@ -1324,6 +1324,17 @@
             { "name": "rand_name", "text": "神様は少し納得した様子を見せると、白い扉を浜辺に作る。" },
             { "name": "神様", "text": "「……本当に大丈夫かい？」" },
             { "name": "rand_name", "text": "「ええ。俺たち地球人ははウィズアースの全ての人たちと生きていくよ。」" },
+            { "name": "rand_name", "text": "go_to_next" }
+        ],
+        "audio": { "file_path": "audio/sea.m4a" },
+        "next_page_option": [
+            { "text": "", "value": "" },
+            { "text": "", "value": "" }
+        ],
+        "go_to_next":"A44_2"
+    },
+    "A44_2": {
+        "text_data": [
             { "name": "rand_name", "text": "They alive with us." },
             { "name": "rand_name", "text": "We alive with With Earth." },
             { "name": "rand_name", "text": "「それじゃ、さようなら！そしてありがとう！神様！」" },
@@ -1332,7 +1343,7 @@
             { "name": "rand_name", "text": "けれども気持ちだけは、誰よりも、速く。" },
             { "name": "rand_name", "text": "endroll" }
         ],
-        "audio": { "file_path": "audio/sea.m4a" },
+        "audio": { "file_path": "" },
         "next_page_option": [
             { "text": "", "value": "" },
             { "text": "", "value": "" }
