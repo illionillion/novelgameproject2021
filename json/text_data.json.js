@@ -75,7 +75,7 @@ var substitute_text_data={
             { "name": "rand_name", "text": "俺に残された手は…。" },
             { "name": "rand_name", "text": "chose_event" }
         ],
-        "audio": { "file_path": "audio/flow_water.m4a" },
+        "audio": { "file_path": "" },
         "next_page_option": [
             { "text": "もがく", "value": "A7" },
             { "text": "もがかない", "value": "A8" }
