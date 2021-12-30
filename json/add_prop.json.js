@@ -177,7 +177,222 @@ var add_prop_changed = {
             }
         }
     ],
-    "A7": [{
+    "A4": [{
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        }
+    ],
+    "A5": [{
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 10,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        }
+    ],
+    "A6": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 5,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 6,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 7,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 8,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 9,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        }
+    ],
+    "A7": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
             "index": 4,
             "type": "effect",
             "value": {
@@ -228,7 +443,43 @@ var add_prop_changed = {
             }
         }
     ],
-    "A8": [{
+    "A8": [
+        {
+            "index": 0,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 1,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 2,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 3,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
+            "index": 4,
+            "type": "background_image",
+            "value": {
+                "image": "tunnel"
+            }
+        },
+        {
             "index": 5,
             "type": "effect",
             "value": {
@@ -279,7 +530,8 @@ var add_prop_changed = {
             }
         }
     ],
-    "A9": [{
+    "A9": [
+        {
             "index": 0,
             "type": "background_image",
             "value": {
